@@ -101,7 +101,7 @@ body {
 .chatbox__support {
     background: #f9f9f9;
     /* 450 and 350 */
-    height: 600px;
+    height: 550px;
     width: 500px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
     border-top-left-radius: 20px;

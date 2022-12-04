@@ -18,6 +18,20 @@
                         ]
                 },
                 {
+                        "tag": "monkeypoxspread",
+                        "patterns": [
+                                "How does monkeypox spread?",
+                                "monkeypox spreads",
+                                "spread of monkeypox"
+                        ],
+                        "responses": [
+                                "Monkeypox can spread from person-to-person through respiratory secretions or through close, physical contact with someone who has monkeypox. Monkeypox can also spread by touching materials and objects."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
                         "tag": "monkeypoxsymp",
                         "patterns": [
                                 "What are the symptoms of Monkeypox?",
@@ -40,10 +54,12 @@
                                 "monkeypox test",
                                 "test for monkeypox",
                                 "can I get tested for monkeypox",
-                                "is there a test for monkeypox"
+                                "is there a test for monkeypox",
+                                "What should I do if I’ve been to a venue where there was someone with suspected or confirmed monkeypox?",
+                                "What should I do if I’ve been in contact with someone who has monkeypox?"
                         ],
                         "responses": [
-                                "Contact your health care provider to get assessed and tested for monkeypox virus infection. You can get tested for monkeypox infection based on a combination of factors, such as signs and symptoms and risk factors such as exposure to a case and travel history"
+                                "Contact your health care provider to get assessed and tested for monkeypox virus infection. You can get tested for monkeypox infection based on a combination of factors, such as signs and symptoms and risk factors such as exposure to a case and travel history."
                         ],
                         "context": [
                                 ""
@@ -56,10 +72,11 @@
                                 "monkeypox treatment",
                                 "treatment for Monkeypox",
                                 "How can I get treated if I have monkeypox",
-                                "What is monkeypox treatment"
+                                "What is monkeypox treatment",
+                                "What treatment is available for monkeypox?"
                         ],
                         "responses": [
-                                "Treatment for symptomatic monkeypox infection is mainly supportive, and includes: wound care, pain control, treatment of bacterial superinfection and other complications"
+                                "Treatment for symptomatic monkeypox infection is mainly supportive, and includes: wound care, pain control, treatment of bacterial superinfection and other complications."
                         ],
                         "context": [
                                 ""
@@ -73,10 +90,11 @@
                                 "available vaccine for monkeypox",
                                 "what are some available vaccines for monkeypox",
                                 "monkeypox vaccine",
-                                "vaccine monkeypox"
+                                "vaccine monkeypox",
+                                "Is there a vaccine for monkeypox?"
                         ],
                         "responses": [
-                                "The Imvamune® vaccine is authorized by Health Canada for immunization against monkeypox and orthopoxvirus infections in adults 18 years of age and older who are at high risk of exposure"
+                                "The Imvamune® vaccine is authorized by Health Canada for immunization against monkeypox and orthopoxvirus infections in adults 18 years of age and older who are at high risk of exposure."
                         ],
                         "context": [
                                 ""
@@ -92,7 +110,7 @@
                                 "monkeypox vaccine eligibility"
                         ],
                         "responses": [
-                                "Adults 18 years and onlder who are at a high risk of exposure can get the vaccine. The National Advisory Committee on Immunization (NACI) recommends the Imvamune® vaccine may be offered to people with high-risk exposures to a probable or confirmed case of monkeypox, or within a setting where transmission is happening"
+                                "Adults 18 years and onlder who are at a high risk of exposure can get the vaccine. The National Advisory Committee on Immunization (NACI) recommends the Imvamune® vaccine may be offered to people with high-risk exposures to a probable or confirmed case of monkeypox, or within a setting where transmission is happening."
                         ],
                         "context": [
                                 ""
@@ -108,7 +126,21 @@
                                 "Kids monkeypox vaccine"
                         ],
                         "responses": [
-                                "No, only adults 18 years and onlder who are at a high risk of exposure can get the vaccine"
+                                "No, only adults 18 years and onlder who are at a high risk of exposure can get the vaccine."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "monkeypoxinanimals",
+                        "patterns": [
+                                "What animals can get monkeypox?",
+                                "do animals get monkeypox",
+                                "animals get monkeypox"
+                        ],
+                        "responses": [
+                                "Several species of rodents (e.g., rats, mice, hamsters, gerbils, squirrels, chipmunks, etc.), rabbits, hedgehogs, opossums, and non-human primates (e.g., monkeys)"
                         ],
                         "context": [
                                 ""
@@ -143,10 +175,12 @@
                                 "can I go outside if I have monkeypox",
                                 "can I see friends and family if I have monkeypox",
                                 "I have monkeypox, can I go outside",
-                                "I have monkeypox, do I need to isolate"
+                                "I have monkeypox, do I need to isolate",
+                                "What to do if I have been tested or test positive for monkeypox?",
+                                "What should I do if I develop symptoms of monkeypox?"
                         ],
                         "responses": [
-                                "Stay in isolation until your local health authority tells you that you no longer have to isolate, avoid contact with people and animals, avoid sharing items that may be contaminated and follow hygienic practices. For more information visit https://www.canada.ca/en/public-health/services/diseases/monkeypox/symptoms-management.html#a6"
+                                "Stay in isolation until your local health authority tells you that you no longer have to isolate, avoid contact with people and animals, avoid sharing items that may be contaminated and follow hygienic practices. For more information visit https://www.canada.ca/en/public-health/services/diseases/monkeypox/symptoms-management.html#a6. You should also contact a health care provider to get advice on medical care."
                         ],
                         "context": [
                                 ""
@@ -161,7 +195,7 @@
                                 "What is influenza",
                                 "What is the influenza virus",
                                 "influenza virus",
-                                "explain the flu", 
+                                "explain the flu",
                                 "can you tell me what the flu is",
                                 "please exaplain the flu",
                                 "explain influenza"
@@ -282,7 +316,7 @@
                                 "is the flu shot good"
                         ],
                         "responses": [
-                                "The effectiveness of the vaccine varies from season to season. It depends on: how well the vaccine matches with the circulating flu viruses and the health and age of the person getting the flu shot. The viruses circulating in the population can sometimes change during the time it takes to produce a vaccine. When this happens during the flu season, the flu shot may not work as well as expected. It's also important to remember that the flu shot protects against several different flu viruses each season. The seasonal flu shot can still provide protection against the remaining 2 or 3 viruses, even when there’s: a less-than-ideal match or lower effectiveness against one virus"
+                                "The effectiveness of the vaccine varies from season to season. It depends on: how well the vaccine matches with the circulating flu viruses and the health and age of the person getting the flu shot. The viruses circulating in the population can sometimes change during the time it takes to produce a vaccine. When this happens during the flu season, the flu shot may not work as well as expected. It's also important to remember that the flu shot protects against several different flu viruses each season. The seasonal flu shot can still provide protection against the remaining 2 or 3 viruses, even when there’s: a less-than-ideal match or lower effectiveness against one virus."
                         ],
                         "context": [
                                 ""
@@ -304,7 +338,7 @@
                                 "explain coronavirus"
                         ],
                         "responses": [
-                                "Coronaviruses or COVID-19 is a large family of viruses which may cause illness in animals or humans.  In humans, several coronaviruses are known to cause respiratory infections ranging from the common cold to more severe diseases such as Middle East Respiratory Syndrome (MERS) and Severe Acute Respiratory Syndrome (SARS). The most recently discovered coronavirus causes coronavirus disease COVID-19"
+                                "Coronaviruses or COVID-19 is a large family of viruses which may cause illness in animals or humans.  In humans, several coronaviruses are known to cause respiratory infections ranging from the common cold to more severe diseases such as Middle East Respiratory Syndrome (MERS) and Severe Acute Respiratory Syndrome (SARS). The most recently discovered coronavirus causes coronavirus disease COVID-19."
                         ],
                         "context": [
                                 ""
@@ -354,8 +388,8 @@
                         ],
                         "responses": [
                                 "See you!",
-                                "Have a nice day",
-                                "Bye! Come back again soon"
+                                "Have a nice day!",
+                                "Bye! Come back again soon."
                         ],
                         "context": [
                                 ""
@@ -373,7 +407,7 @@
                         "responses": [
                                 "Happy to help!",
                                 "Any time!",
-                                "My pleasure"
+                                "My pleasure!"
                         ],
                         "context": [
                                 ""
@@ -385,10 +419,10 @@
                                 ""
                         ],
                         "responses": [
-                                "Sorry, can't understand you",
-                                "Please give me more info",
-                                "Not sure I understand",
-                                "Can you please explain more"
+                                "Sorry, can't understand you.",
+                                "Please give me more info.",
+                                "Not sure I understand.",
+                                "Can you please explain more."
                         ],
                         "context": [
                                 ""
@@ -412,7 +446,7 @@
                                 "Who are you"
                         ],
                         "responses": [
-                                "I can clear your queries realted to COVID-19, Influenza (flu) or Monkeypox",
+                                "I can clear your queries realted to COVID-19, Influenza (flu) or Monkeypox.",
                                 "I can answer your questions related to Coronavirus, Influenza (flu) or Monkeypox."
                         ],
                         "context": [
@@ -457,7 +491,7 @@
                                 "can I spread covid by sneezing"
                         ],
                         "responses": [
-                                "The disease can spread from person to person, People can catch coronavirus from others who have the virus, through small droplets from the nose or mouth which are spread when a person with COVID-19 coughs or exhales. These droplets land on objects and surfaces around the person. Other people then catch COVID-19 by touching these objects or surfaces, then touching their eyes, nose or mouth. People can also catch COVID-19 if they breathe in droplets from a person with COVID-19 who coughs out or exhales droplets. This is why it is important to stay more than 1 meter (3 feet) away from a person who is sick.\n\nWHO is assessing ongoing research on the ways COVID-19 is spread and will continue to share updated findings"
+                                "The disease can spread from person to person, People can catch coronavirus from others who have the virus, through small droplets from the nose or mouth which are spread when a person with COVID-19 coughs or exhales. These droplets land on objects and surfaces around the person. Other people then catch COVID-19 by touching these objects or surfaces, then touching their eyes, nose or mouth. People can also catch COVID-19 if they breathe in droplets from a person with COVID-19 who coughs out or exhales droplets. This is why it is important to stay more than 1 meter (3 feet) away from a person who is sick.\n\nWHO is assessing ongoing research on the ways COVID-19 is spread and will continue to share updated findings."
                         ],
                         "context": [
                                 ""
@@ -526,12 +560,14 @@
                 {
                         "tag": "worry",
                         "patterns": [
-                                "Should I worry about COVID-19", 
-                                "I am scared about getting covid", 
+                                "Should I worry about COVID-19",
+                                "I am scared about getting covid",
                                 "scared of covid-19",
-                                "scared of covid", 
+                                "scared of covid",
                                 "scared of coronavirus",
-                                "worried about covid"
+                                "worried about covid",
+                                "worry",
+                                "tension"
                         ],
                         "responses": [
                                 "Illness due to COVID-19 infection is generally mild, especially for children and young adults. However, it can cause serious illness: about 1 in every 5 people who catch it need hospital care. It is therefore quite normal for people to worry about how the COVID-19 outbreak will affect them and their loved ones.\nWe can channel our concerns into actions to protect ourselves, our loved ones and our communities. First and foremost among these actions is regular and thorough hand-washing and good respiratory hygiene. Secondly, keep informed and follow the advice of the local health authorities including any restrictions put in place on travel, movement and gatherings.\n\nLearn more about how to protect yourself at https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public"
@@ -543,12 +579,17 @@
                 {
                         "tag": "risk",
                         "patterns": [
-                                "who is at risk of developing severe illness", 
+                                "who is at risk of developing severe illness",
                                 "am i at a risk of covid",
-                                "who is at a risk of catching covid"
+                                "who is at a risk of catching covid",
+                                "risk of covid",
+                                "risk of coronavirus",
+                                "covid risk",
+                                "corona risk",
+                                "coronavirus risk"
                         ],
                         "responses": [
-                                "While we are still learning about how COVID-19 affects people, older persons and persons with pre-existing medical conditions (such as high blood pressure, heart disease, lung disease, cancer or diabetes)  appear to develop serious illness more often than others. "
+                                "While we are still learning about how COVID-19 affects people, older persons and persons with pre-existing medical conditions (such as high blood pressure, heart disease, lung disease, cancer or diabetes)  appear to develop serious illness more often than others."
                         ],
                         "context": [
                                 ""
@@ -566,7 +607,7 @@
                                 "antibiotics covid"
                         ],
                         "responses": [
-                                "No. Antibiotics do not work against viruses, they only work on bacterial infections. COVID-19 is caused by a virus, so antibiotics do not work. Antibiotics should not be used as a means of prevention or treatment of COVID-19. They should only be used as directed by a physician to treat a bacterial infection. "
+                                "No. Antibiotics do not work against viruses, they only work on bacterial infections. COVID-19 is caused by a virus, so antibiotics do not work. Antibiotics should not be used as a means of prevention or treatment of COVID-19. They should only be used as directed by a physician to treat a bacterial infection."
                         ],
                         "context": [
                                 ""
@@ -578,16 +619,19 @@
                                 "Is COVID-19 the same as SARS",
                                 "SARS vs covid",
                                 "SARS vs covid-19",
-                                "SARS vs coronavirus", 
-                                "covid vs SARS", 
+                                "SARS vs coronavirus",
+                                "covid vs SARS",
                                 "covid-19 vs SARS",
                                 "What is the difference between covid and SARS",
                                 "Is there a difference between COVID-19 and SARS",
                                 "Is there a difference between coronavirus and SARS",
-                                "coronavirus vs SARS"
+                                "coronavirus vs SARS",
+                                "sars virus",
+                                "sars",
+                                "what is sars"
                         ],
                         "responses": [
-                                "The virus that causes COVID-19 and the one that caused the outbreak of Severe Acute Respiratory Syndrome (SARS) in 2003 are related to each other genetically, but the diseases they cause are quite different.\n\nSARS was more deadly but much less infectious than COVID-19. There have been no outbreaks of SARS anywhere in the world since 2003. "
+                                "The virus that causes COVID-19 and the one that caused the outbreak of Severe Acute Respiratory Syndrome (SARS) in 2003 are related to each other genetically, but the diseases they cause are quite different.\n\nSARS was more deadly but much less infectious than COVID-19. There have been no outbreaks of SARS anywhere in the world since 2003."
                         ],
                         "context": [
                                 ""
@@ -602,7 +646,7 @@
                                 "are masks helpful"
                         ],
                         "responses": [
-                                "Masks are strongly recommeded especially if you are ill with COVID-19 symptoms (especially coughing) or looking after someone who may have COVID-19. Disposable face mask can only be used once.\n\nOther ways to protect yourself against COVID-19 are to frequently clean your hands, cover your cough with the bend of elbow or tissue and maintain a distance of at least 1 meter (3 feet) from people who are coughing or sneezing"
+                                "Masks are strongly recommeded especially if you are ill with COVID-19 symptoms (especially coughing) or looking after someone who may have COVID-19. Disposable face mask can only be used once.\n\nOther ways to protect yourself against COVID-19 are to frequently clean your hands, cover your cough with the bend of elbow or tissue and maintain a distance of at least 1 meter (3 feet) from people who are coughing or sneezing."
                         ],
                         "context": [
                                 ""
@@ -650,7 +694,7 @@
                                 "do bats spread covid",
                                 "coronavirus and animals",
                                 "do animals spread covid-19",
-                                "do animals spread coronavirus" 
+                                "do animals spread coronavirus"
                         ],
                         "responses": [
                                 "Coronaviruses are a large family of viruses that are common in animals. Occasionally, people get infected with these viruses which may then spread to other people. For example, SARS-CoV was associated with civet cats and MERS-CoV is transmitted by dromedary camels. Possible animal sources of COVID-19 have not yet been confirmed.  \n\nTo protect yourself, such as when visiting live animal markets, avoid direct contact with animals and surfaces in contact with animals. Ensure good food safety practices at all times. Handle raw meat, milk or animal organs with care to avoid contamination of uncooked foods and avoid consuming raw or undercooked animal products."
@@ -668,7 +712,7 @@
                                 "can my pet sread covid"
                         ],
                         "responses": [
-                                "We are aware of instances of animals and pets of COVID-19 patients being infected with the disease;\nAs the intergovernmental body responsible for improving animal health worldwide, the World Organisation for Animal Health (OIE) has been developing technical guidance on specialised topics related to animal health, dedicated to veterinary services and technical experts (including on testing and quarantine);\nThere is a possibility for some animals to become infected through close contact with infected humans. Further evidence is needed to understand if animals and pets can spread the disease;\nBased on current evidence, human to human transmission remains the main driver;\nIt is still too early to say whether cats could be the intermediate host in the transmission of COVID-19"
+                                "We are aware of instances of animals and pets of COVID-19 patients being infected with the disease;\nAs the intergovernmental body responsible for improving animal health worldwide, the World Organisation for Animal Health (OIE) has been developing technical guidance on specialised topics related to animal health, dedicated to veterinary services and technical experts (including on testing and quarantine);\nThere is a possibility for some animals to become infected through close contact with infected humans. Further evidence is needed to understand if animals and pets can spread the disease;\nBased on current evidence, human to human transmission remains the main driver;\nIt is still too early to say whether cats could be the intermediate host in the transmission of COVID-19."
                         ],
                         "context": [
                                 ""
@@ -698,17 +742,20 @@
                                 "is it safe to receive a package from any area where COVID-19 has been reported",
                                 "safe to receive a package",
                                 "package from corona area",
-                                "are packages safe"
+                                "are packages safe",
+                                "covid packagae",
+                                "coronoavirus package",
+                                "covid-19 package"
                         ],
                         "responses": [
-                                "Yes. The likelihood of an infected person contaminating commercial goods is low and the risk of catching the virus that causes COVID-19 from a package that has been moved, travelled, and exposed to different conditions and temperature is also low. "
+                                "Yes. The likelihood of an infected person contaminating commercial goods is low and the risk of catching the virus that causes COVID-19 from a package that has been moved, travelled, and exposed to different conditions and temperature is also low."
                         ],
                         "context": [
                                 ""
                         ]
                 },
                 {
-                        "tag": "do",
+                        "tag": "notdo",
                         "patterns": [
                                 "is there anything i should not do"
                         ],
@@ -722,7 +769,19 @@
                 {
                         "tag": "source",
                         "patterns": [
-                                "Is the source of the coronavirus causing COVID-19 known?"
+                                "Is the source of the coronavirus causing COVID-19 known?",
+                                "what is the source of covid-19",
+                                "what is the source of covid",
+                                "what is the source of coronavirus",
+                                "what caused covid",
+                                "what caused covid-19",
+                                "what caused coronavirus",
+                                "source covid",
+                                "source covid-19",
+                                "source coronavirus",
+                                "covid source",
+                                "covid-19 source",
+                                "coronavirus source"
                         ],
                         "responses": [
                                 "Currently, the source of SARS-CoV-2, the coronavirus (CoV) causing COVID-19 is unknown. All available evidence suggests that SARS-CoV-2 has a natural animal origin and is not a constructed virus. SARS-CoV-2 virus most probably has its ecological reservoir in bats. SARS-CoV-2, belongs to a group of genetically related viruses, which also include SARS-CoV and a number of other CoVs isolated from bats populations. MERS-CoV also belongs to this group, but is less closely related."
@@ -734,10 +793,19 @@
                 {
                         "tag": "occur",
                         "patterns": [
-                                "how did the first human SARS-CoV-2 infection occur"
+                                "how did the first human SARS-CoV-2 infection occur",
+                                "first covid case",
+                                "first covid-19 case",
+                                "first coronavirus case",
+                                "patient zero covid",
+                                "patient zero covid-19",
+                                "patient zero coronavirus",
+                                "first case covid",
+                                "first case covid-19",
+                                "first case coronavirus"
                         ],
                         "responses": [
-                                "The first human cases of COVID-19 were identified in Wuhan City, China in December 2019. At this stage, it is not possible to determine precisely how humans in China were initially infected with SARS-CoV-2.\n\nHowever, SARS-CoV, the virus which caused the SARS outbreak in 2003, jumped from an animal reservoir (civet cats, a farmed wild animal) to humans and then spread between humans. In a similar way, it is thought that SARS-CoV-2 jumped the species barrier and initially infected humans, but more likely through an intermediate host, that is another animal species more likely to be handled by humans - this could be a domestic animal, a wild animal, or a domesticated wild animal and, as of yet, has not been identified.\n\nUntil the source of this virus is identified and controlled, there is a risk of reintroduction of the virus in the human population and the risk of new outbreaks like the ones we are currently experiencing"
+                                "The first human cases of COVID-19 were identified in Wuhan City, China in December 2019. At this stage, it is not possible to determine precisely how humans in China were initially infected with SARS-CoV-2.\n\nHowever, SARS-CoV, the virus which caused the SARS outbreak in 2003, jumped from an animal reservoir (civet cats, a farmed wild animal) to humans and then spread between humans. In a similar way, it is thought that SARS-CoV-2 jumped the species barrier and initially infected humans, but more likely through an intermediate host, that is another animal species more likely to be handled by humans - this could be a domestic animal, a wild animal, or a domesticated wild animal and, as of yet, has not been identified."
                         ],
                         "context": [
                                 ""
@@ -746,10 +814,19 @@
                 {
                         "tag": "airbone",
                         "patterns": [
-                                "Is COVID-19 airborne"
+                                "Is COVID-19 airborne",
+                                "covid airborne",
+                                "coronavirus airborne",
+                                "does covid spread through air",
+                                "does covid-19 spread through air",
+                                "does coronavirus spread through air",
+                                "covid air spread",
+                                "covid-19 air spread",
+                                "spread of covid through air",
+                                "spread of coronavirus thorugh air"
                         ],
                         "responses": [
-                                "The virus that causes COVID-19 is mainly transmitted through droplets generated when an infected person coughs, sneezes, or speaks. These droplets are too heavy to hang in the air. They quickly fall on floors or surfaces. \n\nYou can be infected by breathing in the virus if you are within 1 metre of a person who has COVID-19, or by touching a contaminated surface and then touching your eyes, nose or mouth before washing your hands. "
+                                "The virus that causes COVID-19 is mainly transmitted through droplets generated when an infected person coughs, sneezes, or speaks. These droplets are too heavy to hang in the air. They quickly fall on floors or surfaces. \n\nYou can be infected by breathing in the virus if you are within 1 metre of a person who has COVID-19, or by touching a contaminated surface and then touching your eyes, nose or mouth before washing your hands"
                         ],
                         "context": [
                                 ""
@@ -758,7 +835,14 @@
                 {
                         "tag": "nosymptom",
                         "patterns": [
-                                "Can CoVID-19 be caught from a person who has no symptoms"
+                                "Can CoVID-19 be caught from a person who has no symptoms",
+                                "covid from someone who has no symptoms",
+                                "can I get covid from someone who has no symptoms",
+                                "can I spread covid if I have no symptoms",
+                                "can covid be spread by someone who has no symptoms",
+                                "no symptoms covid spread",
+                                "asymptomatic covid",
+                                "asymptomatic coronavirus"
                         ],
                         "responses": [
                                 "The main way the disease spreads is through respiratory droplets expelled by someone who is coughing. The risk of catching COVID-19 from someone with no symptoms at all is very low. However, many people with COVID-19 experience only mild symptoms. This is particularly true at the early stages of the disease. It is therefore possible to catch COVID-19 from someone who has, for example, just a mild cough and does not feel ill. "
@@ -813,33 +897,6 @@
                         ]
                 },
                 {
-                        "tag": "worry",
-                        "patterns": [
-                                "Should I worry about COVID-19",
-                                "worry",
-                                "tension"
-                        ],
-                        "responses": [
-                                "Illness due to COVID-19 infection is generally mild, especially for children and young adults. However, it can cause serious illness: about 1 in every 5 people who catch it need hospital care. It is therefore quite normal for people to worry about how the COVID-19 outbreak will affect them and their loved ones. "
-                        ],
-                        "context": [
-                                ""
-                        ]
-                },
-                {
-                        "tag": "risk",
-                        "patterns": [
-                                "Who is at risk of developing severe illness",
-                                "risk"
-                        ],
-                        "responses": [
-                                "While we are still learning about how COVID-2019 affects people, older persons and persons with pre-existing medical conditions (such as high blood pressure, heart disease, lung disease, cancer or diabetes) appear to develop serious illness more often than others. "
-                        ],
-                        "context": [
-                                ""
-                        ]
-                },
-                {
                         "tag": "anti",
                         "patterns": [
                                 "Are antibiotics effective in preventing treating the COVID-19?",
@@ -847,21 +904,6 @@
                         ],
                         "responses": [
                                 "No. Antibiotics do not work against viruses, they only work on bacterial infections. COVID-19 is caused by a virus, so antibiotics do not work. Antibiotics should not be used as a means of prevention or treatment of COVID-19. They should only be used as directed by a physician to treat a bacterial infection. "
-                        ],
-                        "context": [
-                                ""
-                        ]
-                },
-                {
-                        "tag": "sars",
-                        "patterns": [
-                                "Is COVID-19 the same as SARS",
-                                "what is sars",
-                                "sars virus",
-                                "sars"
-                        ],
-                        "responses": [
-                                "The virus that causes COVID-19 and the one that caused the outbreak of Severe Acute Respiratory Syndrome (SARS) in 2003 are related to each other genetically, but the diseases they cause are quite different. SARS was more deadly but much less infectious than COVID-19. There have been no outbreaks of SARS anywhere in the world since 2003."
                         ],
                         "context": [
                                 ""
@@ -925,30 +967,6 @@
                         ],
                         "responses": [
                                 "To protect yourself, such as when visiting live animal markets, avoid direct contact with animals and surfaces in contact with animals. Ensure good food safety practices at all times. Handle raw meat, milk or animal organs with care to avoid contamination of uncooked foods and avoid consuming raw or undercooked animal products. "
-                        ],
-                        "context": [
-                                ""
-                        ]
-                },
-                {
-                        "tag": "pet",
-                        "patterns": [
-                                "Can I catch COVID-19 from my pet?"
-                        ],
-                        "responses": [
-                                "While there has been one instance of a dog being infected in Hong Kong, to date, there is no evidence that a dog, cat or any pet can transmit COVID-19."
-                        ],
-                        "context": [
-                                ""
-                        ]
-                },
-                {
-                        "tag": "notdo",
-                        "patterns": [
-                                "Is there anything I should not do"
-                        ],
-                        "responses": [
-                                "The following measures ARE NOT effective against COVID-2019 and can be harmful:\n1.Smoking\n2.Wearing multiple masks\n3.Taking antibiotics on your own"
                         ],
                         "context": [
                                 ""
@@ -1060,7 +1078,7 @@
                         ]
                 },
                 {
-                        "tag": "cases worls",
+                        "tag": "casesworld",
                         "patterns": [
                                 "Total cases in world",
                                 "corona positive in world",
@@ -1297,6 +1315,271 @@
                         ]
                 },
                 {
+                        "tag": "rescheduleappointment",
+                        "patterns": [
+                                "What if I cannot make it on the day of my scheduled appointment?",
+                                "reschedule appointment",
+                                "reschedule my appointment"
+                        ],
+                        "responses": [
+                                "If you need to reschedule the arrangements made for your appointment, please contact the pharmacy as soon as possible for scheduling an alternate day/time."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "AstraZenecaFirstDose",
+                        "patterns": [
+                                "My first dose was an AstraZeneca vaccine which is no longer available for first dose administration. What should I do about my second dose?",
+                                "first dose was AstraZeneca",
+                                "initial dose was AstraZeneca"
+                        ],
+                        "responses": [
+                                "Individuals who received their first dose of AstraZeneca/COVISHIELD vaccine should receive one of the mRNA vaccines (Pfizer [12+ formulation] or Moderna) as their second dose (unless there is a contraindication) and should receive their second dose at an interval. Please refer to the ministry website https://www.health.gov.on.ca/en/pro/programs/drugs/opdp_eo/eo_communiq.aspx."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "multiVacc",
+                        "patterns": [
+                                "For a multi-dose primary vaccine series, can I receive a different COVID-19 vaccine as my second dose?",
+                                "different covid-19 vaccine",
+                                "different types of covid-19 vaccine",
+                                "different models of covid-19 vaccine"
+                        ],
+                        "responses": [
+                                "Yes. The National Advisory Committee on Immunization (NACI) is now recommending the interchangeability of vaccines. Please refer to https://www.canada.ca/en/public-health/services/immunization/national-advisory-committee-on-immunization-naci/recommendations-use-covid-19-vaccines/summary-statement-june-17-2021.html."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "childvacc",
+                        "patterns": [
+                                "What is the recommendation for children who are 5 years old? Which COVID19 vaccine should they receive?",
+                                "children vaccine",
+                                "vaccine for children"
+                        ],
+                        "responses": [
+                                "Based on https://www.canada.ca/content/dam/phac-aspc/documents/services/immunization/national-advisory-committee-on-immunization-naci/recommendations-use-moderna-spikevax-covid-19-vaccine-children-6-months-5-years.pdf recommendations, use of pediatric Pfizer BioNTech COVID-19 vaccine (10 mcg) is preferred."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "thirdvsbooster",
+                        "patterns": [
+                                "What is the difference between a third dose and a booster dose?",
+                                "third dose vs booster dose",
+                                "third vs booster",
+                                "third vs booster dose",
+                                "third dose vs booster",
+                                "difference between third and booster dose",
+                                "difference between third dose and booster dose",
+                                "difference between third dose and booster",
+                                "difference between third and booster",
+                                "how different are third dose and booster dose",
+                                "how do third dose and booster dose differ"
+                        ],
+                        "responses": [
+                                "The intent of a booster dose is to restore protection that may have decreased over time to a level that is no longer deemed sufficient in individuals who initially responded adequately to a complete primary vaccine series. This is distinguished from the intent of a third dose with the aim of enhancing the immune response and establishing an adequate level of protection."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "covidandfluvacc",
+                        "patterns": [
+                                "Can I get my COVID-19 vaccine at or around the same time as the flu vaccine?",
+                                "covid-19 conflict with flu vaccine",
+                                "can i get covid-19 and flu vaccine at the same time?"
+                        ],
+                        "responses": [
+                                "The COVID-19 vaccines may be given with, or at any time before or after, other vaccines, including the influenza vaccine with the exception of children aged 6 months to under 5 years of age."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "omicroninfo",
+                        "patterns": [
+                                "What is known about the Omicron variant?",
+                                "Omicron information"
+                        ],
+                        "responses": [
+                                "See the latest information about the Omicron variant on https://www.publichealthontario.ca/en"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "whyvaccineforomicron",
+                        "patterns": [
+                                "If Omicron is considered mild in many cases, why should I get the vaccine?",
+                                "why should i get a vaccine for Omicron",
+                                "why do i need vaccine for Omicron"
+                        ],
+                        "responses": [
+                                "While Omicron has shown to be mild in those who are fully vaccinated against COVID-19, it can lead to severe illness and death among unvaccinated individuals or those who are immunocompromised. There is also high community spread which means it is much easier to become infected and spread the virus. More widespread transmission also means a higher number of hospitalizations across Ontario. It is recommended everyone get three doses of the vaccine to protect against Omicron."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "covidvaccfor5to11",
+                        "patterns": [
+                                "Where can I get a vaccine for my 5 to 11-year-old?"
+                        ],
+                        "responses": [
+                                "The North York Family Health Team is currently accepting online bookings for children aged 5-11 years. Book here https://www.nyfht.com/. Vaccines for 5-11 year olds are also available at participating community clinics in North York (https://nygh.on.ca/test.php/covid19vaccination), participating pharmacies (https://www.ontario.ca/vaccine-locations), City of Toronto Mass Immunization Clinics, other fixed-site clinics, school-based clinics and primary care offices. Visit https://www.toronto.ca/home/covid-19/covid-19-vaccines/covid-19-vaccines-for-infants-children-youth/covid-19-children-vaccines/ website for more information. Appointments can also be booked through a variety of channels including the https://www.ontario.ca/book-vaccine/"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "covidvaccfor6mto5",
+                        "patterns": [
+                                "Where can I get vaccines for my 6 months to 5-year-old?"
+                        ],
+                        "responses": [
+                                "As of July 28, 2022, children 6 months to 5-years-olds are eligible to receive the approved pediatric vaccine. Parents/guardians can book appointments at select city-run clinics, hospitals, pediatrician offices, and pharmacies. For more details, please visit the City of Toronto’s https://www.toronto.ca/home/covid-19/covid-19-vaccines/covid-19-vaccines-for-infants-children-youth/covid-19-vaccines-for-6-months-to-under-5/"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "covidvaccsideeffects",
+                        "patterns": [
+                                "What are the side effects of the COVID-19 vaccine?",
+                                "side effects of covid-19 vaccine",
+                                "covid-19 vaccine side effect"
+                        ],
+                        "responses": [
+                                "Common COVID-19 vaccine side effects in children and adults are similar. Side effects are usually mild and go away within 1-3 days. They include: Sore arm near the injection site, Feeling tired, Headache, Achy muscles or joints, Fever and chills."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "boostereligible",
+                        "patterns": [
+                                "Am I eligible to get a COVID-19 booster dose?",
+                                "am i eligible for booster",
+                                "can i get booster"
+                        ],
+                        "responses": [
+                                "Adults aged 18 years and older are eligible for 3rd and 4th doses. At least three months must have passed since the previous dose to be eligible for the 3rd dose, and five months must have passed to be eligible for the 4th dose for most people. 3rd doses are also available for youth ages 12-17 years, but six months must have passed since the 2nd dose. Individuals must be 12 years old at the time of receiving the 3rd dose. See the City of Toronto https://www.toronto.ca/home/covid-19/covid-19-vaccines/covid-19-how-to-get-vaccinated/?accordion=third-doses website section on third doses for more information."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "wheregetbooster",
+                        "patterns": [
+                                "Where can I get a booster (third or fourth) dose of the COVID-19 vaccine?",
+                                "Where can I get a booster",
+                                "Where can I get a third dose",
+                                "Where can I get a fourth dose",
+                                "Where can I get booster",
+                                "Where can I get third dose",
+                                "Where can I get fourth dose"
+                        ],
+                        "responses": [
+                                "You can access a booster (third or fourth) dose through the following: Book online at https://www.nyfht.com/ or by calling 647-670-2888, Book or walk in at a https://nygh.on.ca/test.php/covid19vaccination in North York, Book at City of Toronto https://www.ontario.ca/book-vaccine/, Book at https://www.ontario.ca/vaccine-locations, Book at https://www.ontario.ca/book-vaccine/. Seniors in the North York area who require assistance getting their vaccination appointment can contact the Seniors’ Hotline for North York at 416-447-5200."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "whybooster",
+                        "patterns": [
+                                "Why should I get a booster dose?",
+                                "why do i have to get a booster",
+                                "why booster"
+                        ],
+                        "responses": [
+                                "Anyone who is 18 and over can schedule a booster dose vaccine appointment at least five months (104 days) after their last dose. A third dose provides an extra layer of protection against COVID-19."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "whenboosterifcovid",
+                        "patterns": [
+                                "If I have COVID-19 when I book my next dose?"
+                        ],
+                        "responses": [
+                                "A recent infection will give you some natural immunity for a period of time (months) so it’s best to wait at least one month after your infection before booking your next vaccine appointment. If you had two doses of the vaccine before becoming infected you are at higher risk of becoming reinfected if you do not have a third dose."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "covvaccinesafety",
+                        "patterns": [
+                                "Is the covid-19 vaccine safe?",
+                                "safety of covid-19 vaccine",
+                                "covid-19 vaccine safety",
+                                "covid-19 vaccine safe?",
+                                "can I trust the covid-19 vaccine",
+                                "covid-19 vaccine safety"
+                        ],
+                        "responses": [
+                                "Yes. COVID-19 vaccines are safe, effective and have been rigorously evaluated. Vaccination, together with continued vigilance including wearing masks is our best hope to prevent people from getting ill, hospitalized, and potentially dying from COVID-19. Read more about the COVID-19 vaccines: https://www.toronto.ca/home/covid-19/covid-19-vaccines/covid-19-about-the-vaccines/"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "payforvaccine",
+                        "patterns": [
+                                "Do I need to pay to receive the vaccine?",
+                                "pay for vaccine?",
+                                "pay for the vaccine?"
+                        ],
+                        "responses": [
+                                "No. The vaccine is free of charge."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "vaccforpregnant",
+                        "patterns": [
+                                "Can I be vaccinated if I'm pregnant?",
+                                "vaccine for pregnant",
+                                "can i get a vaccine if i am pregnant",
+                                "can i get vaccinated if i am pregnant",
+                                "get vaccinated if i am pregnant",
+                                "get vaccinated while pregnant",
+                                "get vaccinated while i am pregnant"
+                        ],
+                        "responses": [
+                                "Pregnant people are encouraged to get the vaccine as soon as possible. It is safe during any stage of pregnancy.  Please speak with your family physician or specialist before getting vaccinated. To help educate our community about the safety of the COVID vaccine during pregnancy, see https://www.nygh.on.ca/pregnancyandCOVID19"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
                         "tag": "againcv",
                         "patterns": [
                                 "if i have recovered from covid-19 will i be immune to it",
@@ -1339,10 +1622,33 @@
                         ]
                 },
                 {
+                        "tag": "moreinfo",
+                        "patterns": [
+                                "where can i get more information",
+                                "more info",
+                                "more information"
+                        ],
+                        "responses": [
+                                "https://covid-19.ontario.ca/covid-19-vaccines-ontario"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
                         "tag": "helplinelist",
                         "patterns": [
                                 "helpline numbers",
-                                "on which  number i should call"
+                                "on which  number i should call",
+                                "hospital number",
+                                "who can I call",
+                                "call",
+                                "NYGH hospital number",
+                                "hospital contact",
+                                "how do I contact the hospital",
+                                "how do I talk to a doctor",
+                                "how do I talk to a professional",
+                                "contact hospital"
                         ],
                         "responses": [
                                 "You can call at 416-756-6000. For further information, please refer to https://www.nygh.on.ca/test.php/patients-and-visitors/contact-us"
