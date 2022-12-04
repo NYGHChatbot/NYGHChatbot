@@ -9,6 +9,7 @@ class Chatbox {
 
         this.state = false;
         this.messages = [];
+        this.initalToggle = true;
     }
 
     display() {
@@ -35,6 +36,13 @@ class Chatbox {
         } else {
             chatbox.classList.remove('chatbox--active')
         }
+
+        if (this.initalToggle == true) {
+            let msg = {name: "Amae", message: "Hello, my name is Amae! I can answer your questions related to COVID-19, Monkeypox and Influenza."};
+            this.messages.push(msg);
+            this.updateChatText(chatbox);
+            this.initalToggle = false;
+        }
     }
 
     onSendButton(chatbox) {
@@ -58,7 +66,7 @@ class Chatbox {
           })
           .then(r => r.json())
           .then(r => {
-            let msg2 = { name: "Raymond", message: r.answer };
+            let msg2 = { name: "Amae", message: r.answer };
             this.messages.push(msg2);
             this.updateChatText(chatbox)
             textField.value = ''
@@ -75,7 +83,7 @@ class Chatbox {
     updateChatText(chatbox) {
         var html = '';
         this.messages.slice().reverse().forEach(function(item, index) {
-            if (item.name == "Raymond")
+            if (item.name == "Amae")
             {
                 html += '<div class="messages__item messages__item--visitor">' + item.message + '</div>'
             }
