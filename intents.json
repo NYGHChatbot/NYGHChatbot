@@ -474,6 +474,20 @@
                         ]
                 },
                 {
+                        "tag": "covvaccine",
+                        "patterns": [
+                                "i would like the covid-19 vaccine",
+                                "how to get covid-19 vaccine",
+                                "get covid-19 vaccine"
+                        ],
+                        "responses": [
+                                "Please refer to https://www.nygh.on.ca/covid19vaccination or call the Provincial Booking Line from 8 a.m. to 8 p.m., 7 days a week at 1-833-943-3900."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
                         "tag": "options",
                         "patterns": [
                                 "How you could help me",
