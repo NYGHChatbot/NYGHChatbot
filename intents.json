@@ -566,6 +566,58 @@
                         ]
                 },
                 {
+                        "tag": "AntiviralTreatment",
+                        "patterns": [
+                                "antiviral treatment",
+                                "covid treatment",
+                                "covid-19 treatment",
+                                "covid19 treatment",
+                                "treatment for covid-19",
+                                "treatment for covid",
+                                "treatment for covid19",
+                        ],
+                        "responses": [
+                                "They can help prevent serious illness if taken quickly after symptoms start. They are available in Ontario for free to anyone with a prescription from a health care provider. The use of antivirals in children under the age of 18 is not routinely recommended. Exceptions may be made on a case-by-case basis. For more info please refer to https://www.ontario.ca/page/covid-19-testing-and-treatment#section-5."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "GetAntiviralTreatment",
+                        "patterns": [
+                                "How to get antiviral treatment",
+                                "get antiviral treatment",
+                                "getting antiviral treatment",
+                                "find antiviral treatment",
+                                "buy antiviral treatment"
+                        ],
+                        "responses": [
+                                "1. contacting a pharmacist who is prescribing Paxlovid. 2. visiting a clinical assessment centre https://www.ontario.ca/assessment-centre-locations 3. contacting a primary care provider. If you are high-risk and do not have a primary care provider or are having difficulty accessing care, contact Health Connect Ontario by phone at 811 (https://healthconnectontario.health.gov.on.ca/static/guest/home)."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "AvailableAntiviralTreatment",
+                        "patterns": [
+                                "antiviral treatment",
+                                "covid treatment",
+                                "covid-19 treatment",
+                                "covid19 treatment",
+                                "treatment for covid-19",
+                                "treatment for covid",
+                                "treatment for covid19",
+                        ],
+                        "responses": [
+                                "1. Paxlovid 2. Remdesivir. For more info please refer to https://www.ontario.ca/page/covid-19-testing-and-treatment#section-5."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
                         "tag": "protection",
                         "patterns": [
                                 "How do i protect myself from the spread and prevent the spread of COVID-19",
