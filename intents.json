@@ -618,6 +618,22 @@
                         ]
                 },
                 {
+                        "tag": "PaxlovidPrescriptions",
+                        "patterns": [
+                                "paxlovid",
+                                "paxlovid prescriptions",
+                                "paxlovid eligibility",
+                                "what is paxlovid",
+                        ],
+                        "responses": [
+                                "Paxlovid is an antiviral treatment option used to reduce severe outcomes from CoVID-19. Eligible individuals should contact their local pharmacy to confirm if they prescribe Paxlovid and how to get a preescription for Paxlovid. For more information, visit https://news.ontario.ca/en/release/1002565/ontarians-can-visit-local-pharmacies-for-paxlovid-prescriptions."
+                        ],
+                        "context": [
+                                ""
+                        ]
+
+                },
+                {
                         "tag": "protection",
                         "patterns": [
                                 "How do i protect myself from the spread and prevent the spread of COVID-19",
