@@ -25,7 +25,15 @@
                                 "how do monkeypox spread",
                                 "how monkeypox spread",
                                 "monkeypox spreads",
-                                "spread of monkeypox"
+                                "spread of monkeypox",
+                                "how do you get monkeypox?",
+                                "how do i get monkeypox?",
+                                 "how do you get monkey pox?",
+                                "how do i get monkey pox?",
+                                "how do you get infected with monkeypox?",
+                                "how do you get infected with monkey pox?",
+                                "how do i get infected with monkeypox?",
+                                "how do i get infected with monkey pox?"
                         ],
                         "responses": [
                                 "Monkeypox can spread from person-to-person through respiratory secretions or through close, physical contact with someone who has monkeypox. Monkeypox can also spread by touching materials and objects."
@@ -212,7 +220,6 @@
                         "patterns": [
                                 "What is the flu?",
                                 "What is flu",
-                                "flu",
                                 "What is influenza",
                                 "What is the influenza virus",
                                 "influenza virus",
@@ -224,6 +231,18 @@
                         ],
                         "responses": [
                                 "Influenza, also known as the flu, is a respiratory illness caused primarily by the influenza A and B viruses."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "flu",
+                        "patterns": [
+                                "who can get the flu vaccine?"
+                        ],
+                        "responses": [
+                                "Everyone older than 6 months should get the flu shot every year, who is high risk, who may pass on the flu. Flu shots are safe. For more information, you may refer to https://www.canada.ca/en/public-health/services/diseases/flu-influenza/get-your-flu-shot.html."
                         ],
                         "context": [
                                 ""
@@ -300,7 +319,7 @@
                                 "how do I get influenza shot"
                         ],
                         "responses": [
-                                "Flu vaccine is available at many local pharmacies and primary care clinics."
+                                "Flu vaccine is available at many local pharmacies and primary care clinics. You can also book at North York General Hospital pharmacy through https://pharmaconnect.ca/Appointment/3e934dff-f4d6-40d9-9a98-3bbaddad51cf."
                         ],
                         "context": [
                                 ""
@@ -1528,6 +1547,20 @@
                         ]
                 },
                 {
+                        "tag": "vaccproof",
+                        "patterns": [
+                                "where can i download proof of vaccination for covid-19 vaccine",
+                                "proof of covid-19 vaccine",
+                                "proof of covid-19 vaccination"
+                        ],
+                        "responses": [
+                                "You may look at https://www.ontario.ca/page/proof-covid-19-vaccination."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
                         "tag": "VaccinatedOutOntarioCov",
                         "patterns": [
                                 "If you were vaccinated out of Ontario",
@@ -1576,7 +1609,7 @@
                                 "reschedule my appointment"
                         ],
                         "responses": [
-                                "If you need to reschedule the arrangements made for your appointment, please contact the pharmacy as soon as possible for scheduling an alternate day/time."
+                                "If you need to reschedule the arrangements made for your appointment, please contact the pharmacy you booked from as soon as possible for scheduling an alternate day/time. If you booked at North York General Hospital, you can reschedule with them by calling at (416) 756-6666."
                         ],
                         "context": [
                                 ""
@@ -1911,6 +1944,23 @@
                         ],
                         "responses": [
                                 "https://covid-19.ontario.ca/covid-19-vaccines-ontario"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "nyghlocation",
+                        "patterns": [
+                                "where is North York General Hospital located?",
+                                "where is nygh located?",
+                                "location of North York General Hospital",
+                                "location of nygh",
+                                "what is nygh location?",
+                                "what is North York General Hospital location?"
+                        ],
+                        "responses": [
+                                "It is located in 4001 Leslie Street, Toronto ON M2K 1E1. You may find more information here: https://pharmaconnect.ca/Appointment/3e934dff-f4d6-40d9-9a98-3bbaddad51cf"
                         ],
                         "context": [
                                 ""
