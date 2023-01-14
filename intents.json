@@ -174,7 +174,7 @@
                         "tag": "getmonkeypoxvaccine",
                         "patterns": [
                                 "How can I get the Monkeypox vaccine?",
-                                "How can I recieve the Monkeypox vaccine?",
+                                "How can I receive the Monkeypox vaccine?",
                                 "how can I get the monkeypox vaccine",
                                 "getting monkeypox vaccine",
                                 "book monkeypox vaccine appointment",
@@ -182,10 +182,24 @@
                                 "how do I get the monkeypox vaccine",
                                 "how do I receive the monkeypox vaccine",
                                 "how do I book the monkeypox vaccine",
-                                "get monkeypox vaccine"
+                                "get monkeypox vaccine",
+                                "Where to get monkeypox vaccine"
                         ],
                         "responses": [
                                 "Provinces and territories determine their immunization programs based on their unique circumstances. Contact your local public health authority to learn more."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "monkeypoxvaccinesafety",
+                        "patterns": [
+                                "Is the monkeypox vaccine safe",
+                                "monkeypox vaccine safety"
+                        ],
+                        "responses": [
+                                "Yes, Imvamune® is safe to receive. The vaccine is effective at protecting against mpox when given before exposure to the virus. If you received another vaccination in the past four weeks, please let your health care provider or person immunizing you know before getting Imvamune®."
                         ],
                         "context": [
                                 ""
@@ -326,6 +340,21 @@
                         ]
                 },
                 {
+                        "tag": "whenflushot",
+                        "patterns": [
+                                "When should I get my flu shot",
+                                "when to get a flu shot",
+                                "When should I get my influenza vaccine",
+                                "when to get influenza vaccine"
+                        ],
+                        "responses": [
+                                "A new flu vaccine is produced every year to protect you during the upcoming flu season. It's important that you get a new flu shot every year."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
                         "tag": "fluvaccinesafety",
                         "patterns": [
                                 "Is the flu vaccine safe?",
@@ -340,6 +369,23 @@
                         ],
                         "responses": [
                                 "You cannot get the flu from the flu shot, most people have no side effects from the flu shot and severe reactions are very rare. To learn more about the safety of vaccines, refer to: https://www.canada.ca/en/public-health/services/vaccination-children/safety-concerns-side-effects.html"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "fluvaccinesideeffects",
+                        "patterns": [
+                                "What side effects should I expect after flu shot",
+                                "side effects after flu shot",
+                                "What are side effects of the flu shot",
+                                "What side effects should I expect after flu vaccine",
+                                "side effects after flu vaccine",
+                                "What are side effects of the fly vaccine"
+                        ],
+                        "responses": [
+                                "Side effects are usually mild and last a few days. Common side effects include pain, redness and swelling at the injection site, headache, fever, muscle aches, joint pain or feeling tired. Side effects in children include irritability, drowsiness, or loss of appetite."
                         ],
                         "context": [
                                 ""
@@ -1566,6 +1612,8 @@
                                 "If you were vaccinated out of Ontario",
                                 "vaccinated out of Ontario",
                                 "vaccinated out of ON"
+                                "How do I register my vaccines from outside Ontario",
+                                "vaccine registration out of ontario"
                         ],
                         "responses": [
                                 "If you received a COVID‑19 vaccine outside of Ontario or Canada, you should register your vaccination(s) by contacting your local public health unit https://www.phdapps.health.gov.on.ca/phulocator/."
@@ -1798,7 +1846,8 @@
                         "patterns": [
                                 "Why should I get a booster dose?",
                                 "why do i have to get a booster",
-                                "why booster"
+                                "why booster",
+                                "should I get a booster dose"
                         ],
                         "responses": [
                                 "Anyone who is 18 and over can schedule a booster dose vaccine appointment at least five months (104 days) after their last dose. A third dose provides an extra layer of protection against COVID-19."
