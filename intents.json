@@ -361,10 +361,6 @@
                                 "Explain corona virus",
                                 "Tell me about covid",
                                 "tell me about corona virus",
-                                "covid",
-                                "covid-19",
-                                "coronavirus",
-                                "corona virus",
                                 "explain covid",
                                 "explain coronavirus"
                         ],
@@ -477,11 +473,42 @@
                         "tag": "covvaccine",
                         "patterns": [
                                 "i would like the covid-19 vaccine",
+                                "how to get the covid-19 vaccine",
                                 "how to get covid-19 vaccine",
-                                "get covid-19 vaccine"
+                                "get covid-19 vaccine",
+                                "get the covid-19 vaccine",
+                                "can i get the covid-19 vaccine at north york general hospital?",
+                                "can i get the covid-19 vaccine at nygh?"
                         ],
                         "responses": [
-                                "Please refer to https://www.nygh.on.ca/covid19vaccination or call the Provincial Booking Line from 8 a.m. to 8 p.m., 7 days a week at 1-833-943-3900."
+                                "Public can book directly at NYGH at this link for flu and covid-19 à https://pharmaconnect.ca/Appointment/3e934dff-f4d6-40d9-9a98-3bbaddad51cf or call the Provincial Booking Line from 8 a.m. to 8 p.m., 7 days a week at 1-833-943-3900."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "bivalentvaccine",
+                        "patterns": [
+                                "does nygh have the bivalent vaccine?",
+                                "does north york general hospital have the bivalent vaccine?"
+                        ],
+                        "responses": [
+                                "Yes. As of September 26, 2022, individuals 18 years and over can receive the bivalent COVID-19 booster six months from their last COVID-19 dose. For more information, please see https://news.ontario.ca/en/release/1002277/ontarians-aged-18-eligible-for-bivalent-covid-19-booster-dose."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "bivalentvaccinebooking",
+                        "patterns": [
+                                "how do i book a bivalent vaccine?",
+                                "book a bivalent vaccine",
+                                "book the bivalent vaccine"
+                        ],
+                        "responses": [
+                                "To book a vaccination: 1. https://www.ontario.ca/book-vaccine/ 2. https://www.ontario.ca/vaccine-locations"
                         ],
                         "context": [
                                 ""
