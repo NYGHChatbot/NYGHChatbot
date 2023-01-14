@@ -481,7 +481,7 @@
                                 "can i get the covid-19 vaccine at nygh?"
                         ],
                         "responses": [
-                                "Public can book directly at NYGH at this link for flu and covid-19 à https://pharmaconnect.ca/Appointment/3e934dff-f4d6-40d9-9a98-3bbaddad51cf or call the Provincial Booking Line from 8 a.m. to 8 p.m., 7 days a week at 1-833-943-3900."
+                                "Public can book directly at NYGH at this link for flu and covid-19 at https://pharmaconnect.ca/Appointment/3e934dff-f4d6-40d9-9a98-3bbaddad51cf or call the Provincial Booking Line from 8 a.m. to 8 p.m., 7 days a week at 1-833-943-3900."
                         ],
                         "context": [
                                 ""
@@ -508,7 +508,7 @@
                                 "book the bivalent vaccine"
                         ],
                         "responses": [
-                                "To book a vaccination: 1. https://www.ontario.ca/book-vaccine/ 2. https://www.ontario.ca/vaccine-locations"
+                                "To book a vaccination: 1. https://www.ontario.ca/book-vaccine/ 2. https://www.ontario.ca/vaccine-locations 3. https://pharmaconnect.ca/Appointment/3e934dff-f4d6-40d9-9a98-3bbaddad51cf"
                         ],
                         "context": [
                                 ""
@@ -1815,6 +1815,25 @@
                         ],
                         "responses": [
                                 "No. The vaccine is free of charge."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "PfizerModerna",
+                        "patterns": [
+                                "Do you carry the pfizer vaccine?",
+                                "Do you carry pfizer vaccine?",
+                                "Do you have the pfizer vaccine?",
+                                "Do you have pfizer vaccine?",
+                                "Do you carry the moderna vaccine?",
+                                "Do you carry moderna vaccine?",
+                                "Do you have the moderna vaccine?",
+                                "Do you have moderna vaccine?"
+                        ],
+                        "responses": [
+                                "Please call the NYGH outpatient pharmacy at (416) 756-6666."
                         ],
                         "context": [
                                 ""
