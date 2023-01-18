@@ -28,7 +28,7 @@
                                 "spread of monkeypox",
                                 "how do you get monkeypox?",
                                 "how do i get monkeypox?",
-                                 "how do you get monkey pox?",
+                                "how do you get monkey pox?",
                                 "how do i get monkey pox?",
                                 "how do you get infected with monkeypox?",
                                 "how do you get infected with monkey pox?",
@@ -723,7 +723,6 @@
                         "context": [
                                 ""
                         ]
-
                 },
                 {
                         "tag": "protection",
@@ -906,7 +905,7 @@
                                 "how to use a face mask",
                                 "how do I use a mask",
                                 "how to use a mask",
-                                "how to wear a mask",        
+                                "how to wear a mask",
                                 "what do I do with a mask"
                         ],
                         "responses": [
@@ -1017,7 +1016,6 @@
                                 "is there anything i should not do",
                                 "is there anything i should not do to prevent covid-19",
                                 "not do to prevent coronavirus"
-
                         ],
                         "responses": [
                                 "The following measures ARE NOT effective against COVID-2019 and can be harmful:\n\n    Smoking\n    Wearing multiple masks\n    Taking antibiotics (See question 10 \"Are there any medicines of therapies that can prevent or cure COVID-19?\")\n\nIn any case, if you have fever, cough and difficulty breathing seek medical care early to reduce the risk of developing a more severe infection and be sure to share your recent travel history with your health care provider."
@@ -2032,6 +2030,403 @@
                         ],
                         "responses": [
                                 "You can call at 416-756-6000. For further information, please refer to https://www.nygh.on.ca/test.php/patients-and-visitors/contact-us"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "monkeypoxsympaction",
+                        "patterns": [
+                                "What should I do if I have symptoms of Monkeypox?"
+                        ],
+                        "responses": [
+                                "If you have symptoms isolate yourself at home away from others and immediately contact your health care provider or local public health authority for advice on what to do. Learn more about it <a href='https://www.canada.ca/en/public-health/services/diseases/mpox/symptoms-management.html#a6' target='blank'>here</a>."
+                        ],
+                        "context": [ 
+                                ""
+                        ]
+                },
+                {
+                        "tag": "monkeypoxsimilarity",
+                        "patterns": [
+                                "Can Monkeypox appear similar to other diseases?"
+                        ],
+                        "responses": [
+                                "Monkeypox infection can appear similar to other infectious diseases, such as chickenpox, or several sexually transmitted infections (such as herpes or gonorrhea). This is why it's important to consult a health care provider and be tested."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "monkeypoxaction",
+                        "patterns": [
+                                "What do I do if I have Monkeypox?"
+                        ],
+                        "responses": [
+                                "If you've been infected with the monkeypox virus, your local public health authority may require that you isolate to prevent further spread. They may recommend that you isolate at home or at a different location, depending on your living situation. For more information, visit <a href='https://www.canada.ca/en/public-health/services/diseases/monkeypox/symptoms-management.html' target='blank'>here</a>."
+                        ],
+                        "context": [ 
+                                ""
+                        ]           
+                },
+                {
+                        "tag": "monkeypoxcaretaking",
+                        "patterns": [
+                                "How do I take care of someone who has Monkeypox?",
+                                "How can I care for someone with monkeypox infection, or with symptoms that may be due to monkeypox infection?"
+                        ],
+                        "responses": [
+                                "Ideally, only one person in the home should provide care to someone who is in isolation. This will help reduce the risk of spreading the monkeypox virus to others. The caregiver should not be someone who is considered vulnerable, including people who are: pregnant, immunocompromised, under the age of 12 years. Watch for signs or symptoms of monkeypox infection for 21 days since your last exposure to the person you're caring for. For more information visit <a href=https://www.canada.ca/en/public-health/services/diseases/monkeypox/symptoms-management.html#a6' target='blank'>here</a>."
+                        ],
+                        "context": [
+                                ""
+                        ]        
+                },
+                {
+                        "tag": "monkeypoxexposed",
+                        "patterns": [
+                                "What do I do if I have been exposed to Monkeypox?"
+                        ],
+                        "responses": [
+                                "If you know you've been exposed to someone with monkeypox infection, contact your local public health authority immediately. Your local public health authority may also tell you that you've been exposed to someone infected with the monkeypox virus. They will provide you with instructions on what to do and how to reduce the risk of further spread."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "flucontagious",
+                        "patterns": [
+                                "Is the flu contagious?"
+                        ],
+                        "responses": [
+                                "The flu is very contagious and can spread quickly and easily. Some people with the flu only get mildly ill. Others, like those over 65 years and young children, can get very sick."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "fluvaccinewithcovidvaccine",
+                        "patterns": [
+                                "Should I get the flu vaccine if I have the COVID-19 vaccine?"
+                        ],
+                        "responses": [
+                                "You should get the flu shot even if you've already had the COVID-19 vaccine. The COVID-19 vaccine doesn't protect you from the flu. Being protected from both the flu and COVID-19 lowers your risk of severe health complications."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "fluvaccineeligibility",
+                        "patterns": [
+                                "Who should get the flu shot?"
+                        ], 
+                        "responses": [
+                                "Everyone 6 months and older should get the flu shot, it's especially important for people at high risk of health complications from the flu and COVID-19, and for people who can spread the flu to them."
+                        ], 
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "fluselfprotection",
+                        "patterns": [
+                                "How can I protect myself against the flu?"
+                        ], 
+                        "responses": [
+                                "You can follow these guidelines to better protect yourself against the flu: Get vaccinated against both the flu and COVID-19, Stay home and away from others if you feel sick, Improve ventilation in indoor and shared spaces, Wash your hands often with soap and water. Use hand sanitizer if soap and water aren't available, Wash your hands before touching your eyes, nose or mouth, Cough and sneeze into a tissue or into the bend of your arm, Clean and disinfect frequently touched surfaces and objects. For more information, visit <a href='https://www.canada.ca/en/public-health/services/diseases/flu-influenza.html' target='blank'>here</a>."
+                        ], 
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "flushotfrequency",
+                        "patterns": [
+                                "Do I need to get the flu shot every year?"
+                        ], 
+                        "responses": [
+                                "A new flu vaccine is created every year to protect you during flu season. It's important that you get a new flu shot every year because the type of flu virus usually changes from year to year and the effectiveness of the flu shot can wear off, so you need a new one every year to stay protected"
+                        ], 
+                        "context": [
+                                ""
+                        ] 
+                },
+                {
+                        "tag": "covidpublichealthmeasure",
+                        "patterns": [
+                                "What are the public health measures around COVID-19?"
+                        ],
+                        "responses": [
+                                "When layered together, public health measures are effective in reducing the spread of COVID-19, including variants of concern. Regardless of your vaccination status, you should continue to follow the advice of your local public health authority and layer multiple individual public health measures to protect yourself and others. Learn more about it <a href='https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/symptoms/provincial-territorial-resources-covid-19.html' target='blank'>here</a> and <a href='https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/prevention-risks.html#p' target='blank'>here</a>."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "covidcaretaking ",
+                        "patterns": [
+                                "How do I care for someone who has COVID-19?"
+                        ],
+                        "responses": [
+                                "You may be caring for someone at home who has or may have COVID-19. If so, you should follow the appropriate precautions to reduce the risk of illness spreading within your home. Adults and children with mild COVID-19 symptoms can stay at home while recovering. You don’t need to go to the hospital if symptoms are mild. Learn more about it <a href='https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/prevention-risks/how-care-someone-covid-19-home.html' target='blank'>here</a>.: "
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "covidtravelreturn",
+                        "patterns": [
+                                "What are the travel guidelines if I am returning back to Canada? "
+                        ],
+                        "responses": [
+                                "There are no COVID-19 restrictions or regulations for all travellers entering Canada by air, land or marine mode on or after October 1, 2022"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "bivalentinfo",
+                        "patterns": [
+                                "What are bivalent vaccines?"
+                        ],
+                        "responses": [
+                                "The virus that causes COVID-19 has evolved over time and some of these changes have created new variants of concern. Manufacturers have updated their vaccines to provide better protection against these variants. The updated vaccines are called \"bivalent\" because they target 2 strains of COVID-19 virus: the original strain and an Omicron strain."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "bivalenteligibility",
+                        "patterns": [
+                                "Can I get the bivalent vaccine?"
+                        ],
+                        "responses": [
+                                "Bivalent vaccines are only approved for use as a booster dose. They are recommended for fall 2022 boosters for people 12 years and older. You can check with your province or territory to see what vaccines are recommended for you."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "covidvaccinebenefits",
+                        "patterns": [
+                                "What are the benefits of getting vaccinated against COVID-19?"
+                        ],
+                        "responses": [
+                                "Vaccination is one of the most effective ways to protect against COVID-19. All approved COVID-19 vaccines used in Canada continue to be very effective at protecting against severe illness, hospitalization and death from COVID-19. Getting vaccinated can also reduce the likelihood of developing symptoms of post COVID-19 condition. Post COVID-19 condition, also known as long COVID, is when people still experience symptoms of COVID-19 for weeks or months after their initial recovery."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "covidvaccinemoreinfo",
+                        "patterns": [
+                                "Who should I talk to if I have more questions about the COVID-19 vaccine?"
+                        ],
+                        "responses": [
+                                "If you have questions about getting your vaccine, consult with a health care provider."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "covidtestaccuracy",
+                        "patterns": [
+                                "Are COVID-19 tests accurate?"
+                        ],
+                        "responses": [
+                                "The accuracy of a test can vary depending on when your sample is taken during the course of your illness. If you're tested too soon after you were exposed to COVID-19, there may not be enough virus in your body for an accurate result. If this is the case at the time of the test, your test may come back negative, even if you actually have the virus. This would be considered a ‘false negative’ test."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "covidvaccineconsultation",
+                        "patterns": [
+                                "Should I consult my doctor before getting the vaccine?"
+                        ],
+                        "responses": [
+                                "Contact your doctor or health care provider if you have questions about getting the vaccine. Read more <a href='https://www.canada.ca/en/public-health/services/canadian-immunization-guide.html' target='blank'>here</a>." 
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "covidvaccineifalreadyhadcovid",
+                        "patterns": [
+                                "Should I get the COVID-19 vaccine if I have already had COVID-19?"
+                        ],
+                        "responses": [
+                                "If you’ve already had COVID‑19, you should still be vaccinated for protection from reinfection or severe outcomes. Discuss the best timing for you with a health care provider."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "covidapprovedvaccines",
+                        "patterns": [
+                                "What are the different approved vaccines?"
+                        ],
+                        "responses": [
+                                "You can find all of the authorized vaccines <a href='https://www.canada.ca/en/health-canada/services/drugs-health-products/covid19-industry/drugs-vaccines-treatments/vaccines.html' target='blank'>here</a>."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "covidselfassess",
+                        "patterns": [
+                                "Can I self-assess if I have symptoms of COVID-19?"
+                        ],
+                        "responses": [
+                                "Take <a href='https://www.ontario.ca/self-assessment/' target='blank'>this</a> self-assessment if you have any symptoms of illness or tested positive for COVID-19."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "covidscreeningrequirements",
+                        "patterns": [
+                                "What screening requirements must visitors meet to be able to participate in a visit?"
+                        ],
+                        "responses": [
+                                "All visitors should pass active screening on entry for symptoms and exposures for COVID-19, including temperature checks, and attest to not be experiencing any of the typical and atypical symptoms."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "fullyvaccinatedifoutsidecanada",
+                        "patterns": [
+                                "If I received a first dose (or more than one dose) of a vaccine outside of Ontario or Canada, am I considered fully vaccinated and up to date?"
+                        ],
+                        "responses": [
+                                "Please refer to <a href='https://covid-19.ontario.ca/proof-covid-19-vaccination#proof-of-vaccination' target='blank'>this</a> to determine if you are considered fully vaccinated."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "covidvaccineadministration",
+                        "patterns": [
+                                "What happens before and after the vaccine is administered by the pharmacy?"
+                        ],
+                        "responses": [
+                                "The pharmacist will provide details on the process before the COVID-19 vaccine immunization begins, as well as answer any other questions you may have."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "covidmultidose",
+                        "patterns": [
+                                "For a multi-dose primary vaccine series, what happens after receiving the first dose of the COVID-19 vaccine?"
+                        ],
+                        "responses": [
+                                "After the first dose, the pharmacy will schedule an appointment for your second dose."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "covidrecommendedvaccine",
+                        "patterns": [
+                                "Which of the Pfizer vaccines is recommended for children who are 11 years of age and turning 12 by the time they are eligible for their second dose or booster dose?"
+                        ],
+                        "responses": [
+                                "At this time, only the Pediatric Pfizer BioNTech COVID-19 vaccine (10mcg) is authorized as a booster dose for children."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "covidvaccineretirementresidence",
+                        "patterns": [
+                                "I am a resident living in a retirement home or other congregate setting. Can I get my vaccine dose at my place of residence?"
+                        ],
+                        "responses": [
+                                "Yes, provided that you meet eligibility criteria for the vaccine, a pharmacy may administer your vaccine dose at your retirement home or other congregate setting."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "covidvaccinelongtermresidence",
+                        "patterns": [
+                                "I am a resident living in a long-term care home. Can I get my vaccine dose at my long-term care home?"
+                        ],
+                        "responses": [
+                                "Yes, provided that you meet eligibility criteria for the vaccine, a pharmacy may administer your vaccine dose at your long-term care home."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "covidvaccinewaitperiod",
+                        "patterns": [
+                                "How long am I required to wait before getting my COVID-19 vaccine if I was infected with SARS-CoV-2?"
+                        ],
+                        "responses": [
+                                "Individuals who have been infected with SARS-CoV-2 before starting or completing their primary vaccine series (i.e., after their first dose) may receive their first or next dose 8 weeks after symptoms have started or after testing positive. Individuals 5 years of age and older are recommended to receive their booster dose at least 3 months after symptom onset or positive test (if asymptomatic) but 6 months may provide better immune response."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "monkeypoxprepvaccine",
+                        "patterns": [
+                                "Who is at higher risk for monkeypox and eligible for pre-exposure prophylaxis (PrEP) vaccine?"
+                        ],
+                        "responses": [
+                                "Individuals who identify as belonging to transgender, cisgender, the gay, bisexual, and other men who have sex with men community may be eligible for PrEP vaccine. These individuals should contact their local public health unit to determine if they are eligible to be vaccinated."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "monkeypoxpet",
+                        "patterns": [
+                                "I have pets in my home. What precautions should I take if I have monkeypox or symptoms of monkeypox?"
+                        ],
+                        "responses": [
+                                "The risk of infection in different animal species is unclear. It is best to find someone else to take care of your pet until you are out of isolation."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "petisolating",
+                        "patterns": [
+                                "What if my pet becomes sick while I am isolating?"
+                        ],
+                        "responses": [
+                                "If your animal is in quarantine with you and becomes sick, it is preferred to first seek care from a veterinary telemedicine service, to assess if the animal’s condition can be managed at home."
                         ],
                         "context": [
                                 ""
