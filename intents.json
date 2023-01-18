@@ -54,7 +54,7 @@
                                 "symptoms monkeypox"
                         ],
                         "responses": [
-                                "A rash can be accompanied by general symptoms such as: fever, chills, swollen lymph nodes, headache, muscle pain, joint pain, back pain, exhaustion. For more information, visit: https://www.canada.ca/en/public-health/services/diseases/monkeypox/symptoms-management.html"
+                                "A rash can be accompanied by general symptoms such as: fever, chills, swollen lymph nodes, headache, muscle pain, joint pain, back pain, exhaustion. For more information, visit: <a href='https://www.canada.ca/en/public-health/services/diseases/monkeypox/symptoms-management.html' target='blank'>Monkeypox</a>"
                         ],
                         "context": [
                                 ""
