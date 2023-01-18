@@ -230,7 +230,7 @@
                         ]
                 },
                 {
-                        "tag": "flu",
+                        "tag": "fluvirusis",
                         "patterns": [
                                 "What is the flu?",
                                 "What is flu",
@@ -251,7 +251,7 @@
                         ]
                 },
                 {
-                        "tag": "flu",
+                        "tag": "fluvaccine",
                         "patterns": [
                                 "who can get the flu vaccine?"
                         ],
