@@ -3,6 +3,7 @@ import random
 import json
 import pickle
 import numpy as np
+import time
 
 from nltk.stem import WordNetLemmatizer
 from keras.models import load_model
@@ -16,6 +17,8 @@ model = load_model('model.h5')
 intents = json.loads(open('intents.json',encoding="utf8").read())
 words = pickle.load(open('words.pkl','rb'))
 classes = pickle.load(open('classes.pkl','rb'))
+totalResponseTime = 0
+numberOfResponses = 0
 
 def clean_up_sentence(sentence):
     # tokenize the pattern - split words into array
@@ -65,3 +68,22 @@ def chatbot_response(msg):
     ints = predict_class(msg, model)
     res = getResponse(ints, intents)
     return res
+
+def startTimer():
+    start = time.time()
+    return start
+
+def endTimer():
+    end = time.time()
+    return end
+
+def calculateAverageTime(start, end):
+    global totalResponseTime
+    global numberOfResponses
+
+    difference = end - start
+    numberOfResponses = numberOfResponses + 1
+    totalResponseTime = round(totalResponseTime + difference, 5)
+    averageResponseTime = totalResponseTime / numberOfResponses
+
+    print("New Average Response Time: ", averageResponseTime * 1000, "ms")

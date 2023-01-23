@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, jsonify
-from model_ui import chatbot_response
+from model_ui import chatbot_response, startTimer, endTimer, calculateAverageTime
 
 app = Flask(__name__)
 
@@ -9,7 +9,10 @@ def hello_world():
 
 @app.post("/predict")
 def predict():
+    start = startTimer()
     text = request.get_json().get("message")
     response = chatbot_response(text)
     message = {"answer": response}
+    end = endTimer()
+    calculateAverageTime(start, end)
     return jsonify(message)
