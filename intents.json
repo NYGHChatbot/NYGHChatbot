@@ -1,0 +1,2424 @@
+{
+        "intents": [
+                {
+                        "tag": "monkeypox",
+                        "patterns": [
+                                "What is Monkeypox?",
+                                "what is monkey",
+                                "what be monkeypox",
+                                "Explain monkeypox",
+                                "Tell me about monkeypox",
+                                "tell me about monkeypox"
+                        ],
+                        "responses": [
+                                "Monkeypox is usually a self-limited viral infection with a rash that may be painful. Most people recover on their own after a few weeks. In some circumstances, people can become very sick and could die."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "monkeypoxspread",
+                        "patterns": [
+                                "How does monkeypox spread?",
+                                "how do monkeypox spread",
+                                "how monkeypox spread",
+                                "monkeypox spreads",
+                                "spread of monkeypox",
+                                "how do you get monkeypox?",
+                                "how do i get monkeypox?",
+                                "how do you get monkey pox?",
+                                "how do i get monkey pox?",
+                                "how do you get infected with monkeypox?",
+                                "how do you get infected with monkey pox?",
+                                "how do i get infected with monkeypox?",
+                                "how do i get infected with monkey pox?"
+                        ],
+                        "responses": [
+                                "Monkeypox can spread from person-to-person through respiratory secretions or through close, physical contact with someone who has monkeypox. Monkeypox can also spread by touching materials and objects."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "monkeypoxsymp",
+                        "patterns": [
+                                "What are the symptoms of Monkeypox?",
+                                "what are monkeypox symptoms",
+                                "what be the symptom of monkeypox",
+                                "symptoms of monkeypox",
+                                "monkeypox symptoms",
+                                "symptoms of Monkeypox",
+                                "symptoms monkeypox"
+                        ],
+                        "responses": [
+                                "A rash can be accompanied by general symptoms such as: fever, chills, swollen lymph nodes, headache, muscle pain, joint pain, back pain, exhaustion. For more information, visit: <a href='https://www.canada.ca/en/public-health/services/diseases/monkeypox/symptoms-management.html' target='blank'>Monkeypox: Symptoms, getting tested</a>"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "monkeypoxtest",
+                        "patterns": [
+                                "How do I get tested for Monkeypox?",
+                                "how do I get test for monkeypox",
+                                "monkeypox test",
+                                "test for monkeypox",
+                                "can I get tested for monkeypox",
+                                "is there a test for monkeypox",
+                                "test monkeypox",
+                                "What should I do if I’ve been to a venue where there was someone with suspected or confirmed monkeypox?",
+                                "What should I do if I’ve been in contact with someone who has monkeypox?"
+                        ],
+                        "responses": [
+                                "Contact your health care provider to get assessed and tested for monkeypox virus infection. You can get tested for monkeypox infection based on a combination of factors, such as signs and symptoms and risk factors such as exposure to a case and travel history."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "monkeypoxtreatment",
+                        "patterns": [
+                                "What is the treatment for Monkeypox?",
+                                "what be the treatment for monkeypox",
+                                "monkeypox treatment",
+                                "treatment for Monkeypox",
+                                "How can I get treated if I have monkeypox",
+                                "What is monkeypox treatment",
+                                "What treatment is available for monkeypox?"
+                        ],
+                        "responses": [
+                                "Treatment for symptomatic monkeypox infection is mainly supportive, and includes: wound care, pain control, treatment of bacterial superinfection and other complications."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "monkeypoxvaccine",
+                        "patterns": [
+                                "What vaccines are available for Monkeypox?",
+                                "what vaccine be available for monkeypox",
+                                "monkeypox vaccine information",
+                                "available vaccine for monkeypox",
+                                "what are some available vaccines for monkeypox",
+                                "vaccine for monkeypox",
+                                "Is there a vaccine for monkeypox?"
+                        ],
+                        "responses": [
+                                "The Imvamune® vaccine is authorized by Health Canada for immunization against monkeypox and orthopoxvirus infections in adults 18 years of age and older who are at high risk of exposure."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "monkeypoxvaccineeligibility",
+                        "patterns": [
+                                "Who can get the monkeypox vaccine?",
+                                "Can I get the monkeypox vaccine?",
+                                "Am I allowed to get the monkeypox vaccine",
+                                "Am I eligible for the monkeypox vaccine",
+                                "who get monkeypox vaccine?",
+                                "monkeypox vaccine eligibility"
+                        ],
+                        "responses": [
+                                "Adults 18 years and older who are at a high risk of exposure can get the vaccine. The National Advisory Committee on Immunization (NACI) recommends the Imvamune® vaccine may be offered to people with high-risk exposures to a probable or confirmed case of monkeypox, or within a setting where transmission is happening."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "monkeypoxvaccinechildren",
+                        "patterns": [
+                                "Can children get the monkeypox vaccine?",
+                                "Can I get the monkeypox vaccine for my child?",
+                                "Can my kid get the monkeypox vaccine?",
+                                "Can my child get the monkeypox vaccine?",
+                                "monkeypox vaccine children",
+                                "Can kids get the monkeypox vaccine",
+                                "Kids monkeypox vaccine"
+                        ],
+                        "responses": [
+                                "No, only adults 18 years and older who are at a high risk of exposure can get the vaccine."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "monkeypoxinanimals",
+                        "patterns": [
+                                "What animals can get monkeypox?",
+                                "do animals get monkeypox",
+                                "can animals get monkeypox",
+                                "monkeypox in animals",
+                                "animals monkeypox",
+                                "animals get monkeypox"
+                        ],
+                        "responses": [
+                                "Several species of rodents (e.g., rats, mice, hamsters, gerbils, squirrels, chipmunks, etc.), rabbits, hedgehogs, opossums, and non-human primates (e.g., monkeys)"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "getmonkeypoxvaccine",
+                        "patterns": [
+                                "How can I get the Monkeypox vaccine?",
+                                "How can I receive the Monkeypox vaccine?",
+                                "how can I get the monkeypox vaccine",
+                                "getting monkeypox vaccine",
+                                "book monkeypox vaccine appointment",
+                                "book monkeypox vaccine",
+                                "how do I get the monkeypox vaccine",
+                                "how do I receive the monkeypox vaccine",
+                                "how do I book the monkeypox vaccine",
+                                "get monkeypox vaccine",
+                                "Where to get monkeypox vaccine"
+                        ],
+                        "responses": [
+                                "Provinces and territories determine their immunization programs based on their unique circumstances. Contact your local public health authority to learn more."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "monkeypoxvaccinesafety",
+                        "patterns": [
+                                "Is the monkeypox vaccine safe",
+                                "monkeypox vaccine safety"
+                        ],
+                        "responses": [
+                                "Yes, Imvamune® is safe to receive. The vaccine is effective at protecting against mpox when given before exposure to the virus. If you received another vaccination in the past four weeks, please let your health care provider or person immunizing you know before getting Imvamune®."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "isolationmonkeypox",
+                        "patterns": [
+                                "What are the guidelines for self isolation if I have Monkeypox?",
+                                "what guidelines for self isolation if I have monkeypox",
+                                "isolation monkeypox",
+                                "self-isolation monkeypox",
+                                "self-isolation for monkeypox",
+                                "monkeypox isolation",
+                                "do I have to isolate if I have monkeypox",
+                                "can I go outside if I have monkeypox",
+                                "can I see friends and family if I have monkeypox",
+                                "I have monkeypox, can I go outside",
+                                "I have monkeypox, do I need to isolate",
+                                "What to do if I have been tested or test positive for monkeypox?",
+                                "What should I do if I develop symptoms of monkeypox?"
+                        ],
+                        "responses": [
+                                "Stay in isolation until your local health authority tells you that you no longer have to isolate, avoid contact with people and animals, avoid sharing items that may be contaminated and follow hygienic practices. For more information visit <a href='https://www.canada.ca/en/public-health/services/diseases/monkeypox/symptoms-management.html#a6' target='blank'>Monkeypox: Symptoms, getting tested</a>. You should also contact a health care provider to get advice on medical care."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "fluvirusis",
+                        "patterns": [
+                                "What is the flu?",
+                                "What is flu",
+                                "What is influenza",
+                                "What is the influenza virus",
+                                "influenza virus",
+                                "explain the flu",
+                                "explain flu",
+                                "can you tell me what the flu is",
+                                "please explain the flu",
+                                "explain influenza"
+                        ],
+                        "responses": [
+                                "Influenza, also known as the flu, is a respiratory illness caused primarily by the influenza A and B viruses."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "fluvaccine",
+                        "patterns": [
+                                "who can get the flu vaccine?"
+                        ],
+                        "responses": [
+                                "Everyone older than 6 months should get the flu shot every year, who is high risk, who may pass on the flu. Flu shots are safe. For more information, you may refer to <a href='https://www.canada.ca/en/public-health/services/diseases/flu-influenza/get-your-flu-shot.html' target='blank'>Flu (influenza): Get your flu shot</a>."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "flusymptoms",
+                        "patterns": [
+                                "What are the symptoms of flu?",
+                                "flu symptoms",
+                                "symptoms of flu",
+                                "symptom of flu",
+                                "flu symptom",
+                                "How do I know if I have the flu or COVID-19?",
+                                "How do I know if I have the flu",
+                                "do I have the flu?",
+                                "do I have influenza",
+                                "do I have the flu or COVID-19",
+                                "influenza symptoms",
+                                "symptoms of influenza"
+                        ],
+                        "responses": [
+                                "COVID-19 and the flu can have similar symptoms. If you start to develop any of the symptoms below, follow the same precautions taken for COVID-19. Flu symptoms appear 1 to 4 days after exposure to the virus. Usually they include the sudden appearance of:fever, cough, muscle aches and pain. Other common symptoms may include: headache, chills, fatigue (tiredness), loss of appetite, sore throat, runny or stuffy nose. For more information, visit: <a href='https://www.canada.ca/en/public-health/services/diseases/flu-influenza.html' target='blank'>Flu (influenza): Symptoms and treatment</a>"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "flutreatment",
+                        "patterns": [
+                                "What should I do if I have the flu?",
+                                "How is the flu diagnosed?",
+                                "How is the flu treated?",
+                                "What is the treatment for flu?",
+                                "flu treatment",
+                                "treatment of flu",
+                                "what should I do with flu?",
+                                "I am scared. I think I have flu.",
+                                "I have the flu",
+                                "I have influenza",
+                                "I have the influenza virus",
+                                "I have the flu virus",
+                                "What do I do if I have influenza",
+                                "influenza treatment",
+                                "influenza virus treatment"
+                        ],
+                        "responses": [
+                                "Flu symptoms can be treated with rest, fluids such as water, medication to reduce any fever or aches. In some cases a health care provider may prescribe medication, especially if you're at high risk for flu-related complications or very sick with severe symptoms. Over-the-counter cough and flu medicine should not be given to children younger than 6 years old. It's only safe to do so if you're advised by your health care provider."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "getfluvaccine",
+                        "patterns": [
+                                "How do I get the flu vaccine?",
+                                "How can I get the flu vaccine?",
+                                "getting flu vaccine",
+                                "get flu vaccine",
+                                "receive flu vaccine",
+                                "need flu vaccine",
+                                "my flu vaccine",
+                                "get flu shot",
+                                "getting flu shot",
+                                "getting my flu shot",
+                                "how do I get the influenza vaccine",
+                                "how do I get influenza shot"
+                        ],
+                        "responses": [
+                                "Flu vaccine is available at many local pharmacies and primary care clinics. You can also book at North York General Hospital pharmacy through <a href='https://pharmaconnect.ca/Appointment/3e934dff-f4d6-40d9-9a98-3bbaddad51cf' target='blank'>PharmaConnect</a>."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "whenflushot",
+                        "patterns": [
+                                "When should I get my flu shot",
+                                "when to get a flu shot",
+                                "When should I get my influenza vaccine",
+                                "when to get influenza vaccine"
+                        ],
+                        "responses": [
+                                "A new flu vaccine is produced every year to protect you during the upcoming flu season. It's important that you get a new flu shot every year."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "fluvaccinesafety",
+                        "patterns": [
+                                "Is the flu vaccine safe?",
+                                "safety of flu vaccine",
+                                "safety of flu shot",
+                                "flu vaccine safety",
+                                "flu vaccine safe?",
+                                "can I trust the flu vaccine",
+                                "flu vaccine safety",
+                                "is the flu vaccine safe for kids",
+                                "is the flu shot safe"
+                        ],
+                        "responses": [
+                                "You cannot get the flu from the flu shot, most people have no side effects from the flu shot and severe reactions are very rare. To learn more about the safety of vaccines, refer to: <a href='https://www.canada.ca/en/public-health/services/vaccination-children/safety-concerns-side-effects.html' target='blank'>Vaccine safety and possible side effects</a>"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "fluvaccinesideeffects",
+                        "patterns": [
+                                "What side effects should I expect after flu shot",
+                                "side effects after flu shot",
+                                "What are side effects of the flu shot",
+                                "What side effects should I expect after flu vaccine",
+                                "side effects after flu vaccine",
+                                "What are side effects of the fly vaccine"
+                        ],
+                        "responses": [
+                                "Side effects are usually mild and last a few days. Common side effects include pain, redness and swelling at the injection site, headache, fever, muscle aches, joint pain or feeling tired. Side effects in children include irritability, drowsiness, or loss of appetite."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "flushoteffective",
+                        "patterns": [
+                                "Is the flu shot effective?",
+                                "flu shot effective",
+                                "flu vaccine effective",
+                                "is the flu vaccine effective",
+                                "Is the flu vaccines effective?",
+                                "Is the flu vaccine effective?",
+                                "effectivity of flu shots",
+                                "effectivity of flu vaccines",
+                                "is the influenza vaccine effective",
+                                "does the flu shot work",
+                                "does the flu vaccine work",
+                                "does the flu vaccine do anything",
+                                "does the flu vaccine help",
+                                "is the flu shot good"
+                        ],
+                        "responses": [
+                                "The effectiveness of the vaccine varies from season to season. It depends on: how well the vaccine matches with the circulating flu viruses and the health and age of the person getting the flu shot. The viruses circulating in the population can sometimes change during the time it takes to produce a vaccine. When this happens during the flu season, the flu shot may not work as well as expected. It's also important to remember that the flu shot protects against several different flu viruses each season. The seasonal flu shot can still provide protection against the remaining 2 or 3 viruses, even when there’s: a less-than-ideal match or lower effectiveness against one virus."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "covid",
+                        "patterns": [
+                                "What is Coronavirus?",
+                                "What is COVID-19?",
+                                "Novel coronavirus",
+                                "what is COVID-19",
+                                "Explain corona virus",
+                                "Tell me about covid",
+                                "tell me about corona virus",
+                                "explain covid",
+                                "explain coronavirus"
+                        ],
+                        "responses": [
+                                "Coronaviruses or COVID-19 is a large family of viruses which may cause illness in animals or humans.  In humans, several coronaviruses are known to cause respiratory infections ranging from the common cold to more severe diseases such as Middle East Respiratory Syndrome (MERS) and Severe Acute Respiratory Syndrome (SARS). The most recently discovered coronavirus causes coronavirus disease COVID-19."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "greeting",
+                        "patterns": [
+                                "Hi there",
+                                "Hi",
+                                "Is anyone there?",
+                                "Hey",
+                                "Greetings",
+                                "Hola",
+                                "Hello",
+                                "Good day",
+                                "Good morning",
+                                "Good evening",
+                                "Good afternoon"
+                        ],
+                        "responses": [
+                                "Hi there, how can I help?"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "howareyou",
+                        "patterns": [
+                                "how are you?",
+                                "how are you doing?",
+                                "How are you",
+                                "how's it going",
+                                "how r u"
+                        ],
+                        "responses": [
+                                "Good, how can I help you?"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "goodbye",
+                        "patterns": [
+                                "Bye",
+                                "See you later",
+                                "Goodbye",
+                                "Have a good day",
+                                "Have a good one",
+                                "Have a good night",
+                                "See you soon",
+                                "Nice chatting to you, bye",
+                                "Till next time"
+                        ],
+                        "responses": [
+                                "See you!",
+                                "Have a nice day!",
+                                "Bye! Come back again soon."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "thanks",
+                        "patterns": [
+                                "Thanks",
+                                "Thank you",
+                                "That's helpful",
+                                "Thanks for the help",
+                                "Thanks for the information",
+                                "Awesome, thanks",
+                                "Thanks for helping me"
+                        ],
+                        "responses": [
+                                "Happy to help!",
+                                "Any time!",
+                                "My pleasure!"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "noanswer",
+                        "patterns": [
+                                ""
+                        ],
+                        "responses": [
+                                "Sorry, can't understand you.",
+                                "Please rephrase that.",
+                                "I didn't get that, can you try again?",
+                                "I'm sorry, I don't understand.",
+                                "Please give me more info.",
+                                "Not sure I understand.",
+                                "Can you please explain more."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "covvaccine",
+                        "patterns": [
+                                "i would like the covid-19 vaccine",
+                                "how to get the covid-19 vaccine",
+                                "how to get covid-19 vaccine",
+                                "get covid-19 vaccine",
+                                "get the covid-19 vaccine",
+                                "can i get the covid-19 vaccine at north york general hospital?",
+                                "can i get the covid-19 vaccine at nygh?"
+                        ],
+                        "responses": [
+                                "Public can book directly at NYGH at this link for flu and covid-19 at <a href='https://pharmaconnect.ca/Appointment/3e934dff-f4d6-40d9-9a98-3bbaddad51cf' target='blank'>PharmaConnect</a> or call the Provincial Booking Line from 8 a.m. to 8 p.m., 7 days a week at 1-833-943-3900."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "bivalentvaccine",
+                        "patterns": [
+                                "does nygh have the bivalent vaccine?",
+                                "does north york general hospital have the bivalent vaccine?"
+                        ],
+                        "responses": [
+                                "Yes. As of September 26, 2022, individuals 18 years and over can receive the bivalent COVID-19 booster six months from their last COVID-19 dose. For more information, please see <a href='https://news.ontario.ca/en/release/1002277/ontarians-aged-18-eligible-for-bivalent-covid-19-booster-dose' target='blank'>Bivalent COVID-19 Booster</a>."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "bivalentvaccinebooking",
+                        "patterns": [
+                                "how do i book a bivalent vaccine?",
+                                "book a bivalent vaccine",
+                                "book the bivalent vaccine"
+                        ],
+                        "responses": [
+                                "To book a vaccination: 1. <a href='https://www.ontario.ca/book-vaccine/' target='blank'>Ontario.ca Covid-19 Vaccine</a> 2. <a href='https://www.ontario.ca/vaccine-locations' target='blank'>Ontario.ca Covid-19 Pharmacy Vaccine Locations</a> 3. <a href='https://pharmaconnect.ca/Appointment/3e934dff-f4d6-40d9-9a98-3bbaddad51cf' target='blank'>PharmaConnect: North York General Hospital Pharmacy</a>"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "options",
+                        "patterns": [
+                                "How you could help me",
+                                "What can you do?",
+                                "What you can do",
+                                "What you can do for me",
+                                "What help you provide",
+                                "How you can be helpful",
+                                "Help me",
+                                "Help",
+                                "What support is offered",
+                                "What support is available",
+                                "What can I ask you?",
+                                "What do you do",
+                                "What help can you give",
+                                "Are you helpful",
+                                "What's your purpose",
+                                "What can you do",
+                                "Who are you",
+                                "What are you"
+                        ],
+                        "responses": [
+                                "I can clear your queries related to COVID-19, Influenza (flu) or Monkeypox.",
+                                "I can answer your questions related to Coronavirus, Influenza (flu) or Monkeypox."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "covidsymptoms",
+                        "patterns": [
+                                "what are the symptoms of COVID-19",
+                                "what are the symptoms of coronavirus",
+                                "covid symptoms",
+                                "covid-19 symptoms",
+                                "coronavirus symptoms",
+                                "symptoms of covid",
+                                "symptoms of covid-19",
+                                "symptoms of coronavirus",
+                                "how do I know if I have covid",
+                                "how do I know if I have covid-19",
+                                "do I have covid",
+                                "do I have covid-19",
+                                "how do I know if I have coronavirus"
+                        ],
+                        "responses": [
+                                "The most common symptoms of COVID-19 are\nFever, tiredness, and dry cough. Some patients may have aches and pains, nasal congestion, runny nose, sore throat or diarrhea. These symptoms are usually mild and begin gradually. Some people become infected but don’t develop any symptoms and don't feel unwell. Most people (about 80%) recover from the disease without needing special treatment. Around 1 out of every 6 people who gets COVID-19 becomes seriously ill and develops difficulty breathing. Older people, and those with underlying medical problems like high blood pressure, heart problems or diabetes, are more likely to develop serious illness. People with fever, cough and difficulty breathing should seek medical attention."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "covidspread",
+                        "patterns": [
+                                "coronavirus spread",
+                                "covid spread",
+                                "spread of covid",
+                                "how does covid spread",
+                                "how does coronavirus spread",
+                                "how does covid-19 spread",
+                                "can I spread covid",
+                                "coronavirus spread",
+                                "why does coughing spread covid",
+                                "covid-19 spread",
+                                "can I spread covid by sneezing"
+                        ],
+                        "responses": [
+                                "The disease can spread from person to person, People can catch coronavirus from others who have the virus, through small droplets from the nose or mouth which are spread when a person with COVID-19 coughs or exhales. These droplets land on objects and surfaces around the person. Other people then catch COVID-19 by touching these objects or surfaces, then touching their eyes, nose or mouth. People can also catch COVID-19 if they breathe in droplets from a person with COVID-19 who coughs out or exhales droplets. This is why it is important to stay more than 1 meter (3 feet) away from a person who is sick.\n\nWHO is assessing ongoing research on the ways COVID-19 is spread and will continue to share updated findings."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "AntiviralTreatment",
+                        "patterns": [
+                                "Tell me about antiviral treatment",
+                                "Explain covid-19 treatments",
+				"information about antiviral treatments",
+				"information about antiviral treatment"
+			],
+                        "responses": [
+                                "They can help prevent serious illness if taken quickly after symptoms start. They are available in Ontario for free to anyone with a prescription from a health care provider. The use of antivirals in children under the age of 18 is not routinely recommended. Exceptions may be made on a case-by-case basis. For more info please refer to <a href='https://www.ontario.ca/page/covid-19-testing-and-treatment#section-5' target='blank'>Antiviral treatments</a>."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "GetAntiviralTreatment",
+                        "patterns": [
+                                "How to get antiviral treatment",
+                                "get antiviral treatment",
+                                "getting antiviral treatment",
+                                "find antiviral treatment",
+                                "buy antiviral treatment"
+                        ],
+                        "responses": [
+                                "1. contacting a pharmacist who is prescribing Paxlovid. 2. visiting a clinical assessment centre <a href='https://www.ontario.ca/assessment-centre-locations' target='blank'>COVID-19 testing locations and clinical assessment centres</a> 3. contacting a primary care provider. If you are high-risk and do not have a primary care provider or are having difficulty accessing care, contact Health Connect Ontario by phone at 811 (<a href='https://healthconnectontario.health.gov.on.ca/static/guest/home' target='blank'>Health Connect Ontario</a>)."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "AvailableAntiviralTreatment",
+                        "patterns": [
+                                "Available antiviral treatment",
+                                "Available covid treatment",
+                                "Available covid-19 treatment",
+                                "Available covid19 treatment",
+                                "Available treatment for covid-19",
+                                "Available treatment for covid",
+                                "Available treatment for covid19",
+				"What are some of the antiviral treatments for covid-19?",
+				"some of the antiviral treatments for covid-19",
+				"list of antiviral treatments for covid-19",
+				"What are the antiviral treatments for covid-19?"
+                        ],
+                        "responses": [
+                                "1. Paxlovid 2. Remdesivir. For more info please refer to <a href='https://www.ontario.ca/page/covid-19-testing-and-treatment#section-5' target='blank'>Antiviral treatments</a>."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "PaxlovidPrescriptions",
+                        "patterns": [
+                                "paxlovid",
+                                "paxlovid prescriptions",
+                                "paxlovid eligibility",
+                                "what is paxlovid"
+                        ],
+                        "responses": [
+                                "Paxlovid is an antiviral treatment option used to reduce severe outcomes from CoVID-19. Eligible individuals should contact their local pharmacy to confirm if they prescribe Paxlovid and how to get a prescription for Paxlovid. For more information, visit <a href='https://news.ontario.ca/en/release/1002565/ontarians-can-visit-local-pharmacies-for-paxlovid-prescriptions' target='blank'>Antiviral treatments</a>."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "protection",
+                        "patterns": [
+                                "How do i protect myself from the spread and prevent the spread of COVID-19",
+                                "prevent spread of corona",
+                                "how to protect from covid-19",
+                                "how to avoid corona virus",
+                                "how to avoid covid",
+                                "how to avoid covid-19",
+                                "stay safe from corona virus",
+                                "how do I protect myself from covid",
+                                "Covid-19 protection",
+                                "coronavirus protection",
+                                "how to protect from corona"
+                        ],
+                        "responses": [
+                                "Stay aware of the latest information on the COVID-19 outbreak, available on the WHO website and through your national and local public health authority.\n\nYou can reduce your chances of being infected or spreading COVID-19 by taking some simple precautions:\n\n1.Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water.\n\n2. Maintain at least 1 metre (3 feet) distance between yourself and anyone who is coughing or sneezing.\n\n3.Avoid touching eyes, nose and mouth.\n\n4. Cover your mouth and nose with your bent elbow or tissue when you cough or sneeze. Then dispose of the used tissue immediately.\n\n5. Stay home if you feel unwell. If you have a fever, cough and difficulty breathing, seek medical attention and call in advance.\n This will also protect you and help prevent spread of viruses and other infections.\nAvoid traveling to places where possible spread of COVID-19 and other viruses."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "visitplace",
+                        "patterns": [
+                                "i visit a place",
+                                "i travelled a place with corona cases area",
+                                "corona area",
+                                "i visited a place with corona cases",
+                                "how to protect visiting corona area",
+                                "I saw someone that had covid",
+                                "I travelled to a place with coronavirus",
+                                "I travelled to a place with corona",
+                                "I travelled to a place with covid",
+                                "area with covid",
+                                "area with corona",
+                                "area with coronavirus",
+                                "i visit place with covid"
+                        ],
+                        "responses": [
+                                "Protection measures for persons who are in or have recently visited (past 14 days) areas where COVID-19 is spreading\n\n1. Follow the guidance outlined above (Protection measures for everyone)\n2. Self-isolate by staying at home if you begin to feel unwell, even with mild symptoms such as headache, low grade fever (37.3 C or above) and slight runny nose, until you recover. If it is essential for you to have someone bring you supplies or to go out, e.g. to buy food, then wear a mask to avoid infecting other people.\n    Why? Avoiding contact with others and visits to medical facilities will allow these facilities to operate more effectively and help protect you and others from possible COVID-19 and other viruses.\n    If you develop fever, cough and difficulty breathing, seek medical advice promptly as this may be due to a respiratory infection or other serious condition. Call in advance and tell your provider of any recent travel or contact with travelers.This will also help to prevent spread of COVID-19 and other viruses."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "likely",
+                        "patterns": [
+                                "how likely am i to catch COVID-19",
+                                "how likely am i to get covid",
+                                "likely to catch covid-19",
+                                "what is the risk of catching covid",
+                                "can I get covid",
+                                "can I get covid-19",
+                                "can I get coronavirus",
+                                "risk of getting covid",
+                                "likelihood of getting covid"
+                        ],
+                        "responses": [
+                                "The risk depends on where you  are - and more specifically, whether there is a COVID-19 outbreak unfolding there.\n\nFor most people in most locations the risk of catching COVID-19 is still low. However, there are now places around the world (cities or areas) where the disease is spreading. For people living in, or visiting, these areas the risk of catching COVID-19 is higher. Governments and health authorities are taking vigorous action every time a new case of COVID-19 is identified. Be sure to comply with any local restrictions on travel, movement or large gatherings. Cooperating with disease control efforts will reduce your risk of catching or spreading COVID-19.\n\nCOVID-19 outbreaks can be contained and transmission stopped, as has been shown in China and some other countries. Unfortunately, new outbreaks can emerge rapidly."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "worry",
+                        "patterns": [
+                                "Should I worry about COVID-19",
+                                "should i worry about corona",
+                                "I am scared about getting covid",
+                                "scared of covid-19",
+                                "scared of covid",
+                                "scared of coronavirus",
+                                "scared of corona",
+                                "worried about covid"
+                        ],
+                        "responses": [
+                                "Illness due to COVID-19 infection is generally mild, especially for children and young adults. However, it can cause serious illness: about 1 in every 5 people who catch it need hospital care. It is therefore quite normal for people to worry about how the COVID-19 outbreak will affect them and their loved ones.\nWe can channel our concerns into actions to protect ourselves, our loved ones and our communities. First and foremost among these actions is regular and thorough hand-washing and good respiratory hygiene. Secondly, keep informed and follow the advice of the local health authorities including any restrictions put in place on travel, movement and gatherings.\n\nLearn more about how to protect yourself at <a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public' target='blank'>World Health Organization (Advice for the public: Coronavirus disease)</a>"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "risk",
+                        "patterns": [
+                                "who is at risk of developing severe illness",
+                                "who is at risk of developing severe illness from covid",
+                                "am i at a risk of covid",
+                                "who is at a risk of catching covid",
+                                "risk of covid",
+                                "risk of covid-19",
+                                "risk of coronavirus",
+                                "covid risk",
+                                "corona risk",
+                                "coronavirus risk"
+                        ],
+                        "responses": [
+                                "While we are still learning about how COVID-19 affects people, older persons and persons with pre-existing medical conditions (such as high blood pressure, heart disease, lung disease, cancer or diabetes)  appear to develop serious illness more often than others."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "antibiotics",
+                        "patterns": [
+                                "Are antibiotics effective in curing or treating COVID-19",
+                                "can I use antibiotics to treat covid",
+                                "can I use antibiotics to treat covid-19",
+                                "covid antibiotics",
+                                "covid-19 antibiotics",
+                                "corona antibiotics",
+                                "do antibiotics help against covid",
+                                "can I take antibiotics for covid",
+                                "can I take antibiotics for covid-19",
+                                "antibiotics covid"
+                        ],
+                        "responses": [
+                                "No. Antibiotics do not work against viruses, they only work on bacterial infections. COVID-19 is caused by a virus, so antibiotics do not work. Antibiotics should not be used as a means of prevention or treatment of COVID-19. They should only be used as directed by a physician to treat a bacterial infection."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "SARS",
+                        "patterns": [
+                                "Is COVID-19 the same as SARS",
+                                "is covid the same as sars",
+                                "SARS vs covid",
+                                "SARS vs covid-19",
+                                "SARS vs coronavirus",
+                                "covid vs SARS",
+                                "covid-19 vs SARS",
+                                "What is the difference between covid and SARS",
+                                "Is there a difference between COVID-19 and SARS",
+                                "Is there a difference between coronavirus and SARS",
+                                "coronavirus vs SARS",
+                                "sars virus",
+                                "sars",
+                                "what is sars"
+                        ],
+                        "responses": [
+                                "The virus that causes COVID-19 and the one that caused the outbreak of Severe Acute Respiratory Syndrome (SARS) in 2003 are related to each other genetically, but the diseases they cause are quite different.\n\nSARS was more deadly but much less infectious than COVID-19. There have been no outbreaks of SARS anywhere in the world since 2003."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "mask",
+                        "patterns": [
+                                "Should i wear mask to protect myself",
+                                "should i wear a mask to protect",
+                                "do I have to wear a mask",
+                                "are masks recommended",
+                                "should i wear a mask",
+                                "can I wear a mask",
+                                "are masks helpful"
+                        ],
+                        "responses": [
+                                "Masks are strongly recommended especially if you are ill with COVID-19 symptoms (especially coughing) or looking after someone who may have COVID-19. Disposable face mask can only be used once.\n\nOther ways to protect yourself against COVID-19 are to frequently clean your hands, cover your cough with the bend of elbow or tissue and maintain a distance of at least 1 meter (3 feet) from people who are coughing or sneezing."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "put on",
+                        "patterns": [
+                                "how to put on, take off and dispose a mask",
+                                "how do I use a face mask",
+                                "how to use a face mask",
+                                "how do I use a mask",
+                                "how to use a mask",
+                                "how to wear a mask",
+                                "what do I do with a mask"
+                        ],
+                        "responses": [
+                                "Before touching the mask, clean hands with an alcohol-based hand rub or soap and water\nTake the mask and inspect it for tears or holes.\nOrient which side is the top side (where the metal strip is).\nEnsure the proper side of the mask faces outwards (the coloured side).\nPlace the mask to your face. Pinch the metal strip or stiff edge of the mask so it moulds to the shape of your nose.\n Pull down the mask’s bottom so it covers your mouth and your chin.\nAfter use, take off the mask; remove the elastic loops from behind the ears while keeping the mask away from your face and clothes, to avoid touching potentially contaminated surfaces of the mask.\nDiscard the mask in a closed bin immediately after use.\nPerform hand hygiene after touching or discarding the mask – Use alcohol-based hand rub or, if visibly soiled, wash your hands with soap and water."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "incubation",
+                        "patterns": [
+                                "How long is the incubation period of COVID-19",
+                                "incubation period covid-19",
+                                "incubation period of covid",
+                                "incubation coronavirus",
+                                "incubation period coronavirus",
+                                "incubation period corona",
+                                "incubation length of coronavirus",
+                                "incubation covid",
+                                "incubation corona"
+                        ],
+                        "responses": [
+                                "The “incubation period” means the time between catching the virus and beginning to have symptoms of the disease. Most estimates of the incubation period for COVID-19 range from 1-14 days, most commonly around five days. These estimates will be updated as more data becomes available."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "human",
+                        "patterns": [
+                                "can human become infected with the COVID-19 from an animal source",
+                                "can human become infected with the coronavirus from an animal source",
+                                "can I catch covid from an animal",
+                                "can I get covid-19 from an animal",
+                                "can I get coronavirus from animal",
+                                "do bats spread covid",
+                                "coronavirus and animals",
+                                "do animals spread covid-19",
+                                "do animals spread coronavirus"
+                        ],
+                        "responses": [
+                                "Coronaviruses are a large family of viruses that are common in animals. Occasionally, people get infected with these viruses which may then spread to other people. For example, SARS-CoV was associated with civet cats and MERS-CoV is transmitted by dromedary camels. Possible animal sources of COVID-19 have not yet been confirmed.  \n\nTo protect yourself, such as when visiting live animal markets, avoid direct contact with animals and surfaces in contact with animals. Ensure good food safety practices at all times. Handle raw meat, milk or animal organs with care to avoid contamination of uncooked foods and avoid consuming raw or undercooked animal products."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "pet",
+                        "patterns": [
+                                "Can i catch COVID-19 from pet",
+                                "Can i catch coronavirus from pet",
+                                "can I get coronavirus from my pet",
+                                "can my pet give me covid",
+                                "can my pet spread covid"
+                        ],
+                        "responses": [
+                                "We are aware of instances of animals and pets of COVID-19 patients being infected with the disease;\nAs the intergovernmental body responsible for improving animal health worldwide, the World Organization for Animal Health (OIE) has been developing technical guidance on specialized topics related to animal health, dedicated to veterinary services and technical experts (including on testing and quarantine);\nThere is a possibility for some animals to become infected through close contact with infected humans. Further evidence is needed to understand if animals and pets can spread the disease;\nBased on current evidence, human to human transmission remains the main driver;\nIt is still too early to say whether cats could be the intermediate host in the transmission of COVID-19."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "surface",
+                        "patterns": [
+                                "how long does the virus survive on surface",
+                                "how long does covid survive on a surface",
+                                "how long does covid live on a surface",
+                                "how long does coronavirus survive on a surface",
+                                "how do I know if covid is gone from a surface",
+                                "how do I know if coronavirus is gone from a surface",
+                                "How long does the virus survive on surfaces",
+                                "life of coronavirus on surface",
+                                "virus on surface"
+                        ],
+                        "responses": [
+                                "It is not certain how long the virus that causes COVID-19 survives on surfaces, but it seems to behave like other coronaviruses. Studies suggest that coronaviruses (including preliminary information on the COVID-19 virus) may persist on surfaces for a few hours or up to several days. This may vary under different conditions (e.g. type of surface, temperature or humidity of the environment).\n\nIf you think a surface may be infected, clean it with simple disinfectant to kill the virus and protect yourself and others. Clean your hands with an alcohol-based hand rub or wash them with soap and water. Avoid touching your eyes, mouth, or nose."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "package",
+                        "patterns": [
+                                "is it safe to receive a package from any area where COVID-19 has been reported",
+                                "safe to receive a package",
+                                "package from corona area",
+                                "package from covid area",
+                                "are packages safe",
+                                "covid package",
+                                "coronavirus package",
+                                "covid-19 package"
+                        ],
+                        "responses": [
+                                "Yes. The likelihood of an infected person contaminating commercial goods is low and the risk of catching the virus that causes COVID-19 from a package that has been moved, travelled, and exposed to different conditions and temperature is also low."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "notdo",
+                        "patterns": [
+                                "is there anything i should not do",
+                                "is there anything i should not do to prevent covid-19",
+                                "not do to prevent coronavirus"
+                        ],
+                        "responses": [
+                                "The following measures ARE NOT effective against COVID-2019 and can be harmful:\n\n    Smoking\n    Wearing multiple masks\n    Taking antibiotics (See question 10 \"Are there any medicines of therapies that can prevent or cure COVID-19?\")\n\nIn any case, if you have fever, cough and difficulty breathing seek medical care early to reduce the risk of developing a more severe infection and be sure to share your recent travel history with your health care provider."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "source",
+                        "patterns": [
+                                "Is the source of the coronavirus causing COVID-19 known?",
+                                "what is the source of covid-19",
+                                "what is the source of covid",
+                                "what is the source of coronavirus",
+                                "what is the source of corona",
+                                "what caused covid",
+                                "what caused covid-19",
+                                "what caused coronavirus",
+                                "source covid",
+                                "source covid-19",
+                                "source coronavirus",
+                                "covid source",
+                                "covid-19 source",
+                                "coronavirus source"
+                        ],
+                        "responses": [
+                                "Currently, the source of SARS-CoV-2, the coronavirus (CoV) causing COVID-19 is unknown. All available evidence suggests that SARS-CoV-2 has a natural animal origin and is not a constructed virus. SARS-CoV-2 virus most probably has its ecological reservoir in bats. SARS-CoV-2, belongs to a group of genetically related viruses, which also include SARS-CoV and a number of other CoVs isolated from bats populations. MERS-CoV also belongs to this group, but is less closely related."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "occur",
+                        "patterns": [
+                                "how did the first human SARS-CoV-2 infection occur",
+                                "first covid case",
+                                "first covid-19 case",
+                                "first coronavirus case",
+                                "first corona case",
+                                "patient zero covid",
+                                "patient zero covid-19",
+                                "patient zero coronavirus",
+                                "first case covid",
+                                "first case covid-19",
+                                "first case coronavirus"
+                        ],
+                        "responses": [
+                                "The first human cases of COVID-19 were identified in Wuhan City, China in December 2019. At this stage, it is not possible to determine precisely how humans in China were initially infected with SARS-CoV-2.\n\nHowever, SARS-CoV, the virus which caused the SARS outbreak in 2003, jumped from an animal reservoir (civet cats, a farmed wild animal) to humans and then spread between humans. In a similar way, it is thought that SARS-CoV-2 jumped the species barrier and initially infected humans, but more likely through an intermediate host, that is another animal species more likely to be handled by humans - this could be a domestic animal, a wild animal, or a domesticated wild animal and, as of yet, has not been identified."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "airbone",
+                        "patterns": [
+                                "Is COVID-19 airborne",
+                                "is covid airborne",
+                                "covid airborne",
+                                "coronavirus airborne",
+                                "does covid spread through air",
+                                "does coronavirus spread through air",
+                                "does covid-19 spread through air",
+                                "does coronavirus spread through air",
+                                "covid air spread",
+                                "covid-19 air spread",
+                                "coronavirus air spread",
+                                "spread of covid through air",
+                                "spread of coronavirus thorugh air"
+                        ],
+                        "responses": [
+                                "The virus that causes COVID-19 is mainly transmitted through droplets generated when an infected person coughs, sneezes, or speaks. These droplets are too heavy to hang in the air. They quickly fall on floors or surfaces. \n\nYou can be infected by breathing in the virus if you are within 1 metre of a person who has COVID-19, or by touching a contaminated surface and then touching your eyes, nose or mouth before washing your hands"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "nosymptom",
+                        "patterns": [
+                                "Can CoVID-19 be caught from a person who has no symptoms",
+                                "covid from someone who has no symptoms",
+                                "covid-19 from someone who has no symptoms",
+                                "can I get covid from someone who has no symptoms",
+                                "can I spread covid if I have no symptoms",
+                                "can covid be spread by someone who has no symptoms",
+                                "no symptoms covid spread",
+                                "no symptoms covid-19 spread",
+                                "asymptomatic covid",
+                                "asymptomatic coronavirus"
+                        ],
+                        "responses": [
+                                "The main way the disease spreads is through respiratory droplets expelled by someone who is coughing. The risk of catching COVID-19 from someone with no symptoms at all is very low. However, many people with COVID-19 experience only mild symptoms. This is particularly true at the early stages of the disease. It is therefore possible to catch COVID-19 from someone who has, for example, just a mild cough and does not feel ill. "
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "deas",
+                        "patterns": [
+                                "Can I catch COVID-19 from the feces of someone with the disease",
+                                "can I catch covid from feces",
+                                "covid feces"
+                        ],
+                        "responses": [
+                                "The risk of catching COVID-19 from the feces of an infected person appears to be low. While initial investigations suggest the virus may be present in feces in some cases, spread through this route is not a  main feature of the outbreak. The ongoing research on the ways COVID-19 is spread and will continue to share new findings. Because this is a risk, however, it is another reason to clean hands regularly, after using the bathroom and before eating. "
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "protect",
+                        "patterns": [
+                                "What can I do to protect myself",
+                                "how to protect",
+                                "how to protect myself",
+                                "how to protect myself from covid",
+                                "how to protect myself from covid-19",
+                                "how to protect myself from corona"
+                        ],
+                        "responses": [
+                                "Protection measures for everyone Stay aware of the latest information on the COVID-19 outbreak, available on the national, state and local public health authority. Many countries around the world have seen cases of COVID-19 and several have seen outbreaks. Authorities in China and some other countries have succeeded in slowing or stopping their outbreaks. However, the situation is unpredictable so check regularly for the latest news. "
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "precautions",
+                        "patterns": [
+                                "precautions",
+                                "reduce chance of getting corona",
+                                "prevention",
+                                "how to prevent from covid-19",
+                                "Protect",
+                                "protection",
+                                "how to prevent",
+                                "how to prevent from covid",
+                                "prevent"
+                        ],
+                        "responses": [
+                                "1. Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water. \n2. Maintain at least 1 metre (3 feet) distance between yourself and anyone who is coughing or sneezing. \n3. Avoid touching eyes, nose and mouth. \n4.Stay home if you feel unwell. If you have a fever, cough and difficulty breathing, seek medical attention and call in advance. Follow the directions of your local health authority. "
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "anti",
+                        "patterns": [
+                                "Are antibiotics effective in preventing treating the COVID-19?",
+                                "treatment of covid by antibiotics",
+                                "treatment of covid-19 by antibiotics",
+                                "coronavirus antibiotics",
+                                "covid antibiotics"
+                        ],
+                        "responses": [
+                                "No. Antibiotics do not work against viruses, they only work on bacterial infections. COVID-19 is caused by a virus, so antibiotics do not work. Antibiotics should not be used as a means of prevention or treatment of COVID-19. They should only be used as directed by a physician to treat a bacterial infection. "
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "wear",
+                        "patterns": [
+                                "when Should I wear mask to protect myself",
+                                "when should I wear mask",
+                                "when should I wear mask to protect myself from covid"
+                        ],
+                        "responses": [
+                                "Only wear a mask if you are ill with COVID-19 symptoms (especially coughing) or looking after someone who may have COVID-19. Disposable face mask can only be used once. We urge people to use masks wisely. "
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "whenmask",
+                        "patterns": [
+                                "who should use mask",
+                                "who must wear mask",
+                                "who should wear mask",
+                                "is it necessary to wear mask",
+                                "is it necessary to wear mask to protect myself from covid"
+                        ],
+                        "responses": [
+                                "A mask should only be used by health workers, care takers, and individuals with respiratory symptoms, such as fever and cough."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "timeperiod",
+                        "patterns": [
+                                "How long is the incubation period for COVID-19",
+                                "how many days it take to show symptoms",
+                                "how many days it take to show symptoms of covid",
+                                "days it take to show symptoms of covid-19"
+                        ],
+                        "responses": [
+                                "The incubation period means the time between catching the virus and beginning to have symptoms of the disease. Most estimates of the incubation period for COVID-19 range from 1-14 days, most commonly around five days. These estimates will be updated as more data become available."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "animals",
+                        "patterns": [
+                                "Can humans become infected with the COVID-19 from an animal source",
+                                "can humans become infected with the covid-19 from an animal source",
+                                "humans infected with the coronavirus from an animal source"
+                        ],
+                        "responses": [
+                                "Coronaviruses are a large family of viruses that are common in animals. Occasionally, people get infected with these viruses which may then spread to other people. For example, SARS-CoV was associated with civet cats and MERS-CoV is transmitted by dromedary camels. Possible animal sources of COVID-19 have not yet been confirmed."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "anim",
+                        "patterns": [
+                                "how protect from animals",
+                                "how protect from animals to covid",
+                                "how protect from animals with covid-19"
+                        ],
+                        "responses": [
+                                "To protect yourself, such as when visiting live animal markets, avoid direct contact with animals and surfaces in contact with animals. Ensure good food safety practices at all times. Handle raw meat, milk or animal organs with care to avoid contamination of uncooked foods and avoid consuming raw or undercooked animal products. "
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "whycovid",
+                        "patterns": [
+                                "why disease is called covid19",
+                                "why disease is called covid-19",
+                                "why disease is called covid",
+                                "why name covid"
+                        ],
+                        "responses": [
+                                "In COVID-19, ‘CO’ stands for ‘corona,’ ‘VI’ for ‘virus,’ and ‘D’ for disease. Formerly, this disease was referred to as “2019 novel coronavirus” or “2019-nCoV”."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "stigma",
+                        "patterns": [
+                                "how can people help to stop stigma related to covid-19",
+                                "how can people help to stop stigma related to covid",
+                                "how can people help to stop stigma related to coronavirus"
+                        ],
+                        "responses": [
+                                "People can fight stigma by providing social support in situations where you notice this is occurring. Stigma affects the emotional or mental health of stigmatized groups and the communities they live in. Stopping stigma is important to making communities and community members resilient. "
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "highbp",
+                        "patterns": [
+                                "Are people with high blood pressure (hypertension) at higher risk from COVID-19",
+                                "are people with high blood pressure (hypertension) at higher risk from covid-19",
+                                "high BP at higher risk from coronavirus",
+                                "high BP at higher risk from covid-19"
+                        ],
+                        "responses": [
+                                "At this time, we do not think that people with high blood pressure and no other underlying health conditions are more likely than others to get severely ill from COVID-19. Although many people who have gotten severely ill from COVID-19 have high blood pressure, they are often older or have other medical conditions like obesity, diabetes, and serious heart conditions that place them at higher risk of severe illness from COVID-19"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "source",
+                        "patterns": [
+                                "what is the source of virus",
+                                "what is the source of virus of covid-19",
+                                "what is the source of virus of covid"
+                        ],
+                        "responses": [
+                                "COVID-19 is caused by a coronavirus called SARS-CoV-2. Coronaviruses are a large family of viruses that are common in people and many different species of animals, including camels, cattle, cats, and bats.  Rarely, animal coronaviruses can infect people and then spread between people. This occurred with MERS-CoV and SARS-CoV, and now with the virus that causes COVID-19. The SARS-CoV-2 virus is a betacoronavirus, like MERS-CoV and SARS-CoV. All three of these viruses have their origins in bats. "
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "quarantine",
+                        "patterns": [
+                                "can someone who has been quarantine spread illness",
+                                "can someone who has been quarantine spread illness of covid-19"
+                        ],
+                        "responses": [
+                                "Quarantine means separating a person or group of people who have been exposed to a contagious disease but have not developed illness (symptoms) from others who have not been exposed, in order to prevent the possible spread of that disease.For COVID-19, the period of quarantine is 14 days from the last date of exposure because the incubation period for this virus is 2 to 14 days. Someone who has been released from COVID-19 quarantine is not considered a risk for spreading the virus to others because they have not developed illness during the incubation period."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "food",
+                        "patterns": [
+                                "can this virus spread from food or food from restaurant",
+                                "can this virus spread from food or food from restaurant of covid-19",
+                                "virus spread from food or food from restaurant of covid"
+                        ],
+                        "responses": [
+                                "Based on information about this novel coronavirus thus far, it seems unlikely that COVID-19 can be transmitted through food – additional investigation is needed."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "temp",
+                        "patterns": [
+                                "Will high temp stop coronavirus",
+                                "high temperature effect on corona virus",
+                                "temperature effect on corona virus",
+                                "heat effect on virus",
+                                "heat effect on corona virus",
+                                "weather effect on corona virus",
+                                "weather effect on virus"
+                        ],
+                        "responses": [
+                                "Generally coronaviruses survive for shorter periods at higher temperatures and higher humidity than in cooler or dryer environments. However, we don’t have direct data for this virus, nor do we have direct data for a temperature-based cutoff for inactivation at this point. The necessary temperature would also be based on the materials of the surface, the environment, etc.  There is much more to learn about the transmissibility, severity, and other features associated with COVID-19 and investigations are ongoing."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "casescanada",
+                        "patterns": [
+                                "Total cases in canada",
+                                "corona positive in canada",
+                                "Corona cases canada",
+                                "stats of corona cases canada",
+                                "statistics report canada",
+                                "statistics covid canada",
+                                "statistics covid-19 canada",
+                                "canada statistics"
+                        ],
+                        "responses": [
+                                "To view latest statistics related to COVID-19 in Canada please visit shorturl.at/VWY02"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "casesworld",
+                        "patterns": [
+                                "Total cases in world",
+                                "corona positive in world",
+                                "Corona cases world",
+                                "stats of corona cases world",
+                                "statistics report world",
+                                "world statistics",
+                                "statistics covid world"
+                        ],
+                        "responses": [
+                                "Please visit <a href='https://covid19.who.int/' target='blank'>World Health Organization</a> for live updates"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "caringsomeone",
+                        "patterns": [
+                                "when caring for someone who is sick",
+                                "when caring for someone who is sick of covid-19"
+                        ],
+                        "responses": [
+                                "1.Limit contact\nCOVID-19 spreads between people who are in close contact (within about 6 feet) through respiratory droplets, created when someone talks, coughs or sneezes.\n2. Eat in separate rooms or areas\n3.Avoid sharing personal items like dishes, cups/glasses, towels, bedding, or electronics (like a cell phone) with the person who is sick.\n4.When to wear a cloth face cover or gloves\n5.Clean your hands often\n6.Clean and then disinfect around the house"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "childermask",
+                        "patterns": [
+                                "should children wear mask?",
+                                "children mask",
+                                "child mask"
+                        ],
+                        "responses": [
+                                "CDC recommends that everyone 2 years and older wear a cloth face covering that covers their nose and mouth when they are out in the community. Cloth face coverings should NOT be put on babies or children younger than 2 because of the danger of suffocation. Children younger than 2 years of age are listed as an exception as well as anyone who has trouble breathing or is unconscious, incapacitated, or otherwise unable to remove the face covering without assistance."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "familystress",
+                        "patterns": [
+                                "how can my family cope up with stress",
+                                "family stress of covid19",
+                                "family stress of covid-19",
+                                "support children"
+                        ],
+                        "responses": [
+                                "Supporting children with special healthcare needs can put additional demands and stress on families, especially during emergency situations. You have likely found ways to manage the stress and challenges unique to your family’s situation. It is important to continue your family’s coping methods, including reaching out to other family members, friends, support groups, and organizations that have been helpful in the past."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "soap",
+                        "patterns": [
+                                "should i use soap water or hand sanitizer",
+                                "soap water or hand sanitizer",
+                                "use soap or something for covid"
+                        ],
+                        "responses": [
+                                "Hand-washing is one of the best ways to protect yourself and your family from getting sick. Wash your hands often with soap and water for at least 20 seconds, especially after blowing your nose, coughing, or sneezing; going to the bathroom; and before eating or preparing food. If soap and water are not readily available, use an alcohol-based hand sanitizer with at least 60% alcohol."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "outbreak",
+                        "patterns": [
+                                "what should i do if there is an outbreak in our community",
+                                "outbreak in community",
+                                "outbreak in community what to do",
+                                "what to do if outbreak"
+                        ],
+                        "responses": [
+                                "During an outbreak, stay calm and put your preparedness plan to work. Follow the steps below:\n1.Stay home if you are sick. Keep away from people who are sick. Limit close contact with others as much as possible (about 6 feet).\n2.Stay informed about the local COVID-19 situation\n3.Continue practicing everyday preventive actions\n4.Notify your workplace as soon as possible if your regular work schedule changes\n5.Stay in touch with others by phone or email"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "communitywork",
+                        "patterns": [
+                                "should i go to work if there is outbreak in my community",
+                                "outbreak in community should i go to work"
+                        ],
+                        "responses": [
+                                "Follow the advice of your local health officials. Stay home if you can. Talk to your employer to discuss working from home, taking leave if you or someone in your household gets sick with COVID-19 symptoms, or if your child’s school is dismissed temporarily. Employers should be aware that more employees may need to stay at home to care for sick children or other sick family members than is usual in case of a community outbreak."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "testforcovid",
+                        "patterns": [
+                                "how can i get tested for covid19",
+                                "checkup for corona virus",
+                                "Where to get tested or assessed for covid",
+                                "Where to get tested for covid",
+                                "Where to get assessed for covid",
+                                "Where to get tested for covid19"
+                        ],
+                        "responses": [
+                                "Two kinds of tests are available for COVID-19: viral tests and antibody tests. A viral test checks for a current infection. An antibody test checks for a previous infection.\nIf you think you need a viral test, call your healthcare provider or state or localexternal icon health department and tell them about your symptoms and how you think you may have been exposed to the virus. Your healthcare provider can let you know if they offer viral tests at their office. Your state or local health department can provide local information on where testing is available. If you want an antibody test, call your healthcare provider to see if they offer antibody tests and whether you should get one. You can also visit your state or local health department’s website for local information on antibody testing."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "whogetvaccineCov",
+                        "patterns": [
+                                "Who can get vaccinated?",
+                                "Who can get vaccinated for covid",
+                                "Vaccine covid eligibility"
+                        ],
+                        "responses": [
+                                "Everyone aged six months and older is eligible to receive a COVID 19 vaccine."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "offeredCovvaccine",
+                        "patterns": [
+                                "Which COVID-19 vaccine is being offered by pharmacies?",
+                                "offered covid-19 vaccine",
+                                "offered covid vaccine",
+                                "what are covid-19 vaccines",
+                                ""
+                        ],
+                        "responses": [
+                                "For the primary COVID-19 vaccine series, pharmacies are administering COVID-19 mRNA vaccines, namely, the Pfizer COVID-19 vaccine (12+ formulation for ages 12+, and pediatric formulation for ages 5 – 11) as well as the Moderna COVID-19 vaccine (for ages 6 months and over)."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "docsforCovvaccine",
+                        "patterns": [
+                                "What do I need to bring with me to the pharmacy to get my COVID-19 vaccine?",
+                                "required doc for covid-19 vaccine",
+                                "required documents for covid-19 vaccine",
+                                "required document for covid-19 vaccine",
+                                "required documents for covid-19 vaccination",
+                                "ID for covid-19 vaccination",
+                                "required doc for covid-19 vaccination",
+                                "id for covid vaccine"
+                        ],
+                        "responses": [
+                                "A valid Ontario health card number. If you do not have it, then you can use Birth Certificate, or First Nations ID, or Passport, or MRN (Medical Record Number), Out of Province ID, or Driver’s Licence."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "whichpharmacyvaccineCov",
+                        "patterns": [
+                                "Which pharmacy can provide me with the COVID-19 vaccine?",
+                                "list of pharmacies for covid vaccine",
+                                "participating pharmacies for covid-19",
+                                "participating pharmacies for covid",
+                                "covid-19 participating pharmacies"
+                        ],
+                        "responses": [
+                                "You can locate a participating pharmacy at <a href='https://covid-19.ontario.ca/vaccine-locations/' target='blank'>Ontario.ca Covid-19 Pharmacy Vaccine Locations</a>."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "whocangetvaccinepharmacyCov",
+                        "patterns": [
+                                "Who can get a COVID-19 vaccine at a pharmacy?",
+                                "Who can get vaccinated for covid-19 at a pharmacy?"
+                        ],
+                        "responses": [
+                                "Individuals who live, work or study in Ontario or are visiting Ontario from another province / territory or another country may be eligible to receive the COVID-19 vaccine at a participating pharmacy."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "wheregetvaccineCov",
+                        "patterns": [
+                                "Where to get vaccinated?",
+                                "where to get vaccine",
+                                "where should I get vaccine",
+                                "where can i get vaccine"
+                        ],
+                        "responses": [
+                                "Eligible individuals aged six months and older can book an appointment through: <a href='https://covid-19.ontario.ca/book-vaccine/' target='blank'>Ontario.ca Covid-19 Booking</a>, or the Provincial Vaccine Contact Centre at  1-833-943-3900, or participating primary care providers, or <a href='https://covid-19.ontario.ca/vaccine-locations' target='blank'>Ontario.ca Covid-19 Pharmacy Vaccine Locations</a>"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "vaccproof",
+                        "patterns": [
+                                "where can i download proof of vaccination for covid-19 vaccine",
+                                "proof of covid-19 vaccine",
+                                "proof of covid-19 vaccination"
+                        ],
+                        "responses": [
+                                "You may look at <a href='https://www.ontario.ca/page/proof-covid-19-vaccination' target='blank'>Proof of Covid‑19 Vaccination</a>."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "VaccinatedOutOntarioCov",
+                        "patterns": [
+                                "If you were vaccinated out of Ontario",
+                                "vaccinated out of Ontario",
+                                "vaccinated out of ON",
+                                "How do I register my vaccines from outside Ontario",
+                                "vaccine registration out of ontario"
+                        ],
+                        "responses": [
+                                "If you received a COVID‑19 vaccine outside of Ontario or Canada, you should register your vaccination(s) by contacting your local public health unit <a href='https://www.phdapps.health.gov.on.ca/phulocator/' target='blank'>Public Health Unit Locator</a>."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "hadunauthorizedvaccineCov",
+                        "patterns": [
+                                "You had a vaccine not authorized by Health Canada",
+                                "had unauthorized vaccine",
+                                "unauthorized vaccine"
+                        ],
+                        "responses": [
+                                "If you received a COVID‑19 vaccine not authorized by Health Canada, please contact your public health unit."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "laterpositive",
+                        "patterns": [
+                                "can someone test negative and later test positive on viral test",
+                                "get again coronavirus"
+                        ],
+                        "responses": [
+                                "Yes, it is possible. You may test negative if the sample was collected early in your infection and test positive later during this illness. You could also be exposed to COVID-19 after the test and get infected then. Even if you test negative, you still should take steps to protect yourself and others. "
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "rescheduleappointment",
+                        "patterns": [
+                                "What if I cannot make it on the day of my scheduled appointment?",
+                                "reschedule appointment",
+                                "reschedule my appointment"
+                        ],
+                        "responses": [
+                                "If you need to reschedule the arrangements made for your appointment, please contact the pharmacy you booked from as soon as possible for scheduling an alternate day/time. If you booked at North York General Hospital, you can reschedule with them by calling at (416) 756-6666."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "AstraZenecaFirstDose",
+                        "patterns": [
+                                "My first dose was an AstraZeneca vaccine which is no longer available for first dose administration. What should I do about my second dose?",
+                                "first dose was AstraZeneca",
+                                "initial dose was AstraZeneca"
+                        ],
+                        "responses": [
+                                "Individuals who received their first dose of AstraZeneca/COVISHIELD vaccine should receive one of the mRNA vaccines (Pfizer [12+ formulation] or Moderna) as their second dose (unless there is a contraindication) and should receive their second dose at an interval. Please refer to the ministry website <a href='https://www.health.gov.on.ca/en/pro/programs/drugs/opdp_eo/eo_communiq.aspx' target='blank'>Ministry of Health: Ontario Public Drug Programs</a>."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "multiVacc",
+                        "patterns": [
+                                "For a multi-dose primary vaccine series, can I receive a different COVID-19 vaccine as my second dose?",
+                                "different covid-19 vaccine",
+                                "different types of covid-19 vaccine",
+                                "different models of covid-19 vaccine"
+                        ],
+                        "responses": [
+                                "Yes. The National Advisory Committee on Immunization (NACI) is now recommending the interchangeability of vaccines. Please refer to <a href='https://www.canada.ca/en/public-health/services/immunization/national-advisory-committee-on-immunization-naci/recommendations-use-covid-19-vaccines/summary-statement-june-17-2021.html' target='blank'>Recommendations on Covid-19 Vaccines</a>."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "childvacc",
+                        "patterns": [
+                                "What is the recommendation for children who are 5 years old? Which COVID19 vaccine should they receive?",
+                                "children vaccine",
+                                "vaccine for children"
+                        ],
+                        "responses": [
+                                "Based on <a href='https://www.canada.ca/content/dam/phac-aspc/documents/services/immunization/national-advisory-committee-on-immunization-naci/recommendations-use-moderna-spikevax-covid-19-vaccine-children-6-months-5-years.pdf' target='blank'>An Advisory Committee Statement (ACS) National Advisory Committee on Immunization (NACI)</a>, use of pediatric Pfizer BioNTech COVID-19 vaccine (10 mcg) is preferred."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "thirdvsbooster",
+                        "patterns": [
+                                "What is the difference between a third dose and a booster dose?",
+                                "third dose vs booster dose",
+                                "third vs booster",
+                                "third vs booster dose",
+                                "third dose vs booster",
+                                "difference between third and booster dose",
+                                "difference between third dose and booster dose",
+                                "difference between third dose and booster",
+                                "difference between third and booster",
+                                "how different are third dose and booster dose",
+                                "how do third dose and booster dose differ"
+                        ],
+                        "responses": [
+                                "The intent of a booster dose is to restore protection that may have decreased over time to a level that is no longer deemed sufficient in individuals who initially responded adequately to a complete primary vaccine series. This is distinguished from the intent of a third dose with the aim of enhancing the immune response and establishing an adequate level of protection."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "covidandfluvacc",
+                        "patterns": [
+                                "Can I get my COVID-19 vaccine at or around the same time as the flu vaccine?",
+                                "covid-19 conflict with flu vaccine",
+                                "can i get covid-19 and flu vaccine at the same time?"
+                        ],
+                        "responses": [
+                                "The COVID-19 vaccines may be given with, or at any time before or after, other vaccines, including the influenza vaccine with the exception of children aged 6 months to under 5 years of age."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "omicroninfo",
+                        "patterns": [
+                                "What is known about the Omicron variant?",
+                                "Omicron information"
+                        ],
+                        "responses": [
+                                "See the latest information about the Omicron variant on <a href='https://www.publichealthontario.ca/en' target='blank'>Public Health Ontario</a>"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "whyvaccineforomicron",
+                        "patterns": [
+                                "If Omicron is considered mild in many cases, why should I get the vaccine?",
+                                "why should i get a vaccine for Omicron",
+                                "why do i need vaccine for Omicron"
+                        ],
+                        "responses": [
+                                "While Omicron has shown to be mild in those who are fully vaccinated against COVID-19, it can lead to severe illness and death among unvaccinated individuals or those who are immunocompromised. There is also high community spread which means it is much easier to become infected and spread the virus. More widespread transmission also means a higher number of hospitalizations across Ontario. It is recommended everyone get three doses of the vaccine to protect against Omicron."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "covidvaccfor5to11",
+                        "patterns": [
+                                "Where can I get a vaccine for my 5 to 11-year-old?",
+                                "vaccine for my 5-11 year old"
+                        ],
+                        "responses": [
+                                "The North York Family Health Team is currently accepting online bookings for children aged 5-11 years. Book here: <a href='https://www.nyfht.com/' target='blank'>North York Family Health Team</a>. Vaccines for 5-11 year olds are also available at participating community clinics in North York (<a href='https://nygh.on.ca/test.php/covid19vaccination' target='blank'>North York General Hospital Covid-19 Vaccination</a>), participating pharmacies (<a href='https://www.ontario.ca/vaccine-locations' target='blank'>Ontario.ca Covid-19 pharmacy vaccine locations</a>), City of Toronto Mass Immunization Clinics, other fixed-site clinics, school-based clinics and primary care offices. Visit <a href='https://www.toronto.ca/home/covid-19/covid-19-vaccines/covid-19-vaccines-for-infants-children-youth/covid-19-children-vaccines/' target='blank'>Toronto.ca Covid-19 Vaccines for 5 to 17 Year Olds</a> website for more information. Appointments can also be booked through a variety of channels including the <a href='https://www.ontario.ca/book-vaccine/' target='blank'>Ontario.ca Covid-19 Vaccines Appointment</a>"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "covidvaccfor6mto5",
+                        "patterns": [
+                                "Where can I get vaccines for my 6 months to 5-year-old?",
+                                "vaccine for my 6 months to 5-year-old?"
+                        ],
+                        "responses": [
+                                "As of July 28, 2022, children 6 months to 5-years-olds are eligible to receive the approved pediatric vaccine. Parents/guardians can book appointments at select city-run clinics, hospitals, paediatrician offices, and pharmacies. For more details, please visit the City of Toronto’s <a href='https://www.toronto.ca/home/covid-19/covid-19-vaccines/covid-19-vaccines-for-infants-children-youth/covid-19-vaccines-for-6-months-to-under-5/' target='blank'>Toronto.ca Covid-19 Vaccines for 6 Months to Under 5 Years Old</a>"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "covidvaccsideeffects",
+                        "patterns": [
+                                "What are the side effects of the COVID-19 vaccine?",
+                                "side effects of covid-19 vaccine",
+                                "covid-19 vaccine side effect"
+                        ],
+                        "responses": [
+                                "Common COVID-19 vaccine side effects in children and adults are similar. Side effects are usually mild and go away within 1-3 days. They include: Sore arm near the injection site, Feeling tired, Headache, Achy muscles or joints, Fever and chills."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "boostereligible",
+                        "patterns": [
+                                "Am I eligible to get a COVID-19 booster dose?",
+                                "am i eligible for booster",
+                                "can i get booster"
+                        ],
+                        "responses": [
+                                "Adults aged 18 years and older are eligible for 3rd and 4th doses. At least three months must have passed since the previous dose to be eligible for the 3rd dose, and five months must have passed to be eligible for the 4th dose for most people. 3rd doses are also available for youth ages 12-17 years, but six months must have passed since the 2nd dose. Individuals must be 12 years old at the time of receiving the 3rd dose. See the City of Toronto <a href='https://www.toronto.ca/home/covid-19/covid-19-vaccines/covid-19-how-to-get-vaccinated/?accordion=third-doses' target='blank'>Toronto.ca Covid-19 Where to Get Vaccinated</a> website section on third doses for more information."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "wheregetbooster",
+                        "patterns": [
+                                "Where can I get a booster (third or fourth) dose of the COVID-19 vaccine?",
+                                "Where can I get a booster",
+                                "Where can I get a third dose",
+                                "Where can I get a fourth dose",
+                                "Where can I get booster",
+                                "Where can I get third dose",
+                                "Where can I get fourth dose"
+                        ],
+                        "responses": [
+                                "You can access a booster (third or fourth) dose through the following: Book online at <a href='https://www.nyfht.com/' target='blank'>North York Family Health Team</a> or by calling 647-670-2888, Book or walk in at a <a href='https://nygh.on.ca/test.php/covid19vaccination' target='blank'>North York General Hospital Covid-19 Vaccination</a> in North York, Book at City of Toronto <a href='https://www.ontario.ca/book-vaccine/' target='blank'>Ontario.ca Covid-19 Vaccine Appointment</a>, Book at <a href='https://www.ontario.ca/vaccine-locations' target='blank'>Ontario.ca Covid-19 Pharmacy Vaccine Locations</a>, Book at <a href='https://www.ontario.ca/book-vaccine/' target='blank'>Ontario.ca Covid-19 Vaccine Appointment</a>. Seniors in the North York area who require assistance getting their vaccination appointment can contact the Seniors’ Hotline for North York at 416-447-5200."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "whybooster",
+                        "patterns": [
+                                "Why should I get a booster dose?",
+                                "why do i have to get a booster",
+                                "why booster",
+                                "should I get a booster dose"
+                        ],
+                        "responses": [
+                                "Anyone who is 18 and over can schedule a booster dose vaccine appointment at least five months (104 days) after their last dose. A third dose provides an extra layer of protection against COVID-19."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "whenboosterifcovid",
+                        "patterns": [
+                                "If I have COVID-19 when I book my next dose?",
+                                "If I have COVID-19 when I book my booster dose?",
+                                "If I have COVID-19 when I book my third dose?"
+                        ],
+                        "responses": [
+                                "A recent infection will give you some natural immunity for a period of time (months) so it’s best to wait at least one month after your infection before booking your next vaccine appointment. If you had two doses of the vaccine before becoming infected you are at higher risk of becoming reinfected if you do not have a third dose."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "covvaccinesafety",
+                        "patterns": [
+                                "Is the covid-19 vaccine safe?",
+                                "safety of covid-19 vaccine",
+                                "covid-19 vaccine safety",
+                                "covid-19 vaccine safe?",
+                                "can I trust the covid-19 vaccine",
+                                "covid-19 vaccine safety"
+                        ],
+                        "responses": [
+                                "Yes. COVID-19 vaccines are safe, effective and have been rigorously evaluated. Vaccination, together with continued vigilance including wearing masks is our best hope to prevent people from getting ill, hospitalized, and potentially dying from COVID-19. Read more about the COVID-19 vaccines: <a href='https://www.toronto.ca/home/covid-19/covid-19-vaccines/covid-19-about-the-vaccines/' target='blank'>Ontario.ca Covid-19 About the Vaccines</a>"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "payforvaccine",
+                        "patterns": [
+                                "Do I need to pay to receive the vaccine?",
+                                "pay for vaccine?",
+                                "pay for the vaccine?",
+                                "vaccine cost"
+                        ],
+                        "responses": [
+                                "No. The vaccine is free of charge."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "PfizerModerna",
+                        "patterns": [
+                                "Do you carry the pfizer vaccine?",
+                                "Do you carry pfizer vaccine?",
+                                "Do you have the pfizer vaccine?",
+                                "Do you have pfizer vaccine?",
+                                "Do you carry the moderna vaccine?",
+                                "Do you carry moderna vaccine?",
+                                "Do you have the moderna vaccine?",
+                                "Do you have moderna vaccine?"
+                        ],
+                        "responses": [
+                                "Please call the NYGH outpatient pharmacy at (416) 756-6666."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "vaccforpregnant",
+                        "patterns": [
+                                "Can I be vaccinated if I'm pregnant?",
+                                "vaccine for pregnant",
+                                "can i get a vaccine if i am pregnant",
+                                "can i get vaccinated if i am pregnant",
+                                "get vaccinated if i am pregnant",
+                                "get vaccinated while pregnant",
+                                "get vaccinated while i am pregnant"
+                        ],
+                        "responses": [
+                                "Pregnant people are encouraged to get the vaccine as soon as possible. It is safe during any stage of pregnancy.  Please speak with your family physician or specialist before getting vaccinated. To help educate our community about the safety of the COVID vaccine during pregnancy, see <a href='https://www.nygh.on.ca/pregnancyandCOVID19' target='blank'>North York General Hospital Pregnancy and Covid-19 Vaccines</a>"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "againcv",
+                        "patterns": [
+                                "if i have recovered from covid-19 will i be immune to it",
+                                "can i get covid-19 again",
+                                "can i caught covid19 again once recovered"
+                        ],
+                        "responses": [
+                                "We do not know yet if people who recover from COVID-19 can get infected again. CDC and partners are investigating to determine if a person can get sick with COVID-19 more than once. Until we know more, continue to take steps to protect yourself and others."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "funeral",
+                        "patterns": [
+                                "am i at risk if i go to funeral of someone who died covid19",
+                                "can i attend funeral",
+                                "can i go to funeral",
+                                "can i go to funeral of someone who died covid19",
+                                "funeral attendance"
+                        ],
+                        "responses": [
+                                "There is currently no known risk associated with being in the same room at a funeral or visitation service with the body of someone who died of COVID-19."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "cleaning",
+                        "patterns": [
+                                "is cleaning effective against covid virus",
+                                "normal cleaning",
+                                "cleaning with water effective",
+                                "how to clean surfaces"
+                        ],
+                        "responses": [
+                                "Cleaning does not kill germs, but by removing them, it lowers their numbers and the risk of spreading infection. If a surface may have gotten the virus on it from a person with or suspected to have COVID-19, the surface should be cleaned and disinfected. Disinfecting kills germs on surfaces."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "moreinfo",
+                        "patterns": [
+                                "where can i get more information",
+                                "more info",
+                                "more information"
+                        ],
+                        "responses": [
+                                "<a href='https://covid-19.ontario.ca/covid-19-vaccines-ontario' target='blank'>Ontario.ca Covid-19 Vaccines</a>"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "nyghlocation",
+                        "patterns": [
+                                "where is North York General Hospital located?",
+                                "where is nygh located?",
+                                "location of North York General Hospital",
+                                "location of nygh",
+                                "what is nygh location?",
+                                "what is North York General Hospital location?"
+                        ],
+                        "responses": [
+                                "It is located in 4001 Leslie Street, Toronto ON M2K 1E1. You may find more information here: <a href='https://pharmaconnect.ca/Appointment/3e934dff-f4d6-40d9-9a98-3bbaddad51cf' target='blank'>PharmaConnect</a>"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "helplinelist",
+                        "patterns": [
+                                "helpline numbers",
+                                "on which  number i should call",
+                                "hospital number",
+                                "who can I call",
+                                "call",
+                                "NYGH hospital number",
+                                "hospital contact",
+                                "how do I contact the hospital",
+                                "how do I talk to a doctor",
+                                "how do I talk to a professional",
+                                "contact hospital"
+                        ],
+                        "responses": [
+                                "You can call at 416-756-6000. For further information, please refer to <a href='https://www.nygh.on.ca/test.php/patients-and-visitors/contact-us' target='blank'>North York General Hospital Contact Info</a>"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "monkeypoxsympaction",
+                        "patterns": [
+                                "What should I do if I have symptoms of Monkeypox?"
+                        ],
+                        "responses": [
+                                "If you have symptoms isolate yourself at home away from others and immediately contact your health care provider or local public health authority for advice on what to do. Learn more about it <a href='https://www.canada.ca/en/public-health/services/diseases/mpox/symptoms-management.html#a6' target='blank'>Monkeypox Symptoms</a>."
+                        ],
+                        "context": [ 
+                                ""
+                        ]
+                },
+                {
+                        "tag": "monkeypoxsimilarity",
+                        "patterns": [
+                                "Can Monkeypox appear similar to other diseases?"
+                        ],
+                        "responses": [
+                                "Monkeypox infection can appear similar to other infectious diseases, such as chickenpox, or several sexually transmitted infections (such as herpes or gonorrhea). This is why it's important to consult a health care provider and be tested."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "monkeypoxaction",
+                        "patterns": [
+                                "What do I do if I have Monkeypox?"
+                        ],
+                        "responses": [
+                                "If you've been infected with the monkeypox virus, your local public health authority may require that you isolate to prevent further spread. They may recommend that you isolate at home or at a different location, depending on your living situation. For more information, visit <a href='https://www.canada.ca/en/public-health/services/diseases/monkeypox/symptoms-management.html' target='blank'>Monkeypox Symptoms</a>."
+                        ],
+                        "context": [ 
+                                ""
+                        ]           
+                },
+                {
+                        "tag": "monkeypoxcaretaking",
+                        "patterns": [
+                                "How do I take care of someone who has Monkeypox?",
+                                "How can I care for someone with monkeypox infection, or with symptoms that may be due to monkeypox infection?"
+                        ],
+                        "responses": [
+                                "Ideally, only one person in the home should provide care to someone who is in isolation. This will help reduce the risk of spreading the monkeypox virus to others. The caregiver should not be someone who is considered vulnerable, including people who are: pregnant, immunocompromised, under the age of 12 years. Watch for signs or symptoms of monkeypox infection for 21 days since your last exposure to the person you're caring for. For more information visit <a href=https://www.canada.ca/en/public-health/services/diseases/monkeypox/symptoms-management.html#a6' target='blank'>Monkeypox Symptoms</a>."
+                        ],
+                        "context": [
+                                ""
+                        ]        
+                },
+                {
+                        "tag": "monkeypoxexposed",
+                        "patterns": [
+                                "What do I do if I have been exposed to Monkeypox?"
+                        ],
+                        "responses": [
+                                "If you know you've been exposed to someone with monkeypox infection, contact your local public health authority immediately. Your local public health authority may also tell you that you've been exposed to someone infected with the monkeypox virus. They will provide you with instructions on what to do and how to reduce the risk of further spread."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "flucontagious",
+                        "patterns": [
+                                "Is the flu contagious?"
+                        ],
+                        "responses": [
+                                "The flu is very contagious and can spread quickly and easily. Some people with the flu only get mildly ill. Others, like those over 65 years and young children, can get very sick."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "fluvaccinewithcovidvaccine",
+                        "patterns": [
+                                "Should I get the flu vaccine if I have the COVID-19 vaccine?"
+                        ],
+                        "responses": [
+                                "You should get the flu shot even if you've already had the COVID-19 vaccine. The COVID-19 vaccine doesn't protect you from the flu. Being protected from both the flu and COVID-19 lowers your risk of severe health complications."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "fluvaccineeligibility",
+                        "patterns": [
+                                "Who should get the flu shot?"
+                        ], 
+                        "responses": [
+                                "Everyone 6 months and older should get the flu shot, it's especially important for people at high risk of health complications from the flu and COVID-19, and for people who can spread the flu to them."
+                        ], 
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "fluselfprotection",
+                        "patterns": [
+                                "How can I protect myself against the flu?"
+                        ], 
+                        "responses": [
+                                "You can follow these guidelines to better protect yourself against the flu: Get vaccinated against both the flu and COVID-19, Stay home and away from others if you feel sick, Improve ventilation in indoor and shared spaces, Wash your hands often with soap and water. Use hand sanitizer if soap and water aren't available, Wash your hands before touching your eyes, nose or mouth, Cough and sneeze into a tissue or into the bend of your arm, Clean and disinfect frequently touched surfaces and objects. For more information, visit <a href='https://www.canada.ca/en/public-health/services/diseases/flu-influenza.html' target='blank'>Influenza Info</a>."
+                        ], 
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "flushotfrequency",
+                        "patterns": [
+                                "Do I need to get the flu shot every year?"
+                        ], 
+                        "responses": [
+                                "A new flu vaccine is created every year to protect you during flu season. It's important that you get a new flu shot every year because the type of flu virus usually changes from year to year and the effectiveness of the flu shot can wear off, so you need a new one every year to stay protected"
+                        ], 
+                        "context": [
+                                ""
+                        ] 
+                },
+                {
+                        "tag": "covidpublichealthmeasure",
+                        "patterns": [
+                                "What are the public health measures around COVID-19?"
+                        ],
+                        "responses": [
+                                "When layered together, public health measures are effective in reducing the spread of COVID-19, including variants of concern. Regardless of your vaccination status, you should continue to follow the advice of your local public health authority and layer multiple individual public health measures to protect yourself and others. Learn more about it <a href='https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/symptoms/provincial-territorial-resources-covid-19.html' target='blank'>Covid-19 Info</a> and <a href='https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/prevention-risks.html#p' target='blank'>Covid-19 Risk Prevention</a>."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "covidcaretaking ",
+                        "patterns": [
+                                "How do I care for someone who has COVID-19?"
+                        ],
+                        "responses": [
+                                "You may be caring for someone at home who has or may have COVID-19. If so, you should follow the appropriate precautions to reduce the risk of illness spreading within your home. Adults and children with mild COVID-19 symptoms can stay at home while recovering. You don’t need to go to the hospital if symptoms are mild. Learn more about it <a href='https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/prevention-risks/how-care-someone-covid-19-home.html' target='blank'>Covid-19 Caretaking</a>.: "
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "covidtravelreturn",
+                        "patterns": [
+                                "What are the travel guidelines if I am returning back to Canada? "
+                        ],
+                        "responses": [
+                                "There are no COVID-19 restrictions or regulations for all travellers entering Canada by air, land or marine mode on or after October 1, 2022"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "bivalentinfo",
+                        "patterns": [
+                                "What are bivalent vaccines?"
+                        ],
+                        "responses": [
+                                "The virus that causes COVID-19 has evolved over time and some of these changes have created new variants of concern. Manufacturers have updated their vaccines to provide better protection against these variants. The updated vaccines are called \"bivalent\" because they target 2 strains of COVID-19 virus: the original strain and an Omicron strain."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "bivalenteligibility",
+                        "patterns": [
+                                "Can I get the bivalent vaccine?"
+                        ],
+                        "responses": [
+                                "Bivalent vaccines are only approved for use as a booster dose. They are recommended for fall 2022 boosters for people 12 years and older. You can check with your province or territory to see what vaccines are recommended for you."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "covidvaccinebenefits",
+                        "patterns": [
+                                "What are the benefits of getting vaccinated against COVID-19?"
+                        ],
+                        "responses": [
+                                "Vaccination is one of the most effective ways to protect against COVID-19. All approved COVID-19 vaccines used in Canada continue to be very effective at protecting against severe illness, hospitalization and death from COVID-19. Getting vaccinated can also reduce the likelihood of developing symptoms of post COVID-19 condition. Post COVID-19 condition, also known as long COVID, is when people still experience symptoms of COVID-19 for weeks or months after their initial recovery."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "covidvaccinemoreinfo",
+                        "patterns": [
+                                "Who should I talk to if I have more questions about the COVID-19 vaccine?"
+                        ],
+                        "responses": [
+                                "If you have questions about getting your vaccine, consult with a health care provider."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "covidtestaccuracy",
+                        "patterns": [
+                                "Are COVID-19 tests accurate?"
+                        ],
+                        "responses": [
+                                "The accuracy of a test can vary depending on when your sample is taken during the course of your illness. If you're tested too soon after you were exposed to COVID-19, there may not be enough virus in your body for an accurate result. If this is the case at the time of the test, your test may come back negative, even if you actually have the virus. This would be considered a ‘false negative’ test."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "covidvaccineconsultation",
+                        "patterns": [
+                                "Should I consult my doctor before getting the vaccine?"
+                        ],
+                        "responses": [
+                                "Contact your doctor or health care provider if you have questions about getting the vaccine. Read more <a href='https://www.canada.ca/en/public-health/services/canadian-immunization-guide.html' target='blank'>Canadian Immunization Guide</a>." 
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "covidvaccineifalreadyhadcovid",
+                        "patterns": [
+                                "Should I get the COVID-19 vaccine if I have already had COVID-19?"
+                        ],
+                        "responses": [
+                                "If you’ve already had COVID‑19, you should still be vaccinated for protection from reinfection or severe outcomes. Discuss the best timing for you with a health care provider."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "covidapprovedvaccines",
+                        "patterns": [
+                                "What are the different approved vaccines?"
+                        ],
+                        "responses": [
+                                "You can find all of the authorized vaccines at <a href='https://www.canada.ca/en/health-canada/services/drugs-health-products/covid19-industry/drugs-vaccines-treatments/vaccines.html' target='blank'>Health Canada</a>."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "covidselfassess",
+                        "patterns": [
+                                "Can I self-assess if I have symptoms of COVID-19?"
+                        ],
+                        "responses": [
+                                "Take <a href='https://www.ontario.ca/self-assessment/' target='blank'>this</a> self-assessment if you have any symptoms of illness or tested positive for COVID-19."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "covidscreeningrequirements",
+                        "patterns": [
+                                "What screening requirements must visitors meet to be able to participate in a visit?"
+                        ],
+                        "responses": [
+                                "All visitors should pass active screening on entry for symptoms and exposures for COVID-19, including temperature checks, and attest to not be experiencing any of the typical and atypical symptoms."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "fullyvaccinatedifoutsidecanada",
+                        "patterns": [
+                                "If I received a first dose (or more than one dose) of a vaccine outside of Ontario or Canada, am I considered fully vaccinated and up to date?"
+                        ],
+                        "responses": [
+                                "Please refer to <a href='https://covid-19.ontario.ca/proof-covid-19-vaccination#proof-of-vaccination' target='blank'>Ontario.ca Proof of Vaccination</a> to determine if you are considered fully vaccinated."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "covidvaccineadministration",
+                        "patterns": [
+                                "What happens before and after the vaccine is administered by the pharmacy?"
+                        ],
+                        "responses": [
+                                "The pharmacist will provide details on the process before the COVID-19 vaccine immunization begins, as well as answer any other questions you may have."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "covidmultidose",
+                        "patterns": [
+                                "For a multi-dose primary vaccine series, what happens after receiving the first dose of the COVID-19 vaccine?"
+                        ],
+                        "responses": [
+                                "After the first dose, the pharmacy will schedule an appointment for your second dose."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "covidrecommendedvaccine",
+                        "patterns": [
+                                "Which of the Pfizer vaccines is recommended for children who are 11 years of age and turning 12 by the time they are eligible for their second dose or booster dose?"
+                        ],
+                        "responses": [
+                                "At this time, only the Pediatric Pfizer BioNTech COVID-19 vaccine (10 mcg) is authorized as a booster dose for children."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "covidvaccineretirementresidence",
+                        "patterns": [
+                                "I am a resident living in a retirement home or other congregate setting. Can I get my vaccine dose at my place of residence?"
+                        ],
+                        "responses": [
+                                "Yes, provided that you meet eligibility criteria for the vaccine, a pharmacy may administer your vaccine dose at your retirement home or other congregate setting."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "covidvaccinelongtermresidence",
+                        "patterns": [
+                                "I am a resident living in a long-term care home. Can I get my vaccine dose at my long-term care home?"
+                        ],
+                        "responses": [
+                                "Yes, provided that you meet eligibility criteria for the vaccine, a pharmacy may administer your vaccine dose at your long-term care home."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "covidvaccinewaitperiod",
+                        "patterns": [
+                                "How long am I required to wait before getting my COVID-19 vaccine if I was infected with SARS-CoV-2?"
+                        ],
+                        "responses": [
+                                "Individuals who have been infected with SARS-CoV-2 before starting or completing their primary vaccine series (i.e., after their first dose) may receive their first or next dose 8 weeks after symptoms have started or after testing positive. Individuals 5 years of age and older are recommended to receive their booster dose at least 3 months after symptom onset or positive test (if asymptomatic) but 6 months may provide better immune response."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "monkeypoxprepvaccine",
+                        "patterns": [
+                                "Who is at higher risk for monkeypox and eligible for pre-exposure prophylaxis (PrEP) vaccine?"
+                        ],
+                        "responses": [
+                                "Individuals who identify as belonging to transgender, cisgender, the gay, bisexual, and other men who have sex with men community may be eligible for PrEP vaccine. These individuals should contact their local public health unit to determine if they are eligible to be vaccinated."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "monkeypoxpet",
+                        "patterns": [
+                                "I have pets in my home. What precautions should I take if I have monkeypox or symptoms of monkeypox?"
+                        ],
+                        "responses": [
+                                "The risk of infection in different animal species is unclear. It is best to find someone else to take care of your pet until you are out of isolation."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {
+                        "tag": "petisolating",
+                        "patterns": [
+                                "What if my pet becomes sick while I am isolating?"
+                        ],
+                        "responses": [
+                                "If your animal is in quarantine with you and becomes sick, it is preferred to first seek care from a veterinary telemedicine service, to assess if the animal’s condition can be managed at home."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                }
+        ]
+}
