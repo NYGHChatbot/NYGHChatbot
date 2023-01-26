@@ -8,8 +8,7 @@
                                 "what be monkeypox",
                                 "Explain monkeypox",
                                 "Tell me about monkeypox",
-                                "tell me about monkeypox",
-                                "monkeypox"
+                                "tell me about monkeypox"
                         ],
                         "responses": [
                                 "Monkeypox is usually a self-limited viral infection with a rash that may be painful. Most people recover on their own after a few weeks. In some circumstances, people can become very sick and could die."
@@ -54,7 +53,7 @@
                                 "symptoms monkeypox"
                         ],
                         "responses": [
-                                "A rash can be accompanied by general symptoms such as: fever, chills, swollen lymph nodes, headache, muscle pain, joint pain, back pain, exhaustion. For more information, visit: https://www.canada.ca/en/public-health/services/diseases/monkeypox/symptoms-management.html"
+                                "A rash can be accompanied by general symptoms such as: fever, chills, swollen lymph nodes, headache, muscle pain, joint pain, back pain, exhaustion. For more information, visit: <a href='https://www.canada.ca/en/public-health/services/diseases/monkeypox/symptoms-management.html' target='blank'>Monkeypox: Symptoms, getting tested</a>"
                         ],
                         "context": [
                                 ""
@@ -107,8 +106,6 @@
                                 "available vaccine for monkeypox",
                                 "what are some available vaccines for monkeypox",
                                 "vaccine for monkeypox",
-                                "monkeypox vaccine",
-                                "vaccine monkeypox",
                                 "Is there a vaccine for monkeypox?"
                         ],
                         "responses": [
@@ -129,7 +126,7 @@
                                 "monkeypox vaccine eligibility"
                         ],
                         "responses": [
-                                "Adults 18 years and onlder who are at a high risk of exposure can get the vaccine. The National Advisory Committee on Immunization (NACI) recommends the Imvamune® vaccine may be offered to people with high-risk exposures to a probable or confirmed case of monkeypox, or within a setting where transmission is happening."
+                                "Adults 18 years and older who are at a high risk of exposure can get the vaccine. The National Advisory Committee on Immunization (NACI) recommends the Imvamune® vaccine may be offered to people with high-risk exposures to a probable or confirmed case of monkeypox, or within a setting where transmission is happening."
                         ],
                         "context": [
                                 ""
@@ -223,14 +220,14 @@
                                 "What should I do if I develop symptoms of monkeypox?"
                         ],
                         "responses": [
-                                "Stay in isolation until your local health authority tells you that you no longer have to isolate, avoid contact with people and animals, avoid sharing items that may be contaminated and follow hygienic practices. For more information visit https://www.canada.ca/en/public-health/services/diseases/monkeypox/symptoms-management.html#a6. You should also contact a health care provider to get advice on medical care."
+                                "Stay in isolation until your local health authority tells you that you no longer have to isolate, avoid contact with people and animals, avoid sharing items that may be contaminated and follow hygienic practices. For more information visit <a href='https://www.canada.ca/en/public-health/services/diseases/monkeypox/symptoms-management.html#a6' target='blank'>Monkeypox: Symptoms, getting tested</a>. You should also contact a health care provider to get advice on medical care."
                         ],
                         "context": [
                                 ""
                         ]
                 },
                 {
-                        "tag": "flu",
+                        "tag": "fluvirusis",
                         "patterns": [
                                 "What is the flu?",
                                 "What is flu",
@@ -240,7 +237,7 @@
                                 "explain the flu",
                                 "explain flu",
                                 "can you tell me what the flu is",
-                                "please exaplain the flu",
+                                "please explain the flu",
                                 "explain influenza"
                         ],
                         "responses": [
@@ -251,12 +248,12 @@
                         ]
                 },
                 {
-                        "tag": "flu",
+                        "tag": "fluvaccine",
                         "patterns": [
                                 "who can get the flu vaccine?"
                         ],
                         "responses": [
-                                "Everyone older than 6 months should get the flu shot every year, who is high risk, who may pass on the flu. Flu shots are safe. For more information, you may refer to https://www.canada.ca/en/public-health/services/diseases/flu-influenza/get-your-flu-shot.html."
+                                "Everyone older than 6 months should get the flu shot every year, who is high risk, who may pass on the flu. Flu shots are safe. For more information, you may refer to <a href='https://www.canada.ca/en/public-health/services/diseases/flu-influenza/get-your-flu-shot.html' target='blank'>Flu (influenza): Get your flu shot</a>."
                         ],
                         "context": [
                                 ""
@@ -279,7 +276,7 @@
                                 "symptoms of influenza"
                         ],
                         "responses": [
-                                "COVID-19 and the flu can have similar symptoms. If you start to develop any of the symptoms below, follow the same precautions taken for COVID-19. Flu symptoms appear 1 to 4 days after exposure to the virus. Usually they include the sudden appearance of:fever, cough, muscle aches and pain. Other common symptoms may include: headache, chills, fatigue (tiredness), loss of appetite, sore throat, runny or stuffy nose. For more information, visit: https://www.canada.ca/en/public-health/services/diseases/flu-influenza.html"
+                                "COVID-19 and the flu can have similar symptoms. If you start to develop any of the symptoms below, follow the same precautions taken for COVID-19. Flu symptoms appear 1 to 4 days after exposure to the virus. Usually they include the sudden appearance of:fever, cough, muscle aches and pain. Other common symptoms may include: headache, chills, fatigue (tiredness), loss of appetite, sore throat, runny or stuffy nose. For more information, visit: <a href='https://www.canada.ca/en/public-health/services/diseases/flu-influenza.html' target='blank'>Flu (influenza): Symptoms and treatment</a>"
                         ],
                         "context": [
                                 ""
@@ -296,17 +293,16 @@
                                 "treatment of flu",
                                 "what should I do with flu?",
                                 "I am scared. I think I have flu.",
-                                "have flu",
                                 "I have the flu",
                                 "I have influenza",
                                 "I have the influenza virus",
                                 "I have the flu virus",
                                 "What do I do if I have influenza",
                                 "influenza treatment",
-                                "nfluenza virus treatment"
+                                "influenza virus treatment"
                         ],
                         "responses": [
-                                "Flu symptoms can be treated with rest, fluids such as water, medication to reduce any fever or aches. In some cases a health care provider may prescribe medication, especially if you're at high risk for flu-related complications or very sick with severe symptoms. Over-the-counter cough and flu medicine should not be given to children younger than 6 years old. It's only safe to do so if you're advised to by your health care provider."
+                                "Flu symptoms can be treated with rest, fluids such as water, medication to reduce any fever or aches. In some cases a health care provider may prescribe medication, especially if you're at high risk for flu-related complications or very sick with severe symptoms. Over-the-counter cough and flu medicine should not be given to children younger than 6 years old. It's only safe to do so if you're advised by your health care provider."
                         ],
                         "context": [
                                 ""
@@ -325,15 +321,11 @@
                                 "get flu shot",
                                 "getting flu shot",
                                 "getting my flu shot",
-                                "flu vaccine",
-                                "flu shot",
-                                "infuenza vaccine",
-                                "influenza shot",
                                 "how do I get the influenza vaccine",
                                 "how do I get influenza shot"
                         ],
                         "responses": [
-                                "Flu vaccine is available at many local pharmacies and primary care clinics. You can also book at North York General Hospital pharmacy through https://pharmaconnect.ca/Appointment/3e934dff-f4d6-40d9-9a98-3bbaddad51cf."
+                                "Flu vaccine is available at many local pharmacies and primary care clinics. You can also book at North York General Hospital pharmacy through <a href='https://pharmaconnect.ca/Appointment/3e934dff-f4d6-40d9-9a98-3bbaddad51cf' target='blank'>PharmaConnect</a>."
                         ],
                         "context": [
                                 ""
@@ -368,7 +360,7 @@
                                 "is the flu shot safe"
                         ],
                         "responses": [
-                                "You cannot get the flu from the flu shot, most people have no side effects from the flu shot and severe reactions are very rare. To learn more about the safety of vaccines, refer to: https://www.canada.ca/en/public-health/services/vaccination-children/safety-concerns-side-effects.html"
+                                "You cannot get the flu from the flu shot, most people have no side effects from the flu shot and severe reactions are very rare. To learn more about the safety of vaccines, refer to: <a href='https://www.canada.ca/en/public-health/services/vaccination-children/safety-concerns-side-effects.html' target='blank'>Vaccine safety and possible side effects</a>"
                         ],
                         "context": [
                                 ""
@@ -402,7 +394,7 @@
                                 "Is the flu vaccine effective?",
                                 "effectivity of flu shots",
                                 "effectivity of flu vaccines",
-                                "is the influenza vaccinr effective",
+                                "is the influenza vaccine effective",
                                 "does the flu shot work",
                                 "does the flu vaccine work",
                                 "does the flu vaccine do anything",
@@ -546,7 +538,7 @@
                                 "can i get the covid-19 vaccine at nygh?"
                         ],
                         "responses": [
-                                "Public can book directly at NYGH at this link for flu and covid-19 at https://pharmaconnect.ca/Appointment/3e934dff-f4d6-40d9-9a98-3bbaddad51cf or call the Provincial Booking Line from 8 a.m. to 8 p.m., 7 days a week at 1-833-943-3900."
+                                "Public can book directly at NYGH at this link for flu and covid-19 at <a href='https://pharmaconnect.ca/Appointment/3e934dff-f4d6-40d9-9a98-3bbaddad51cf' target='blank'>PharmaConnect</a> or call the Provincial Booking Line from 8 a.m. to 8 p.m., 7 days a week at 1-833-943-3900."
                         ],
                         "context": [
                                 ""
@@ -559,7 +551,7 @@
                                 "does north york general hospital have the bivalent vaccine?"
                         ],
                         "responses": [
-                                "Yes. As of September 26, 2022, individuals 18 years and over can receive the bivalent COVID-19 booster six months from their last COVID-19 dose. For more information, please see https://news.ontario.ca/en/release/1002277/ontarians-aged-18-eligible-for-bivalent-covid-19-booster-dose."
+                                "Yes. As of September 26, 2022, individuals 18 years and over can receive the bivalent COVID-19 booster six months from their last COVID-19 dose. For more information, please see <a href='https://news.ontario.ca/en/release/1002277/ontarians-aged-18-eligible-for-bivalent-covid-19-booster-dose' target='blank'>Bivalent COVID-19 Booster</a>."
                         ],
                         "context": [
                                 ""
@@ -573,7 +565,7 @@
                                 "book the bivalent vaccine"
                         ],
                         "responses": [
-                                "To book a vaccination: 1. https://www.ontario.ca/book-vaccine/ 2. https://www.ontario.ca/vaccine-locations 3. https://pharmaconnect.ca/Appointment/3e934dff-f4d6-40d9-9a98-3bbaddad51cf"
+                                "To book a vaccination: 1. <a href='https://www.ontario.ca/book-vaccine/' target='blank'>Ontario.ca Covid-19 Vaccine</a> 2. <a href='https://www.ontario.ca/vaccine-locations' target='blank'>Ontario.ca Covid-19 Pharmacy Vaccine Locations</a> 3. <a href='https://pharmaconnect.ca/Appointment/3e934dff-f4d6-40d9-9a98-3bbaddad51cf' target='blank'>PharmaConnect: North York General Hospital Pharmacy</a>"
                         ],
                         "context": [
                                 ""
@@ -602,7 +594,7 @@
                                 "What are you"
                         ],
                         "responses": [
-                                "I can clear your queries realted to COVID-19, Influenza (flu) or Monkeypox.",
+                                "I can clear your queries related to COVID-19, Influenza (flu) or Monkeypox.",
                                 "I can answer your questions related to Coronavirus, Influenza (flu) or Monkeypox."
                         ],
                         "context": [
@@ -615,7 +607,7 @@
                                 "what are the symptoms of COVID-19",
                                 "what are the symptoms of coronavirus",
                                 "covid symptoms",
-                                "covid-19 symptons",
+                                "covid-19 symptoms",
                                 "coronavirus symptoms",
                                 "symptoms of covid",
                                 "symptoms of covid-19",
@@ -638,14 +630,12 @@
                         "patterns": [
                                 "coronavirus spread",
                                 "covid spread",
-                                "spread",
                                 "spread of covid",
                                 "how does covid spread",
                                 "how does coronavirus spread",
                                 "how does covid-19 spread",
                                 "can I spread covid",
-                                "covid spread",
-                                "coronovirus spread",
+                                "coronavirus spread",
                                 "why does coughing spread covid",
                                 "covid-19 spread",
                                 "can I spread covid by sneezing"
@@ -660,16 +650,13 @@
                 {
                         "tag": "AntiviralTreatment",
                         "patterns": [
-                                "antiviral treatment",
-                                "covid treatment",
-                                "covid-19 treatment",
-                                "covid19 treatment",
-                                "treatment for covid-19",
-                                "treatment for covid",
-                                "treatment for covid19"
-                        ],
+                                "Tell me about antiviral treatment",
+                                "Explain covid-19 treatments",
+				"information about antiviral treatments",
+				"information about antiviral treatment"
+			],
                         "responses": [
-                                "They can help prevent serious illness if taken quickly after symptoms start. They are available in Ontario for free to anyone with a prescription from a health care provider. The use of antivirals in children under the age of 18 is not routinely recommended. Exceptions may be made on a case-by-case basis. For more info please refer to https://www.ontario.ca/page/covid-19-testing-and-treatment#section-5."
+                                "They can help prevent serious illness if taken quickly after symptoms start. They are available in Ontario for free to anyone with a prescription from a health care provider. The use of antivirals in children under the age of 18 is not routinely recommended. Exceptions may be made on a case-by-case basis. For more info please refer to <a href='https://www.ontario.ca/page/covid-19-testing-and-treatment#section-5' target='blank'>Antiviral treatments</a>."
                         ],
                         "context": [
                                 ""
@@ -685,7 +672,7 @@
                                 "buy antiviral treatment"
                         ],
                         "responses": [
-                                "1. contacting a pharmacist who is prescribing Paxlovid. 2. visiting a clinical assessment centre https://www.ontario.ca/assessment-centre-locations 3. contacting a primary care provider. If you are high-risk and do not have a primary care provider or are having difficulty accessing care, contact Health Connect Ontario by phone at 811 (https://healthconnectontario.health.gov.on.ca/static/guest/home)."
+                                "1. contacting a pharmacist who is prescribing Paxlovid. 2. visiting a clinical assessment centre <a href='https://www.ontario.ca/assessment-centre-locations' target='blank'>COVID-19 testing locations and clinical assessment centres</a> 3. contacting a primary care provider. If you are high-risk and do not have a primary care provider or are having difficulty accessing care, contact Health Connect Ontario by phone at 811 (<a href='https://healthconnectontario.health.gov.on.ca/static/guest/home' target='blank'>Health Connect Ontario</a>)."
                         ],
                         "context": [
                                 ""
@@ -694,16 +681,20 @@
                 {
                         "tag": "AvailableAntiviralTreatment",
                         "patterns": [
-                                "antiviral treatment",
-                                "covid treatment",
-                                "covid-19 treatment",
-                                "covid19 treatment",
-                                "treatment for covid-19",
-                                "treatment for covid",
-                                "treatment for covid19"
+                                "Available antiviral treatment",
+                                "Available covid treatment",
+                                "Available covid-19 treatment",
+                                "Available covid19 treatment",
+                                "Available treatment for covid-19",
+                                "Available treatment for covid",
+                                "Available treatment for covid19",
+				"What are some of the antiviral treatments for covid-19?",
+				"some of the antiviral treatments for covid-19",
+				"list of antiviral treatments for covid-19",
+				"What are the antiviral treatments for covid-19?"
                         ],
                         "responses": [
-                                "1. Paxlovid 2. Remdesivir. For more info please refer to https://www.ontario.ca/page/covid-19-testing-and-treatment#section-5."
+                                "1. Paxlovid 2. Remdesivir. For more info please refer to <a href='https://www.ontario.ca/page/covid-19-testing-and-treatment#section-5' target='blank'>Antiviral treatments</a>."
                         ],
                         "context": [
                                 ""
@@ -718,7 +709,7 @@
                                 "what is paxlovid"
                         ],
                         "responses": [
-                                "Paxlovid is an antiviral treatment option used to reduce severe outcomes from CoVID-19. Eligible individuals should contact their local pharmacy to confirm if they prescribe Paxlovid and how to get a preescription for Paxlovid. For more information, visit https://news.ontario.ca/en/release/1002565/ontarians-can-visit-local-pharmacies-for-paxlovid-prescriptions."
+                                "Paxlovid is an antiviral treatment option used to reduce severe outcomes from CoVID-19. Eligible individuals should contact their local pharmacy to confirm if they prescribe Paxlovid and how to get a prescription for Paxlovid. For more information, visit <a href='https://news.ontario.ca/en/release/1002565/ontarians-can-visit-local-pharmacies-for-paxlovid-prescriptions' target='blank'>Antiviral treatments</a>."
                         ],
                         "context": [
                                 ""
@@ -729,16 +720,15 @@
                         "patterns": [
                                 "How do i protect myself from the spread and prevent the spread of COVID-19",
                                 "prevent spread of corona",
-                                "protection",
-                                "how to protect",
+                                "how to protect from covid-19",
                                 "how to avoid corona virus",
                                 "how to avoid covid",
                                 "how to avoid covid-19",
                                 "stay safe from corona virus",
                                 "how do I protect myself from covid",
-                                "covid protection",
+                                "Covid-19 protection",
                                 "coronavirus protection",
-                                "how to protect from coronoa"
+                                "how to protect from corona"
                         ],
                         "responses": [
                                 "Stay aware of the latest information on the COVID-19 outbreak, available on the WHO website and through your national and local public health authority.\n\nYou can reduce your chances of being infected or spreading COVID-19 by taking some simple precautions:\n\n1.Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water.\n\n2. Maintain at least 1 metre (3 feet) distance between yourself and anyone who is coughing or sneezing.\n\n3.Avoid touching eyes, nose and mouth.\n\n4. Cover your mouth and nose with your bent elbow or tissue when you cough or sneeze. Then dispose of the used tissue immediately.\n\n5. Stay home if you feel unwell. If you have a fever, cough and difficulty breathing, seek medical attention and call in advance.\n This will also protect you and help prevent spread of viruses and other infections.\nAvoid traveling to places where possible spread of COVID-19 and other viruses."
@@ -765,7 +755,7 @@
                                 "i visit place with covid"
                         ],
                         "responses": [
-                                "Protection measures for persons who are in or have recently visited (past 14 days) areas where COVID-19 is spreading\n\n1. Follow the guidance outlined above (Protection measures for everyone)\n2. Self-isolate by staying at home if you begin to feel unwell, even with mild symptoms such as headache, low grade fever (37.3 C or above) and slight runny nose, until you recover. If it is essential for you to have someone bring you supplies or to go out, e.g. to buy food, then wear a mask to avoid infecting other people.\n    Why? Avoiding contact with others and visits to medical facilities will allow these facilities to operate more effectively and help protect you and others from possible COVID-19 and other viruses.\n    If you develop fever, cough and difficulty breathing, seek medical advice promptly as this may be due to a respiratory infection or other serious condition. Call in advance and tell your provider of any recent travel or contact with travelers.This will also help to preventossible spread of COVID-19 and other viruses."
+                                "Protection measures for persons who are in or have recently visited (past 14 days) areas where COVID-19 is spreading\n\n1. Follow the guidance outlined above (Protection measures for everyone)\n2. Self-isolate by staying at home if you begin to feel unwell, even with mild symptoms such as headache, low grade fever (37.3 C or above) and slight runny nose, until you recover. If it is essential for you to have someone bring you supplies or to go out, e.g. to buy food, then wear a mask to avoid infecting other people.\n    Why? Avoiding contact with others and visits to medical facilities will allow these facilities to operate more effectively and help protect you and others from possible COVID-19 and other viruses.\n    If you develop fever, cough and difficulty breathing, seek medical advice promptly as this may be due to a respiratory infection or other serious condition. Call in advance and tell your provider of any recent travel or contact with travelers.This will also help to prevent spread of COVID-19 and other viruses."
                         ],
                         "context": [
                                 ""
@@ -801,12 +791,10 @@
                                 "scared of covid",
                                 "scared of coronavirus",
                                 "scared of corona",
-                                "worried about covid",
-                                "worry",
-                                "tension"
+                                "worried about covid"
                         ],
                         "responses": [
-                                "Illness due to COVID-19 infection is generally mild, especially for children and young adults. However, it can cause serious illness: about 1 in every 5 people who catch it need hospital care. It is therefore quite normal for people to worry about how the COVID-19 outbreak will affect them and their loved ones.\nWe can channel our concerns into actions to protect ourselves, our loved ones and our communities. First and foremost among these actions is regular and thorough hand-washing and good respiratory hygiene. Secondly, keep informed and follow the advice of the local health authorities including any restrictions put in place on travel, movement and gatherings.\n\nLearn more about how to protect yourself at https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public"
+                                "Illness due to COVID-19 infection is generally mild, especially for children and young adults. However, it can cause serious illness: about 1 in every 5 people who catch it need hospital care. It is therefore quite normal for people to worry about how the COVID-19 outbreak will affect them and their loved ones.\nWe can channel our concerns into actions to protect ourselves, our loved ones and our communities. First and foremost among these actions is regular and thorough hand-washing and good respiratory hygiene. Secondly, keep informed and follow the advice of the local health authorities including any restrictions put in place on travel, movement and gatherings.\n\nLearn more about how to protect yourself at <a href='https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public' target='blank'>World Health Organization (Advice for the public: Coronavirus disease)</a>"
                         ],
                         "context": [
                                 ""
@@ -885,13 +873,13 @@
                                 "Should i wear mask to protect myself",
                                 "should i wear a mask to protect",
                                 "do I have to wear a mask",
-                                "are masks recommeded",
+                                "are masks recommended",
                                 "should i wear a mask",
                                 "can I wear a mask",
                                 "are masks helpful"
                         ],
                         "responses": [
-                                "Masks are strongly recommeded especially if you are ill with COVID-19 symptoms (especially coughing) or looking after someone who may have COVID-19. Disposable face mask can only be used once.\n\nOther ways to protect yourself against COVID-19 are to frequently clean your hands, cover your cough with the bend of elbow or tissue and maintain a distance of at least 1 meter (3 feet) from people who are coughing or sneezing."
+                                "Masks are strongly recommended especially if you are ill with COVID-19 symptoms (especially coughing) or looking after someone who may have COVID-19. Disposable face mask can only be used once.\n\nOther ways to protect yourself against COVID-19 are to frequently clean your hands, cover your cough with the bend of elbow or tissue and maintain a distance of at least 1 meter (3 feet) from people who are coughing or sneezing."
                         ],
                         "context": [
                                 ""
@@ -962,10 +950,10 @@
                                 "Can i catch coronavirus from pet",
                                 "can I get coronavirus from my pet",
                                 "can my pet give me covid",
-                                "can my pet sread covid"
+                                "can my pet spread covid"
                         ],
                         "responses": [
-                                "We are aware of instances of animals and pets of COVID-19 patients being infected with the disease;\nAs the intergovernmental body responsible for improving animal health worldwide, the World Organisation for Animal Health (OIE) has been developing technical guidance on specialised topics related to animal health, dedicated to veterinary services and technical experts (including on testing and quarantine);\nThere is a possibility for some animals to become infected through close contact with infected humans. Further evidence is needed to understand if animals and pets can spread the disease;\nBased on current evidence, human to human transmission remains the main driver;\nIt is still too early to say whether cats could be the intermediate host in the transmission of COVID-19."
+                                "We are aware of instances of animals and pets of COVID-19 patients being infected with the disease;\nAs the intergovernmental body responsible for improving animal health worldwide, the World Organization for Animal Health (OIE) has been developing technical guidance on specialized topics related to animal health, dedicated to veterinary services and technical experts (including on testing and quarantine);\nThere is a possibility for some animals to become infected through close contact with infected humans. Further evidence is needed to understand if animals and pets can spread the disease;\nBased on current evidence, human to human transmission remains the main driver;\nIt is still too early to say whether cats could be the intermediate host in the transmission of COVID-19."
                         ],
                         "context": [
                                 ""
@@ -999,8 +987,8 @@
                                 "package from corona area",
                                 "package from covid area",
                                 "are packages safe",
-                                "covid packagae",
-                                "coronoavirus package",
+                                "covid package",
+                                "coronavirus package",
                                 "covid-19 package"
                         ],
                         "responses": [
@@ -1141,7 +1129,7 @@
                                 "how to protect myself from corona"
                         ],
                         "responses": [
-                                "Protection measures for everyone Stay aware of the latest information on the COVID-19 outbreak,available on the national,state and local public health authority. Many countries around the world have seen cases of COVID-19 and several have seen outbreaks. Authorities in China and some other countries have succeeded in slowing or stopping their outbreaks. However, the situation is unpredictable so check regularly for the latest news. "
+                                "Protection measures for everyone Stay aware of the latest information on the COVID-19 outbreak, available on the national, state and local public health authority. Many countries around the world have seen cases of COVID-19 and several have seen outbreaks. Authorities in China and some other countries have succeeded in slowing or stopping their outbreaks. However, the situation is unpredictable so check regularly for the latest news. "
                         ],
                         "context": [
                                 ""
@@ -1161,7 +1149,7 @@
                                 "prevent"
                         ],
                         "responses": [
-                                "1. Regularly and thoroughly clean your hands with an alcoholbased hand rub or wash them with soap and water. \n2. Maintain at least 1 metre (3 feet) distance between yourself andanyone who is coughing or sneezing. \n3. Avoid touching eyes, nose and mouth. \n4.Stay home if you feel unwell. If you have a fever, cough and difficulty breathing, seek medical attention and call in advance. Follow the directions of your local health authority. "
+                                "1. Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water. \n2. Maintain at least 1 metre (3 feet) distance between yourself and anyone who is coughing or sneezing. \n3. Avoid touching eyes, nose and mouth. \n4.Stay home if you feel unwell. If you have a fever, cough and difficulty breathing, seek medical attention and call in advance. Follow the directions of your local health authority. "
                         ],
                         "context": [
                                 ""
@@ -1345,7 +1333,7 @@
                         "tag": "temp",
                         "patterns": [
                                 "Will high temp stop coronavirus",
-                                "high temprature effect on corona virus",
+                                "high temperature effect on corona virus",
                                 "temperature effect on corona virus",
                                 "heat effect on virus",
                                 "heat effect on corona virus",
@@ -1372,7 +1360,7 @@
                                 "canada statistics"
                         ],
                         "responses": [
-                                "To view latest statistics realted to COVID-19 in Canada please visit shorturl.at/VWY02"
+                                "To view latest statistics related to COVID-19 in Canada please visit shorturl.at/VWY02"
                         ],
                         "context": [
                                 ""
@@ -1390,7 +1378,7 @@
                                 "statistics covid world"
                         ],
                         "responses": [
-                                "Please visit https://covid19.who.int/ for live updates"
+                                "Please visit <a href='https://covid19.who.int/' target='blank'>World Health Organization</a> for live updates"
                         ],
                         "context": [
                                 ""
@@ -1413,7 +1401,7 @@
                         "tag": "childermask",
                         "patterns": [
                                 "should children wear mask?",
-                                "childern mask",
+                                "children mask",
                                 "child mask"
                         ],
                         "responses": [
@@ -1446,7 +1434,7 @@
                                 "use soap or something for covid"
                         ],
                         "responses": [
-                                "Handwashing is one of the best ways to protect yourself and your family from getting sick. Wash your hands often with soap and water for at least 20 seconds, especially after blowing your nose, coughing, or sneezing; going to the bathroom; and before eating or preparing food. If soap and water are not readily available, use an alcohol-based hand sanitizer with at least 60% alcohol."
+                                "Hand-washing is one of the best ways to protect yourself and your family from getting sick. Wash your hands often with soap and water for at least 20 seconds, especially after blowing your nose, coughing, or sneezing; going to the bathroom; and before eating or preparing food. If soap and water are not readily available, use an alcohol-based hand sanitizer with at least 60% alcohol."
                         ],
                         "context": [
                                 ""
@@ -1556,7 +1544,7 @@
                                 "covid-19 participating pharmacies"
                         ],
                         "responses": [
-                                "You can locate a participating pharmacy at https://covid-19.ontario.ca/vaccine-locations/."
+                                "You can locate a participating pharmacy at <a href='https://covid-19.ontario.ca/vaccine-locations/' target='blank'>Ontario.ca Covid-19 Pharmacy Vaccine Locations</a>."
                         ],
                         "context": [
                                 ""
@@ -1584,7 +1572,7 @@
                                 "where can i get vaccine"
                         ],
                         "responses": [
-                                "Eligible individuals aged six months and older can book an appointment through: https://covid-19.ontario.ca/book-vaccine/, or the Provincial Vaccine Contact Centre at  1-833-943-3900, or participating primary care providers, or https://covid-19.ontario.ca/vaccine-locations"
+                                "Eligible individuals aged six months and older can book an appointment through: <a href='https://covid-19.ontario.ca/book-vaccine/' target='blank'>Ontario.ca Covid-19 Booking</a>, or the Provincial Vaccine Contact Centre at  1-833-943-3900, or participating primary care providers, or <a href='https://covid-19.ontario.ca/vaccine-locations' target='blank'>Ontario.ca Covid-19 Pharmacy Vaccine Locations</a>"
                         ],
                         "context": [
                                 ""
@@ -1598,7 +1586,7 @@
                                 "proof of covid-19 vaccination"
                         ],
                         "responses": [
-                                "You may look at https://www.ontario.ca/page/proof-covid-19-vaccination."
+                                "You may look at <a href='https://www.ontario.ca/page/proof-covid-19-vaccination' target='blank'>Proof of Covid‑19 Vaccination</a>."
                         ],
                         "context": [
                                 ""
@@ -1614,7 +1602,7 @@
                                 "vaccine registration out of ontario"
                         ],
                         "responses": [
-                                "If you received a COVID‑19 vaccine outside of Ontario or Canada, you should register your vaccination(s) by contacting your local public health unit https://www.phdapps.health.gov.on.ca/phulocator/."
+                                "If you received a COVID‑19 vaccine outside of Ontario or Canada, you should register your vaccination(s) by contacting your local public health unit <a href='https://www.phdapps.health.gov.on.ca/phulocator/' target='blank'>Public Health Unit Locator</a>."
                         ],
                         "context": [
                                 ""
@@ -1669,7 +1657,7 @@
                                 "initial dose was AstraZeneca"
                         ],
                         "responses": [
-                                "Individuals who received their first dose of AstraZeneca/COVISHIELD vaccine should receive one of the mRNA vaccines (Pfizer [12+ formulation] or Moderna) as their second dose (unless there is a contraindication) and should receive their second dose at an interval. Please refer to the ministry website https://www.health.gov.on.ca/en/pro/programs/drugs/opdp_eo/eo_communiq.aspx."
+                                "Individuals who received their first dose of AstraZeneca/COVISHIELD vaccine should receive one of the mRNA vaccines (Pfizer [12+ formulation] or Moderna) as their second dose (unless there is a contraindication) and should receive their second dose at an interval. Please refer to the ministry website <a href='https://www.health.gov.on.ca/en/pro/programs/drugs/opdp_eo/eo_communiq.aspx' target='blank'>Ministry of Health: Ontario Public Drug Programs</a>."
                         ],
                         "context": [
                                 ""
@@ -1684,7 +1672,7 @@
                                 "different models of covid-19 vaccine"
                         ],
                         "responses": [
-                                "Yes. The National Advisory Committee on Immunization (NACI) is now recommending the interchangeability of vaccines. Please refer to https://www.canada.ca/en/public-health/services/immunization/national-advisory-committee-on-immunization-naci/recommendations-use-covid-19-vaccines/summary-statement-june-17-2021.html."
+                                "Yes. The National Advisory Committee on Immunization (NACI) is now recommending the interchangeability of vaccines. Please refer to <a href='https://www.canada.ca/en/public-health/services/immunization/national-advisory-committee-on-immunization-naci/recommendations-use-covid-19-vaccines/summary-statement-june-17-2021.html' target='blank'>Recommendations on Covid-19 Vaccines</a>."
                         ],
                         "context": [
                                 ""
@@ -1698,7 +1686,7 @@
                                 "vaccine for children"
                         ],
                         "responses": [
-                                "Based on https://www.canada.ca/content/dam/phac-aspc/documents/services/immunization/national-advisory-committee-on-immunization-naci/recommendations-use-moderna-spikevax-covid-19-vaccine-children-6-months-5-years.pdf recommendations, use of pediatric Pfizer BioNTech COVID-19 vaccine (10 mcg) is preferred."
+                                "Based on <a href='https://www.canada.ca/content/dam/phac-aspc/documents/services/immunization/national-advisory-committee-on-immunization-naci/recommendations-use-moderna-spikevax-covid-19-vaccine-children-6-months-5-years.pdf' target='blank'>An Advisory Committee Statement (ACS) National Advisory Committee on Immunization (NACI)</a>, use of pediatric Pfizer BioNTech COVID-19 vaccine (10 mcg) is preferred."
                         ],
                         "context": [
                                 ""
@@ -1747,7 +1735,7 @@
                                 "Omicron information"
                         ],
                         "responses": [
-                                "See the latest information about the Omicron variant on https://www.publichealthontario.ca/en"
+                                "See the latest information about the Omicron variant on <a href='https://www.publichealthontario.ca/en' target='blank'>Public Health Ontario</a>"
                         ],
                         "context": [
                                 ""
@@ -1774,7 +1762,7 @@
                                 "vaccine for my 5-11 year old"
                         ],
                         "responses": [
-                                "The North York Family Health Team is currently accepting online bookings for children aged 5-11 years. Book here https://www.nyfht.com/. Vaccines for 5-11 year olds are also available at participating community clinics in North York (https://nygh.on.ca/test.php/covid19vaccination), participating pharmacies (https://www.ontario.ca/vaccine-locations), City of Toronto Mass Immunization Clinics, other fixed-site clinics, school-based clinics and primary care offices. Visit https://www.toronto.ca/home/covid-19/covid-19-vaccines/covid-19-vaccines-for-infants-children-youth/covid-19-children-vaccines/ website for more information. Appointments can also be booked through a variety of channels including the https://www.ontario.ca/book-vaccine/"
+                                "The North York Family Health Team is currently accepting online bookings for children aged 5-11 years. Book here: <a href='https://www.nyfht.com/' target='blank'>North York Family Health Team</a>. Vaccines for 5-11 year olds are also available at participating community clinics in North York (<a href='https://nygh.on.ca/test.php/covid19vaccination' target='blank'>North York General Hospital Covid-19 Vaccination</a>), participating pharmacies (<a href='https://www.ontario.ca/vaccine-locations' target='blank'>Ontario.ca Covid-19 pharmacy vaccine locations</a>), City of Toronto Mass Immunization Clinics, other fixed-site clinics, school-based clinics and primary care offices. Visit <a href='https://www.toronto.ca/home/covid-19/covid-19-vaccines/covid-19-vaccines-for-infants-children-youth/covid-19-children-vaccines/' target='blank'>Toronto.ca Covid-19 Vaccines for 5 to 17 Year Olds</a> website for more information. Appointments can also be booked through a variety of channels including the <a href='https://www.ontario.ca/book-vaccine/' target='blank'>Ontario.ca Covid-19 Vaccines Appointment</a>"
                         ],
                         "context": [
                                 ""
@@ -1787,7 +1775,7 @@
                                 "vaccine for my 6 months to 5-year-old?"
                         ],
                         "responses": [
-                                "As of July 28, 2022, children 6 months to 5-years-olds are eligible to receive the approved pediatric vaccine. Parents/guardians can book appointments at select city-run clinics, hospitals, pediatrician offices, and pharmacies. For more details, please visit the City of Toronto’s https://www.toronto.ca/home/covid-19/covid-19-vaccines/covid-19-vaccines-for-infants-children-youth/covid-19-vaccines-for-6-months-to-under-5/"
+                                "As of July 28, 2022, children 6 months to 5-years-olds are eligible to receive the approved pediatric vaccine. Parents/guardians can book appointments at select city-run clinics, hospitals, paediatrician offices, and pharmacies. For more details, please visit the City of Toronto’s <a href='https://www.toronto.ca/home/covid-19/covid-19-vaccines/covid-19-vaccines-for-infants-children-youth/covid-19-vaccines-for-6-months-to-under-5/' target='blank'>Toronto.ca Covid-19 Vaccines for 6 Months to Under 5 Years Old</a>"
                         ],
                         "context": [
                                 ""
@@ -1815,7 +1803,7 @@
                                 "can i get booster"
                         ],
                         "responses": [
-                                "Adults aged 18 years and older are eligible for 3rd and 4th doses. At least three months must have passed since the previous dose to be eligible for the 3rd dose, and five months must have passed to be eligible for the 4th dose for most people. 3rd doses are also available for youth ages 12-17 years, but six months must have passed since the 2nd dose. Individuals must be 12 years old at the time of receiving the 3rd dose. See the City of Toronto https://www.toronto.ca/home/covid-19/covid-19-vaccines/covid-19-how-to-get-vaccinated/?accordion=third-doses website section on third doses for more information."
+                                "Adults aged 18 years and older are eligible for 3rd and 4th doses. At least three months must have passed since the previous dose to be eligible for the 3rd dose, and five months must have passed to be eligible for the 4th dose for most people. 3rd doses are also available for youth ages 12-17 years, but six months must have passed since the 2nd dose. Individuals must be 12 years old at the time of receiving the 3rd dose. See the City of Toronto <a href='https://www.toronto.ca/home/covid-19/covid-19-vaccines/covid-19-how-to-get-vaccinated/?accordion=third-doses' target='blank'>Toronto.ca Covid-19 Where to Get Vaccinated</a> website section on third doses for more information."
                         ],
                         "context": [
                                 ""
@@ -1833,7 +1821,7 @@
                                 "Where can I get fourth dose"
                         ],
                         "responses": [
-                                "You can access a booster (third or fourth) dose through the following: Book online at https://www.nyfht.com/ or by calling 647-670-2888, Book or walk in at a https://nygh.on.ca/test.php/covid19vaccination in North York, Book at City of Toronto https://www.ontario.ca/book-vaccine/, Book at https://www.ontario.ca/vaccine-locations, Book at https://www.ontario.ca/book-vaccine/. Seniors in the North York area who require assistance getting their vaccination appointment can contact the Seniors’ Hotline for North York at 416-447-5200."
+                                "You can access a booster (third or fourth) dose through the following: Book online at <a href='https://www.nyfht.com/' target='blank'>North York Family Health Team</a> or by calling 647-670-2888, Book or walk in at a <a href='https://nygh.on.ca/test.php/covid19vaccination' target='blank'>North York General Hospital Covid-19 Vaccination</a> in North York, Book at City of Toronto <a href='https://www.ontario.ca/book-vaccine/' target='blank'>Ontario.ca Covid-19 Vaccine Appointment</a>, Book at <a href='https://www.ontario.ca/vaccine-locations' target='blank'>Ontario.ca Covid-19 Pharmacy Vaccine Locations</a>, Book at <a href='https://www.ontario.ca/book-vaccine/' target='blank'>Ontario.ca Covid-19 Vaccine Appointment</a>. Seniors in the North York area who require assistance getting their vaccination appointment can contact the Seniors’ Hotline for North York at 416-447-5200."
                         ],
                         "context": [
                                 ""
@@ -1879,7 +1867,7 @@
                                 "covid-19 vaccine safety"
                         ],
                         "responses": [
-                                "Yes. COVID-19 vaccines are safe, effective and have been rigorously evaluated. Vaccination, together with continued vigilance including wearing masks is our best hope to prevent people from getting ill, hospitalized, and potentially dying from COVID-19. Read more about the COVID-19 vaccines: https://www.toronto.ca/home/covid-19/covid-19-vaccines/covid-19-about-the-vaccines/"
+                                "Yes. COVID-19 vaccines are safe, effective and have been rigorously evaluated. Vaccination, together with continued vigilance including wearing masks is our best hope to prevent people from getting ill, hospitalized, and potentially dying from COVID-19. Read more about the COVID-19 vaccines: <a href='https://www.toronto.ca/home/covid-19/covid-19-vaccines/covid-19-about-the-vaccines/' target='blank'>Ontario.ca Covid-19 About the Vaccines</a>"
                         ],
                         "context": [
                                 ""
@@ -1931,7 +1919,7 @@
                                 "get vaccinated while i am pregnant"
                         ],
                         "responses": [
-                                "Pregnant people are encouraged to get the vaccine as soon as possible. It is safe during any stage of pregnancy.  Please speak with your family physician or specialist before getting vaccinated. To help educate our community about the safety of the COVID vaccine during pregnancy, see https://www.nygh.on.ca/pregnancyandCOVID19"
+                                "Pregnant people are encouraged to get the vaccine as soon as possible. It is safe during any stage of pregnancy.  Please speak with your family physician or specialist before getting vaccinated. To help educate our community about the safety of the COVID vaccine during pregnancy, see <a href='https://www.nygh.on.ca/pregnancyandCOVID19' target='blank'>North York General Hospital Pregnancy and Covid-19 Vaccines</a>"
                         ],
                         "context": [
                                 ""
@@ -1990,7 +1978,7 @@
                                 "more information"
                         ],
                         "responses": [
-                                "https://covid-19.ontario.ca/covid-19-vaccines-ontario"
+                                "<a href='https://covid-19.ontario.ca/covid-19-vaccines-ontario' target='blank'>Ontario.ca Covid-19 Vaccines</a>"
                         ],
                         "context": [
                                 ""
@@ -2007,7 +1995,7 @@
                                 "what is North York General Hospital location?"
                         ],
                         "responses": [
-                                "It is located in 4001 Leslie Street, Toronto ON M2K 1E1. You may find more information here: https://pharmaconnect.ca/Appointment/3e934dff-f4d6-40d9-9a98-3bbaddad51cf"
+                                "It is located in 4001 Leslie Street, Toronto ON M2K 1E1. You may find more information here: <a href='https://pharmaconnect.ca/Appointment/3e934dff-f4d6-40d9-9a98-3bbaddad51cf' target='blank'>PharmaConnect</a>"
                         ],
                         "context": [
                                 ""
@@ -2029,7 +2017,7 @@
                                 "contact hospital"
                         ],
                         "responses": [
-                                "You can call at 416-756-6000. For further information, please refer to https://www.nygh.on.ca/test.php/patients-and-visitors/contact-us"
+                                "You can call at 416-756-6000. For further information, please refer to <a href='https://www.nygh.on.ca/test.php/patients-and-visitors/contact-us' target='blank'>North York General Hospital Contact Info</a>"
                         ],
                         "context": [
                                 ""
@@ -2041,7 +2029,7 @@
                                 "What should I do if I have symptoms of Monkeypox?"
                         ],
                         "responses": [
-                                "If you have symptoms isolate yourself at home away from others and immediately contact your health care provider or local public health authority for advice on what to do. Learn more about it <a href='https://www.canada.ca/en/public-health/services/diseases/mpox/symptoms-management.html#a6' target='blank'>here</a>."
+                                "If you have symptoms isolate yourself at home away from others and immediately contact your health care provider or local public health authority for advice on what to do. Learn more about it <a href='https://www.canada.ca/en/public-health/services/diseases/mpox/symptoms-management.html#a6' target='blank'>Monkeypox Symptoms</a>."
                         ],
                         "context": [ 
                                 ""
@@ -2065,7 +2053,7 @@
                                 "What do I do if I have Monkeypox?"
                         ],
                         "responses": [
-                                "If you've been infected with the monkeypox virus, your local public health authority may require that you isolate to prevent further spread. They may recommend that you isolate at home or at a different location, depending on your living situation. For more information, visit <a href='https://www.canada.ca/en/public-health/services/diseases/monkeypox/symptoms-management.html' target='blank'>here</a>."
+                                "If you've been infected with the monkeypox virus, your local public health authority may require that you isolate to prevent further spread. They may recommend that you isolate at home or at a different location, depending on your living situation. For more information, visit <a href='https://www.canada.ca/en/public-health/services/diseases/monkeypox/symptoms-management.html' target='blank'>Monkeypox Symptoms</a>."
                         ],
                         "context": [ 
                                 ""
@@ -2078,7 +2066,7 @@
                                 "How can I care for someone with monkeypox infection, or with symptoms that may be due to monkeypox infection?"
                         ],
                         "responses": [
-                                "Ideally, only one person in the home should provide care to someone who is in isolation. This will help reduce the risk of spreading the monkeypox virus to others. The caregiver should not be someone who is considered vulnerable, including people who are: pregnant, immunocompromised, under the age of 12 years. Watch for signs or symptoms of monkeypox infection for 21 days since your last exposure to the person you're caring for. For more information visit <a href=https://www.canada.ca/en/public-health/services/diseases/monkeypox/symptoms-management.html#a6' target='blank'>here</a>."
+                                "Ideally, only one person in the home should provide care to someone who is in isolation. This will help reduce the risk of spreading the monkeypox virus to others. The caregiver should not be someone who is considered vulnerable, including people who are: pregnant, immunocompromised, under the age of 12 years. Watch for signs or symptoms of monkeypox infection for 21 days since your last exposure to the person you're caring for. For more information visit <a href=https://www.canada.ca/en/public-health/services/diseases/monkeypox/symptoms-management.html#a6' target='blank'>Monkeypox Symptoms</a>."
                         ],
                         "context": [
                                 ""
@@ -2138,7 +2126,7 @@
                                 "How can I protect myself against the flu?"
                         ], 
                         "responses": [
-                                "You can follow these guidelines to better protect yourself against the flu: Get vaccinated against both the flu and COVID-19, Stay home and away from others if you feel sick, Improve ventilation in indoor and shared spaces, Wash your hands often with soap and water. Use hand sanitizer if soap and water aren't available, Wash your hands before touching your eyes, nose or mouth, Cough and sneeze into a tissue or into the bend of your arm, Clean and disinfect frequently touched surfaces and objects. For more information, visit <a href='https://www.canada.ca/en/public-health/services/diseases/flu-influenza.html' target='blank'>here</a>."
+                                "You can follow these guidelines to better protect yourself against the flu: Get vaccinated against both the flu and COVID-19, Stay home and away from others if you feel sick, Improve ventilation in indoor and shared spaces, Wash your hands often with soap and water. Use hand sanitizer if soap and water aren't available, Wash your hands before touching your eyes, nose or mouth, Cough and sneeze into a tissue or into the bend of your arm, Clean and disinfect frequently touched surfaces and objects. For more information, visit <a href='https://www.canada.ca/en/public-health/services/diseases/flu-influenza.html' target='blank'>Influenza Info</a>."
                         ], 
                         "context": [
                                 ""
@@ -2162,7 +2150,7 @@
                                 "What are the public health measures around COVID-19?"
                         ],
                         "responses": [
-                                "When layered together, public health measures are effective in reducing the spread of COVID-19, including variants of concern. Regardless of your vaccination status, you should continue to follow the advice of your local public health authority and layer multiple individual public health measures to protect yourself and others. Learn more about it <a href='https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/symptoms/provincial-territorial-resources-covid-19.html' target='blank'>here</a> and <a href='https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/prevention-risks.html#p' target='blank'>here</a>."
+                                "When layered together, public health measures are effective in reducing the spread of COVID-19, including variants of concern. Regardless of your vaccination status, you should continue to follow the advice of your local public health authority and layer multiple individual public health measures to protect yourself and others. Learn more about it <a href='https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/symptoms/provincial-territorial-resources-covid-19.html' target='blank'>Covid-19 Info</a> and <a href='https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/prevention-risks.html#p' target='blank'>Covid-19 Risk Prevention</a>."
                         ],
                         "context": [
                                 ""
@@ -2174,7 +2162,7 @@
                                 "How do I care for someone who has COVID-19?"
                         ],
                         "responses": [
-                                "You may be caring for someone at home who has or may have COVID-19. If so, you should follow the appropriate precautions to reduce the risk of illness spreading within your home. Adults and children with mild COVID-19 symptoms can stay at home while recovering. You don’t need to go to the hospital if symptoms are mild. Learn more about it <a href='https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/prevention-risks/how-care-someone-covid-19-home.html' target='blank'>here</a>.: "
+                                "You may be caring for someone at home who has or may have COVID-19. If so, you should follow the appropriate precautions to reduce the risk of illness spreading within your home. Adults and children with mild COVID-19 symptoms can stay at home while recovering. You don’t need to go to the hospital if symptoms are mild. Learn more about it <a href='https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/prevention-risks/how-care-someone-covid-19-home.html' target='blank'>Covid-19 Caretaking</a>.: "
                         ],
                         "context": [
                                 ""
@@ -2258,7 +2246,7 @@
                                 "Should I consult my doctor before getting the vaccine?"
                         ],
                         "responses": [
-                                "Contact your doctor or health care provider if you have questions about getting the vaccine. Read more <a href='https://www.canada.ca/en/public-health/services/canadian-immunization-guide.html' target='blank'>here</a>." 
+                                "Contact your doctor or health care provider if you have questions about getting the vaccine. Read more <a href='https://www.canada.ca/en/public-health/services/canadian-immunization-guide.html' target='blank'>Canadian Immunization Guide</a>." 
                         ],
                         "context": [
                                 ""
@@ -2282,7 +2270,7 @@
                                 "What are the different approved vaccines?"
                         ],
                         "responses": [
-                                "You can find all of the authorized vaccines <a href='https://www.canada.ca/en/health-canada/services/drugs-health-products/covid19-industry/drugs-vaccines-treatments/vaccines.html' target='blank'>here</a>."
+                                "You can find all of the authorized vaccines at <a href='https://www.canada.ca/en/health-canada/services/drugs-health-products/covid19-industry/drugs-vaccines-treatments/vaccines.html' target='blank'>Health Canada</a>."
                         ],
                         "context": [
                                 ""
@@ -2318,7 +2306,7 @@
                                 "If I received a first dose (or more than one dose) of a vaccine outside of Ontario or Canada, am I considered fully vaccinated and up to date?"
                         ],
                         "responses": [
-                                "Please refer to <a href='https://covid-19.ontario.ca/proof-covid-19-vaccination#proof-of-vaccination' target='blank'>this</a> to determine if you are considered fully vaccinated."
+                                "Please refer to <a href='https://covid-19.ontario.ca/proof-covid-19-vaccination#proof-of-vaccination' target='blank'>Ontario.ca Proof of Vaccination</a> to determine if you are considered fully vaccinated."
                         ],
                         "context": [
                                 ""
@@ -2354,7 +2342,7 @@
                                 "Which of the Pfizer vaccines is recommended for children who are 11 years of age and turning 12 by the time they are eligible for their second dose or booster dose?"
                         ],
                         "responses": [
-                                "At this time, only the Pediatric Pfizer BioNTech COVID-19 vaccine (10mcg) is authorized as a booster dose for children."
+                                "At this time, only the Pediatric Pfizer BioNTech COVID-19 vaccine (10 mcg) is authorized as a booster dose for children."
                         ],
                         "context": [
                                 ""
