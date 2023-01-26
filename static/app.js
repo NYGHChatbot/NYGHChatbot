@@ -15,6 +15,10 @@ class Chatbox {
     display() {
         const {openButton, chatBox, sendButton} = this.args;
 
+        //keeps chatbot open by default
+        chatBox.classList.add('chatbox--active');
+        this.toggleState(chatBox);
+
         openButton.addEventListener('click', () => this.toggleState(chatBox))
 
         sendButton.addEventListener('click', () => this.onSendButton(chatBox))
@@ -37,7 +41,7 @@ class Chatbox {
             chatbox.classList.remove('chatbox--active')
         }
 
-        if (this.initalToggle == true) {
+        if (this.initalToggle == true && this.state) {
             let msg = {name: "Amae", message: "Hello, my name is Amae! I can answer your questions related to COVID-19, Monkeypox and Influenza."};
             this.messages.push(msg);
             this.updateChatText(chatbox);
