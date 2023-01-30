@@ -65,6 +65,16 @@ def getResponse(ints, intents_json):
     return result
 
 def chatbot_response(msg):
+    KeyWords = ["Covid-19", "COVID-19", "COVID-19", "Covid19", "COVID19", "covid-19", "covid19",
+                "flu", "Flu", "Flushot", "flushot", "Influenza", "influenza", "Monkeypox", "MonkeyPox", "monkeypox"]
+    helper = set()
+    for KeyWord in KeyWords:
+      helper.add(msg.find(KeyWord))
+    
+    # for non-related questions
+    if len(helper) == 1:
+      return "Sorry, I don't understand your question. I can only answer questions regarding Monkeypox, Influenza (flu), and Covid-19. If you have any questions other than areas mentioned, you can contact NYGH's Pharmacy at (416)756-6666 or email them through NYGHPharmacy@nygh.on.ca"
+ 
     ints = predict_class(msg, model)
     res = getResponse(ints, intents)
     return res
