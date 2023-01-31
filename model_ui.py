@@ -65,11 +65,16 @@ def getResponse(ints, intents_json):
     return result
 
 def chatbot_response(msg):
-    KeyWords = ["Covid-19", "COVID-19", "COVID-19", "Covid19", "COVID19", "covid-19", "covid19",
-                "flu", "Flu", "Flushot", "flushot", "Influenza", "influenza", "Monkeypox", "MonkeyPox", "monkeypox"]
+    KeyWords = ["covid-19", "covid19", "coronavirus", "corona virus", "covid", "corona", "mask", "masks",
+                "bivalent", "antiviral treatments", "antiviral treatment", "paxlovid",
+                "hi", "hey", "hello", "greetings", "help", "what can you do", "what you can do"
+                "bye", "see you later", "goodbye", "have a good day", "have a nice day", "have a good one",
+                "see you soon", "have a good night", "thanks", "thank you", "Awsome",
+                "flu", "flushot", "influenza", "monkeypox", "monkey pox"]
     helper = set()
+    lowered_case = msg.lower()
     for KeyWord in KeyWords:
-      helper.add(msg.find(KeyWord))
+      helper.add(lowered_case.find(KeyWord))
     
     # for non-related questions
     if len(helper) == 1:
