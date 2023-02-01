@@ -89,7 +89,7 @@ def chatbot_response(msg):
     
     # for non-related questions
     if len(helper) == 1:
-      return "Sorry, I don't understand your question. I can only answer questions regarding Monkeypox, Influenza (flu), and Covid-19. If you have any questions other than areas mentioned, you can contact NYGH's Pharmacy at (416)756-6666 or email them through NYGHPharmacy@nygh.on.ca"
+      return "Sorry, I don't understand your question. I can only answer questions related to Monkeypox, Influenza (Flu), and Covid-19. If you have any other questions, please contact NYGH's Pharmacy at (416)756-6666 or email them through NYGHPharmacy@nygh.on.ca"
  
     ints = predict_class(msg, model)
     res = getResponse(ints, intents)
