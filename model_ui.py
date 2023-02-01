@@ -70,13 +70,13 @@ def chatbot_response(msg):
                 "statistics report", "statistics", "total cases", "sanitizer", "soap", "unauthorized vaccine",
                 "hi", "hey", "hello", "greetings", "help", "what can you do", "what you can do"
                 "bye", "see you later", "goodbye", "have a good day", "have a nice day", "have a good one",
-                "see you soon", "have a good night", "thanks", "thank you", "Awsome", "booster", "omicron"
+                "see you soon", "have a good night", "thanks", "thank you", "awsome", "booster", "omicron"
                 "flu", "flushot", "influenza", "monkeypox", "monkey pox", "children vaccine", "vaccine for children", 
-                "vaccine for my 5-11 year old", "vaccine for my 6 months to 5-year-old?", 
-                "pay to receive the vaccine", "pay for vaccine?", "pay for the vaccine?", "vaccine cost",
+                "vaccine for my 5-11 year old", "vaccine for my 6 months to 5-year-old", 
+                "pay to receive the vaccine", "pay for vaccine", "pay for the vaccine", "vaccine cost",
                 "pfizer", "moderna", "pregnant", "where is north york general hospital located", 
-                "where is nygh located?", "location of north york general hospital", 
-                "location of nygh", "what is nygh location?", "what is north york general hospital location?",
+                "where is nygh located", "location of north york general hospital", 
+                "location of nygh", "what is nygh location", "what is north york general hospital location",
                 "helpline numbers", "on which  number i should call", "hospital number", "who can i call",
                 "call", "nygh hospital number", "hospital contact", "how do i contact the hospital", 
                 "how do i talk to a doctor","how do i talk to a professional", "contact hospital",
