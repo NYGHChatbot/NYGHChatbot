@@ -2419,6 +2419,30 @@
                         "context": [
                                 ""
                         ]
+                },
+		{
+                        "tag": "covidTestTime",
+                        "patterns": [
+                                "How long will my COVID test results take?"
+                        ],
+                        "responses": [
+                                "Most results are available within 24 to 48 hours but may take longer in some cases."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+		{
+                        "tag": "TestClinicNYGH",
+                        "patterns": [
+                                "What services are provided at the Cough, Cold and COVID Test Clinic of nygh?"
+                        ],
+                        "responses": [
+                                "The North York Cough, Cold and COVID Test Clinic provides assessment and testing for eligible people for COVID-19 and other respiratory illnesses only. For more information, please refer to <a href='https://nygh.on.ca/covidtesting' target='blank'>COVID Testing at NYGH</a>"
+                        ],
+                        "context": [
+                                ""
+                        ]
                 }
         ]
 }
