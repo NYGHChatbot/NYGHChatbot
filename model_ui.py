@@ -79,9 +79,11 @@ def chatbot_response(msg):
                 "location of nygh", "what is nygh location", "what is north york general hospital location",
                 "helpline numbers", "on which  number i should call", "hospital number", "who can i call",
                 "call", "nygh hospital number", "hospital contact", "how do i contact the hospital", 
-                "how do i talk to a doctor","how do i talk to a professional", "contact hospital",
+                "how do i talk to a doctor","how do i talk to a professional", "contact hospital", "contact pharmacy"
                 "what are the travel guidelines", "what are the different approved vaccines",
-                "prophylaxis", "what if my pet becomes sick while i am isolating"]
+                "prophylaxis", "what if my pet becomes sick while i am isolating", "vaccination", "walk-in clinics",
+                "walk in clinics", "vaccine", "pet becomes sick while i am isolating", "north york cough, cold and covid test clinic",
+                "can i bring a support person or family member to my appointment"]
     helper = set()
     lowered_case = msg.lower()
     for KeyWord in KeyWords:
