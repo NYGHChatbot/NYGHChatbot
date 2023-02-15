@@ -8,7 +8,8 @@
                                 "what be monkeypox",
                                 "Explain monkeypox",
                                 "Tell me about monkeypox",
-                                "tell me about monkeypox"
+                                "tell me about monkeypox",
+                                "monkeypox?"
                         ],
                         "responses": [
                                 "Monkeypox is usually a self-limited viral infection with a rash that may be painful. Most people recover on their own after a few weeks. In some circumstances, people can become very sick and could die."
@@ -88,7 +89,14 @@
                                 "treatment for Monkeypox",
                                 "How can I get treated if I have monkeypox",
                                 "What is monkeypox treatment",
-                                "What treatment is available for monkeypox?"
+                                "What treatment is available for monkeypox?",
+                                "What is the cure for Monkeypox?",
+                                "what be the cure for monkeypox?",
+                                "monkeypox cure?",
+                                "cure for Monkeypox?",
+                                "How can I get cured if I have monkeypox?",
+                                "What is monkeypox cure?",
+                                "What cure is available for monkeypox?"
                         ],
                         "responses": [
                                 "Treatment for symptomatic monkeypox infection is mainly supportive, and includes: wound care, pain control, treatment of bacterial superinfection and other complications."
@@ -193,7 +201,8 @@
                         "tag": "monkeypoxvaccinesafety",
                         "patterns": [
                                 "Is the monkeypox vaccine safe",
-                                "monkeypox vaccine safety"
+                                "monkeypox vaccine safety",
+                                "safe monkeypox vaccine"
                         ],
                         "responses": [
                                 "Yes, Imvamune® is safe to receive. The vaccine is effective at protecting against mpox when given before exposure to the virus. If you received another vaccination in the past four weeks, please let your health care provider or person immunizing you know before getting Imvamune®."
@@ -250,7 +259,9 @@
                 {
                         "tag": "fluvaccine",
                         "patterns": [
-                                "who can get the flu vaccine?"
+                                "who can get the flu vaccine?",
+                                "who should get the flu vaccine?",
+                                "can I get the flu vaccine?"
                         ],
                         "responses": [
                                 "Everyone older than 6 months should get the flu shot every year, who is high risk, who may pass on the flu. Flu shots are safe. For more information, you may refer to <a href='https://www.canada.ca/en/public-health/services/diseases/flu-influenza/get-your-flu-shot.html' target='blank'>Flu (influenza): Get your flu shot</a>."
@@ -299,7 +310,14 @@
                                 "I have the flu virus",
                                 "What do I do if I have influenza",
                                 "influenza treatment",
-                                "influenza virus treatment"
+                                "influenza virus treatment",
+                                "influenza virus cure",
+                                "How is the flu cure?",
+                                "What is the cure for flu?",
+                                "flu cure",
+                                "cure of flu",
+                                "influenza cure",
+                                "influenza virus cure"
                         ],
                         "responses": [
                                 "Flu symptoms can be treated with rest, fluids such as water, medication to reduce any fever or aches. In some cases a health care provider may prescribe medication, especially if you're at high risk for flu-related complications or very sick with severe symptoms. Over-the-counter cough and flu medicine should not be given to children younger than 6 years old. It's only safe to do so if you're advised by your health care provider."
@@ -445,6 +463,22 @@
                         ],
                         "responses": [
                                 "Hi there, how can I help?"
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+                {       
+                        "tag": "chatbotname",
+                        "patterns": [
+                                "What is your name?",
+                                "Who am I talking to?",
+                                "Who are you?",
+                                "Your name?",
+                                "What should I call you?"
+                        ],
+                        "responses": [
+                                "Hello, my name is Amae. Nice to meet you. I can answer your questions related to COVID-19, Monkeypox and Influenza."
                         ],
                         "context": [
                                 ""
@@ -653,7 +687,12 @@
                                 "Tell me about antiviral treatment",
                                 "Explain covid-19 treatments",
 				"information about antiviral treatments",
-				"information about antiviral treatment"
+				"information about antiviral treatment",
+                                "Tell me about antiviral cure",
+                                "Explain covid-19 cure",
+                                "cure covid",
+				"information about antiviral cure",
+				"information about antiviral cure"
 			],
                         "responses": [
                                 "They can help prevent serious illness if taken quickly after symptoms start. They are available in Ontario for free to anyone with a prescription from a health care provider. The use of antivirals in children under the age of 18 is not routinely recommended. Exceptions may be made on a case-by-case basis. For more info please refer to <a href='https://www.ontario.ca/page/covid-19-testing-and-treatment#section-5' target='blank'>Antiviral treatments</a>."
@@ -669,7 +708,12 @@
                                 "get antiviral treatment",
                                 "getting antiviral treatment",
                                 "find antiviral treatment",
-                                "buy antiviral treatment"
+                                "buy antiviral treatment",
+                                "How to get antiviral cure",
+                                "get antiviral cure",
+                                "getting antiviral cure",
+                                "find antiviral cure",
+                                "buy antiviral cure"
                         ],
                         "responses": [
                                 "1. contacting a pharmacist who is prescribing Paxlovid. 2. visiting a clinical assessment centre <a href='https://www.ontario.ca/assessment-centre-locations' target='blank'>COVID-19 testing locations and clinical assessment centres</a> 3. contacting a primary care provider. If you are high-risk and do not have a primary care provider or are having difficulty accessing care, contact Health Connect Ontario by phone at 811 (<a href='https://healthconnectontario.health.gov.on.ca/static/guest/home' target='blank'>Health Connect Ontario</a>)."
@@ -691,7 +735,19 @@
 				"What are some of the antiviral treatments for covid-19?",
 				"some of the antiviral treatments for covid-19",
 				"list of antiviral treatments for covid-19",
-				"What are the antiviral treatments for covid-19?"
+				"What are the antiviral treatments for covid-19?",
+
+                                "Available antiviral cure",
+                                "Available covid cure",
+                                "Available covid-19 cure",
+                                "Available covid19 cure",
+                                "Available cure for covid-19",
+                                "Available cure for covid",
+                                "Available cure for covid19",
+				"What are some of the antiviral cure for covid-19?",
+				"some of the antiviral cure for covid-19",
+				"list of antiviral cure for covid-19",
+				"What are the antiviral cure for covid-19?"
                         ],
                         "responses": [
                                 "1. Paxlovid 2. Remdesivir. For more info please refer to <a href='https://www.ontario.ca/page/covid-19-testing-and-treatment#section-5' target='blank'>Antiviral treatments</a>."
@@ -2026,7 +2082,8 @@
                 {
                         "tag": "monkeypoxsympaction",
                         "patterns": [
-                                "What should I do if I have symptoms of Monkeypox?"
+                                "What should I do if I have symptoms of Monkeypox?",
+                                "I have symptoms of Monkeypox?"
                         ],
                         "responses": [
                                 "If you have symptoms isolate yourself at home away from others and immediately contact your health care provider or local public health authority for advice on what to do. Learn more about it <a href='https://www.canada.ca/en/public-health/services/diseases/mpox/symptoms-management.html#a6' target='blank'>Monkeypox Symptoms</a>."
@@ -2050,7 +2107,8 @@
                 {
                         "tag": "monkeypoxaction",
                         "patterns": [
-                                "What do I do if I have Monkeypox?"
+                                "What do I do if I have Monkeypox?",
+                                "I have Monkeypox"
                         ],
                         "responses": [
                                 "If you've been infected with the monkeypox virus, your local public health authority may require that you isolate to prevent further spread. They may recommend that you isolate at home or at a different location, depending on your living situation. For more information, visit <a href='https://www.canada.ca/en/public-health/services/diseases/monkeypox/symptoms-management.html' target='blank'>Monkeypox Symptoms</a>."
@@ -2123,7 +2181,9 @@
                 {
                         "tag": "fluselfprotection",
                         "patterns": [
-                                "How can I protect myself against the flu?"
+                                "How can I protect myself against the flu?",
+                                "protection from flu",
+                                "flu protection"
                         ], 
                         "responses": [
                                 "You can follow these guidelines to better protect yourself against the flu: Get vaccinated against both the flu and COVID-19, Stay home and away from others if you feel sick, Improve ventilation in indoor and shared spaces, Wash your hands often with soap and water. Use hand sanitizer if soap and water aren't available, Wash your hands before touching your eyes, nose or mouth, Cough and sneeze into a tissue or into the bend of your arm, Clean and disinfect frequently touched surfaces and objects. For more information, visit <a href='https://www.canada.ca/en/public-health/services/diseases/flu-influenza.html' target='blank'>Influenza Info</a>."
@@ -2351,7 +2411,9 @@
                 {
                         "tag": "covidvaccineretirementresidence",
                         "patterns": [
-                                "I am a resident living in a retirement home or other congregate setting. Can I get my vaccine dose at my place of residence?"
+                                "I am a resident living in a retirement home or other congregate setting. Can I get my vaccine dose at my place of residence?",
+                                "vaccine in retirement home",
+                                "vaccine in congregate setting"
                         ],
                         "responses": [
                                 "Yes, provided that you meet eligibility criteria for the vaccine, a pharmacy may administer your vaccine dose at your retirement home or other congregate setting."
@@ -2363,7 +2425,8 @@
                 {
                         "tag": "covidvaccinelongtermresidence",
                         "patterns": [
-                                "I am a resident living in a long-term care home. Can I get my vaccine dose at my long-term care home?"
+                                "I am a resident living in a long-term care home. Can I get my vaccine dose at my long-term care home?",
+                                "vaccine in long-term care home"
                         ],
                         "responses": [
                                 "Yes, provided that you meet eligibility criteria for the vaccine, a pharmacy may administer your vaccine dose at your long-term care home."
@@ -2399,7 +2462,8 @@
                 {
                         "tag": "monkeypoxpet",
                         "patterns": [
-                                "I have pets in my home. What precautions should I take if I have monkeypox or symptoms of monkeypox?"
+                                "I have pets in my home. What precautions should I take if I have monkeypox or symptoms of monkeypox?",
+                                "can I infect my pet if i have monkeypox"
                         ],
                         "responses": [
                                 "The risk of infection in different animal species is unclear. It is best to find someone else to take care of your pet until you are out of isolation."
@@ -2411,7 +2475,8 @@
                 {
                         "tag": "petisolating",
                         "patterns": [
-                                "What if my pet becomes sick while I am isolating?"
+                                "What if my pet becomes sick while I am isolating?",
+                                "My pet is sick"
                         ],
                         "responses": [
                                 "If your animal is in quarantine with you and becomes sick, it is preferred to first seek care from a veterinary telemedicine service, to assess if the animal’s condition can be managed at home."
@@ -2423,7 +2488,8 @@
 		{
                         "tag": "covidTestTime",
                         "patterns": [
-                                "How long will my COVID test results take?"
+                                "How long will my COVID test results take?",
+                                "How long before I get COVID test results?"
                         ],
                         "responses": [
                                 "Most results are available within 24 to 48 hours but may take longer in some cases."
@@ -2435,7 +2501,8 @@
 		{
                         "tag": "TestClinicNYGH",
                         "patterns": [
-                                "What services are provided at the Cough, Cold and COVID Test Clinic of nygh?"
+                                "What services are provided at the Cough, Cold and COVID Test Clinic of nygh?",
+                                "What can the test clinic do"
                         ],
                         "responses": [
                                 "The North York Cough, Cold and COVID Test Clinic provides assessment and testing for eligible people for COVID-19 and other respiratory illnesses only. For more information, please refer to <a href='https://nygh.on.ca/covidtesting' target='blank'>COVID Testing at NYGH</a>"
@@ -2447,7 +2514,10 @@
 		{
                         "tag": "vaccinatedVsNonvaccinatedsymp",
                         "patterns": [
-                                "How do symptoms of COVID-19 differ among vaccinaed and unvaccinated or partially vaccinated people?"
+                                "How do symptoms of COVID-19 differ among vaccinated and unvaccinated or partially vaccinated people?",
+                                "Advantages of the vaccine?",
+                                "Do you get less symptoms with the vaccine?",
+                                "Difference between vaccinated and unvaccinated or partially vaccinated people?"
                         ],
                         "responses": [
                                 "Fully vaccinated people generally have more mild symptoms so it’s important not to ignore mild sniffles, stuffy nose or sore throat. COVID-19 can manifest as mild and more like the common cold among vaccinated people."
@@ -2459,7 +2529,8 @@
 		{
                         "tag": "vaccinestayforever",
                         "patterns": [
-                                "Will the vaccine stay in by body forever?"
+                                "Will the vaccine stay in by body forever?",
+                                "How long does the vaccine stay in my body"
                         ],
                         "responses": [
                                 "No. Spike protein generated by the vaccine only lasts a few days, much like other proteins made by your body. Our immune system quickly identifies, attacks and destroys the spike proteins because it recognizes them as not part of you. Once the immune system recognizes this protein, it will protect against the COVID-19 virus too."
@@ -2471,7 +2542,8 @@
 		{
                         "tag": "needvaccineifnotleavinghome",
                         "patterns": [
-                                "If I only leave my home for essentials, do I still need the vaccine?"
+                                "If I only leave my home for essentials, do I still need the vaccine?",
+                                "I only leave my home infrequently, do I still need to get vaccinated?"
                         ],
                         "responses": [
                                 "There is high community spread of COVID-19 which means the virus is spreading widely in the community, even where essential tasks are performed. Getting vaccinated against COVID-19 can lower your risk of getting and spreading the virus and will protect you and others to prevent serious illness and death. Vaccination combined with other public health measures, such as masking, is the most effective way to reduce the risk of transmission."
@@ -2483,7 +2555,8 @@
 		{
                         "tag": "noohip",
                         "patterns": [
-                                "I don't have OHIP. Can I still get the vaccine?"
+                                "I don't have OHIP. Can I still get the vaccine?",
+                                "No OHIP. Can I still come get a vaccine?"
                         ],
                         "responses": [
                                 "Yes. Individuals without a photo OHIP card may bring another form of a photo ID, such as a driver’s license, passport, a piece of registered mail, pay stub, student card, government issued identification from other jurisdictions including: foreign passports, other provincial or territorial health cards, or driver’s license. Expired government issued identity documents will also be accepted for this purpose. Should a person have no identity documentation or photo documentation they may work with their public health unit and/or community organizations to verify their identity. This may be provided in the form of a letter from a community organization or other identity verification form."
@@ -2495,7 +2568,8 @@
 		{
                         "tag": "arriveLateForVaccine",
                         "patterns": [
-                                "What if I'm running late to my vaccine appointment?"
+                                "What if I'm running late to my vaccine appointment?",
+                                "Can I come late to the vaccine appointment?"
                         ],
                         "responses": [
                                 "It is essential that you be on time. We do not want to waste any doses if people miss their time slots. Please contact the place that you booked your appointment with and let them know that you will be late. If you booked your appointment with North York General Hospital's pharmacy, you can contact at (416)756-6666."
@@ -2507,7 +2581,8 @@
 		{
                         "tag": "requireTransportation",
                         "patterns": [
-                                "I require transportation to/from the vaccination site. Can you provide it?"
+                                "I require transportation to/from the vaccination site. Can you provide it?",
+                                "transportation to/from the vaccination site"
                         ],
                         "responses": [
                                 "If you need assistance please speak with your family doctor or primary care provider, or a local community agency that provides transportation support. The North York Seniors Support Line at (416) 447-5200 can also assist you with transportation to appointments and other supports to help you receive a vaccination."
@@ -2519,7 +2594,10 @@
 		{
                         "tag": "walkInClinic",
                         "patterns": [
-                                "Are walk-in clinics available?"
+                                "Are walk-in clinics available?",
+                                "List of walk in clinics in North York clinics",
+                                "North York walk in clinics list",
+                                "List of North York walk in clincs"
                         ],
                         "responses": [
                                 "Yes. Please see the NYGH <a href='https://nygh.on.ca/covid19vaccination' target='blank'>COVID-19 vaccination page</a> for a list of walk-in clinics in North York."
@@ -2531,7 +2609,8 @@
 		{
                         "tag": "notVisitTestClinic",
                         "patterns": [
-                                "Who shouldn't visit the North York Cough, Cold and COVID Test Clinic?"
+                                "Who shouldn't visit the North York Cough, Cold and COVID Test Clinic?",
+                                "When shouldn't I vist the NYGH Cough, Cold and COVID Test Clinic?"
                         ],
                         "responses": [
                                 "Those in need of urgent or emergency care should not come to the Test Clinic. Please call 9-1-1 or visit your nearest emergency department if you are experiencing the following symptoms: - Difficulty breathing - New disorientation, confusion, or decrease in level of consciousness - Chest pain/pressure - Continuous vomiting and/or dehydration. Aso, people with mild symptoms are asked not to seek testing."
@@ -2543,7 +2622,10 @@
 		{
                         "tag": "testClinicLocation",
                         "patterns": [
-                                "Where is the North York Cough, Cold and COVID Test Clinic located?"
+                                "Where is the North York Cough, Cold and COVID Test Clinic located?",
+                                "Where is the North York Cough, Cold and COVID Test Clinic?",
+                                "Where is the NYGH Cough, Cold and COVID Test Clinic located?",
+                                "Where is the NYGH COVID Test Clinic?"
                         ],
                         "responses": [
                                 "The clinic is located at NYGH’s Branson (Finch) site at 555 Finch Ave. W. (West entrance). Monday to Friday, 8 a.m. to 8 p.m. and Saturday and Sunday, 10 a.m. to 6 p.m. <a href='https://connect.nygh.on.ca/Covidassessment/forms/SitePages/index.aspx' target='blank'>Book your test online</a> or call 416-635-2509 from 8 a.m. to 4 p.m. to book your appointment over the phone."
@@ -2555,7 +2637,8 @@
 		{
                         "tag": "bringSupportToAppointment",
                         "patterns": [
-                                "Can I bring a support person or family member to my appointment?"
+                                "Can I bring a support person or family member to my appointment?",
+                                "support person for appointment"
                         ],
                         "responses": [
                                 "In order to protect patients and frontline health care providers during the current COVID-19 pandemic only patients who have a confirmed appointment are allowed inside the hospital. We understand how upsetting this may be, but it is necessary to keep your loved ones safe. If you require special assistance, please contact your physician’s office and request to have one support person accompany you. This request will only be granted for patients who require assistance. You and your support person will need to show photo identification (i.e. driver’s license)."
@@ -2567,7 +2650,9 @@
 		{
                         "tag": "bringHealthCard",
                         "patterns": [
-                                "Do I need to bring my health card to my appointment?"
+                                "Do I need to bring my health card to my appointment?",
+                                "health card for appointment",
+                                "is health card needed"
                         ],
                         "responses": [
                                 "Yes, please bring your health card to your appointment at the North York Cough, Cold and COVID Test Clinic."
@@ -2577,9 +2662,10 @@
                         ]
                 },
 		{
-                        "tag": "bringHealthCard",
+                        "tag": "clinicVistDetails",
                         "patterns": [
-                                "What happens when I visit a clinic for my appointment"
+                                "What happens when I visit a clinic for my appointment",
+                                "Details of the clinic visit for appointment"
                         ],
                         "responses": [
                                 "When you arrive for your appointment, you will be seen by a nurse who will provide an initial assessment and offer a COVID PCR test (nasopharyngeal swab) if appropriate. Upon request and/or if you meet certain criteria, you may be assessed by a physician at the clinic who may examine you and provide a prescription if deemed necessary. You may receive recommendations about following up with your family doctor for re-assessment and/or further testing or, you may be redirected to the emergency department."
