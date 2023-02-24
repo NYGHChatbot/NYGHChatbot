@@ -19,6 +19,8 @@ words = pickle.load(open('words.pkl','rb'))
 classes = pickle.load(open('classes.pkl','rb'))
 totalResponseTime = 0
 numberOfResponses = 0
+waiting_for_yes_or_no = False
+waiting_for_yes_or_no_another_question = False
 
 def clean_up_sentence(sentence):
     # tokenize the pattern - split words into array
@@ -62,9 +64,42 @@ def getResponse(ints, intents_json):
         if(i['tag']== tag):
             result = random.choice(i['responses'])
             break
-    return result
+    return result, tag
 
 def chatbot_response(msg):
+    global waiting_for_yes_or_no, waiting_for_yes_or_no_another_question
+    
+    # Check index of yes or no string in the response
+    yes_string = "yes"
+    no_string = "no"
+
+    index_yes = msg.lower().find(yes_string.lower())
+    index_no = msg.lower().find(no_string.lower())
+    
+    # Check if the chatbot is in a waiting state and response accordingly 
+    if waiting_for_yes_or_no == True: 
+        if index_yes != -1:
+            waiting_for_yes_or_no = False
+            waiting_for_yes_or_no_another_question = True
+            return "Great! Is there anything else I can help you with? You can answer with yes or no."
+        elif index_no != -1: 
+            waiting_for_yes_or_no = False
+            return "Ok. You can either ask your question again to me or contact NYGH's Pharmacy at (416)-756-6666 or NYGHPharmacy@nygh.on.ca"
+        else:
+            waiting_for_yes_or_no = True
+            return "Please enter either yes or no."
+        
+    if waiting_for_yes_or_no_another_question == True:
+        if index_yes != -1:
+            waiting_for_yes_or_no_another_question = False
+            return "Please type in your next question."
+        elif index_no != -1: 
+            waiting_for_yes_or_no_another_question = False
+            return "Ok. See you later!"
+        else:
+            waiting_for_yes_or_no_another_question = True
+            return "Please enter either yes or no."
+        
     KeyWords = ["covid-19", "covid19", "coronavirus", "corona virus", "covid", "corona", "mask", "masks",
                 "bivalent", "antiviral treatments", "antiviral treatment", "paxlovid", "total cases in canada", 
                 "statistics report", "statistics", "total cases", "sanitizer", "soap", "unauthorized vaccine",
@@ -84,6 +119,7 @@ def chatbot_response(msg):
                 "prophylaxis", "what if my pet becomes sick while i am isolating", "vaccination", "walk-in clinics",
                 "walk in clinics", "vaccine", "pet becomes sick while i am isolating", "north york cough, cold and covid test clinic",
                 "can i bring a support person or family member to my appointment"]
+    
     helper = set()
     lowered_case = msg.lower()
     for KeyWord in KeyWords:
@@ -91,10 +127,18 @@ def chatbot_response(msg):
     
     # for non-related questions
     if len(helper) == 1:
+      waiting_for_yes_or_no = False
       return "Sorry, I don't understand your question. I can only answer questions related to Monkeypox, Influenza (Flu), and Covid-19. If you have any other questions, please contact NYGH's Pharmacy at (416)756-6666 or email them through NYGHPharmacy@nygh.on.ca"
  
     ints = predict_class(msg, model)
-    res = getResponse(ints, intents)
+    res, tag = getResponse(ints, intents)
+
+    # Check if "Did I answer your question correctly?" needs to be added
+    tags_to_avoid_adding = ["greeting", "chatbotname", "howareyou", "goodbye", "thanks", "noanswer", "options"]
+    if tag not in tags_to_avoid_adding:
+        res = res + "<br>" + "<br>" + "Did I answer your question correctly?"
+        waiting_for_yes_or_no = True
+
     return res
 
 def startTimer():

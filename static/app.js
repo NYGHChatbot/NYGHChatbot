@@ -79,9 +79,7 @@ class Chatbox {
             console.error('Error:', error);
             this.updateChatText(chatbox)
             textField.value = ''
-          });
-
-
+        });
     }
 
     updateChatText(chatbox) {

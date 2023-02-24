@@ -16,3 +16,7 @@ def predict():
     end = endTimer()
     calculateAverageTime(start, end)
     return jsonify(message)
+
+@app.post("/confirm")
+def confirm():
+    return jsonify("helllo")
