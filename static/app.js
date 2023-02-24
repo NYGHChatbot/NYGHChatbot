@@ -11,6 +11,7 @@ class Chatbox {
         this.messages = [];
         this.initalToggle = true;
         this.yes_or_no_state = false;
+        this.another_question = false;
     }
 
     display() {
@@ -59,17 +60,19 @@ class Chatbox {
 
         let msg1 = { name: "User", message: text1 }
         this.messages.push(msg1);
+        
+        const yes_string = "yes";
+        const no_string = "no";
+
+        let index_yes = text1.indexOf(yes_string);
+        let index_no = text1.indexOf(no_string);
+        let text_response = "";
 
         if (this.yes_or_no_state == true) {
-            const yes_string = "yes";
-            const no_string = "no";
-
-            let index_yes = text1.indexOf(yes_string);
-            let index_no = text1.indexOf(no_string);
-            let text_response = "";
             this.yes_or_no_state = false;
 
             if (index_yes != -1) {
+                this.another_question = true;
                 text_response = "Great! Is there anything else I can help you with? You can answer with yes or no.";
             } 
             else if (index_no != -1) {
@@ -77,6 +80,25 @@ class Chatbox {
             }
             else {
                 this.yes_or_no_state = true;
+                text_response = "Please enter either yes or no.";
+            }
+             
+            let msg = {name: "Amae", message: text_response};
+            this.messages.push(msg);
+            this.updateChatText(chatbox);
+            textField.value = ''
+        } 
+        else if (this.another_question == true) {
+            this.another_question = false
+            
+            if (index_yes != -1) {
+                text_response = "Please type in your next question.";
+            } 
+            else if (index_no != -1) {
+                text_response = "Ok. See you later!";
+            }
+            else {
+                this.another_question = true;
                 text_response = "Please enter either yes or no.";
             }
              

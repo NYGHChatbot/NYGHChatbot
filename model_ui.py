@@ -65,38 +65,6 @@ def getResponse(ints, intents_json):
     return result, tag
 
 def chatbot_response(msg):
-    # # Check index of yes or no string in the response
-    # yes_string = "yes"
-    # no_string = "no"
-
-    # index_yes = msg.lower().find(yes_string.lower())
-    # index_no = msg.lower().find(no_string.lower())
-    
-    # # Check if the chatbot is in a waiting state and response accordingly 
-    # if waiting_for_yes_or_no == True: 
-    #     waiting_for_yes_or_no_another_question = False
-    #     waiting_for_yes_or_no = False
-
-    #     if index_yes != -1:
-    #         waiting_for_yes_or_no_another_question = True
-    #         return "Great! Is there anything else I can help you with? You can answer with yes or no."
-    #     elif index_no != -1: 
-    #         return "Ok. You can either ask your question again to me or contact NYGH's Pharmacy at (416)-756-6666 or NYGHPharmacy@nygh.on.ca"
-    #     else:
-    #         waiting_for_yes_or_no = True
-    #         return "Please enter either yes or no."
-
-    # if waiting_for_yes_or_no_another_question == True:
-    #     waiting_for_yes_or_no_another_question = False
-    #     waiting_for_yes_or_no = False
-
-    #     if index_yes != -1:
-    #         return "Please type in your next question."
-    #     elif index_no != -1: 
-    #         return "Ok. See you later!"
-    #     else:
-    #         waiting_for_yes_or_no_another_question = True
-    #         return "Please enter either yes or no. Part 2"
     add_message = False   
     KeyWords = ["covid-19", "covid19", "coronavirus", "corona virus", "covid", "corona", "mask", "masks",
                 "bivalent", "antiviral treatments", "antiviral treatment", "paxlovid", "total cases in canada", 
