@@ -83,23 +83,25 @@ def chatbot_response(msg):
     
     # Check if the chatbot is in a waiting state and response accordingly 
     if waiting_for_yes_or_no == True: 
+        waiting_for_yes_or_no_another_question = False
+        waiting_for_yes_or_no = False
+
         if index_yes != -1:
-            waiting_for_yes_or_no = False
             waiting_for_yes_or_no_another_question = True
             return "Great! Is there anything else I can help you with? You can answer with yes or no."
         elif index_no != -1: 
-            waiting_for_yes_or_no = False
             return "Ok. You can either ask your question again to me or contact NYGH's Pharmacy at (416)-756-6666 or NYGHPharmacy@nygh.on.ca"
         else:
             waiting_for_yes_or_no = True
             return "Please enter either yes or no."
 
     if waiting_for_yes_or_no_another_question == True:
+        waiting_for_yes_or_no_another_question = False
+        waiting_for_yes_or_no = False
+
         if index_yes != -1:
-            waiting_for_yes_or_no_another_question = False
             return "Please type in your next question."
         elif index_no != -1: 
-            waiting_for_yes_or_no_another_question = False
             return "Ok. See you later!"
         else:
             waiting_for_yes_or_no_another_question = True
@@ -133,6 +135,7 @@ def chatbot_response(msg):
     # for non-related questions
     if len(helper) == 1:
       waiting_for_yes_or_no = False
+      waiting_for_yes_or_no_another_question = False
       return "Sorry, I don't understand your question. I can only answer questions related to Monkeypox, Influenza (Flu), and Covid-19. If you have any other questions, please contact NYGH's Pharmacy at (416)756-6666 or email them through NYGHPharmacy@nygh.on.ca"
  
     ints = predict_class(msg, model)
@@ -142,6 +145,7 @@ def chatbot_response(msg):
     tags_to_avoid_adding = ["greeting", "chatbotname", "howareyou", "goodbye", "thanks", "noanswer", "options"]
     waiting_for_yes_or_no = False
     waiting_for_yes_or_no_another_question = False
+    
     if tag not in tags_to_avoid_adding:
         res = res + "<br>" + "<br>" + "Did I answer your question correctly?"
         waiting_for_yes_or_no = True
