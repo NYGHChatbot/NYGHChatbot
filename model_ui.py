@@ -139,6 +139,7 @@ def chatbot_response(msg):
 
     # Check if "Did I answer your question correctly?" needs to be added
     tags_to_avoid_adding = ["greeting", "chatbotname", "howareyou", "goodbye", "thanks", "noanswer", "options"]
+    waiting_for_yes_or_no = False
     if tag not in tags_to_avoid_adding:
         res = res + "<br>" + "<br>" + "Did I answer your question correctly?"
         waiting_for_yes_or_no = True
