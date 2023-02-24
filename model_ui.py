@@ -70,6 +70,7 @@ def chatbot_response(msg):
     print("In Chatbot Response")
     global waiting_for_yes_or_no
     global waiting_for_yes_or_no_another_question
+    print("Initially")
     print(waiting_for_yes_or_no)
     print(waiting_for_yes_or_no_another_question)
     
@@ -92,7 +93,7 @@ def chatbot_response(msg):
         else:
             waiting_for_yes_or_no = True
             return "Please enter either yes or no."
-        
+
     if waiting_for_yes_or_no_another_question == True:
         if index_yes != -1:
             waiting_for_yes_or_no_another_question = False
@@ -103,7 +104,7 @@ def chatbot_response(msg):
         else:
             waiting_for_yes_or_no_another_question = True
             return "Please enter either yes or no. Part 2"
-        
+       
     KeyWords = ["covid-19", "covid19", "coronavirus", "corona virus", "covid", "corona", "mask", "masks",
                 "bivalent", "antiviral treatments", "antiviral treatment", "paxlovid", "total cases in canada", 
                 "statistics report", "statistics", "total cases", "sanitizer", "soap", "unauthorized vaccine",
@@ -140,9 +141,14 @@ def chatbot_response(msg):
     # Check if "Did I answer your question correctly?" needs to be added
     tags_to_avoid_adding = ["greeting", "chatbotname", "howareyou", "goodbye", "thanks", "noanswer", "options"]
     waiting_for_yes_or_no = False
+    waiting_for_yes_or_no_another_question = False
     if tag not in tags_to_avoid_adding:
         res = res + "<br>" + "<br>" + "Did I answer your question correctly?"
         waiting_for_yes_or_no = True
+
+    print("Before return statement")
+    print(waiting_for_yes_or_no)
+    print(waiting_for_yes_or_no_another_question) 
 
     return res
 
