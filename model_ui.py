@@ -67,7 +67,11 @@ def getResponse(ints, intents_json):
     return result, tag
 
 def chatbot_response(msg):
-    global waiting_for_yes_or_no, waiting_for_yes_or_no_another_question
+    print("In Chatbot Response")
+    global waiting_for_yes_or_no
+    global waiting_for_yes_or_no_another_question
+    print(waiting_for_yes_or_no)
+    print(waiting_for_yes_or_no_another_question)
     
     # Check index of yes or no string in the response
     yes_string = "yes"
@@ -98,7 +102,7 @@ def chatbot_response(msg):
             return "Ok. See you later!"
         else:
             waiting_for_yes_or_no_another_question = True
-            return "Please enter either yes or no."
+            return "Please enter either yes or no. Part 2"
         
     KeyWords = ["covid-19", "covid19", "coronavirus", "corona virus", "covid", "corona", "mask", "masks",
                 "bivalent", "antiviral treatments", "antiviral treatment", "paxlovid", "total cases in canada", 
