@@ -10,6 +10,7 @@ class Chatbox {
         this.state = false;
         this.messages = [];
         this.initalToggle = true;
+        this.yes_or_no_state = false;
     }
 
     display() {
@@ -59,27 +60,59 @@ class Chatbox {
         let msg1 = { name: "User", message: text1 }
         this.messages.push(msg1);
 
-        //'http://127.0.0.1:5000/predict'
-        fetch($SCRIPT_ROOT + '/predict', {
-            method: 'POST',
-            body: JSON.stringify({ message: text1 }),
-            mode: 'cors',
-            headers: {
-              'Content-Type': 'application/json'
-            },
-          })
-          .then(r => r.json())
-          .then(r => {
-            let msg2 = { name: "Amae", message: r.answer };
-            this.messages.push(msg2);
-            this.updateChatText(chatbox)
-            textField.value = ''
+        if (this.yes_or_no_state == true) {
+            const yes_string = "yes";
+            const no_string = "no";
 
-        }).catch((error) => {
-            console.error('Error:', error);
-            this.updateChatText(chatbox)
+            let index_yes = text1.indexOf(yes_string);
+            let index_no = text1.indexOf(no_string);
+            let text_response = "";
+            this.yes_or_no_state = false;
+
+            if (index_yes != -1) {
+                text_response = "Great! Is there anything else I can help you with? You can answer with yes or no.";
+            } 
+            else if (index_no != -1) {
+                text_response = "Ok. You can either ask your question again to me or contact NYGH's Pharmacy at (416)-756-6666 or NYGHPharmacy@nygh.on.ca";
+            }
+            else {
+                this.yes_or_no_state = true;
+                text_response = "Please enter either yes or no.";
+            }
+             
+            let msg = {name: "Amae", message: text_response};
+            this.messages.push(msg);
+            this.updateChatText(chatbox);
             textField.value = ''
-        });
+        }
+        else {
+            //'http://127.0.0.1:5000/predict'
+            fetch($SCRIPT_ROOT + '/predict', {
+                method: 'POST',
+                body: JSON.stringify({ message: text1 }),
+                mode: 'cors',
+                headers: {
+                'Content-Type': 'application/json'
+                },
+            })
+            .then(r => r.json())
+            .then(r => {
+                let msg2 = { name: "Amae", message: r.answer };
+                this.messages.push(msg2);
+                if (r.add_message == true) {
+                    let add_message = { name: "Amae", message:"Did I answer your question correctly?" };
+                    this.messages.push(add_message);
+                    this.yes_or_no_state = true;
+                }
+                this.updateChatText(chatbox)
+                textField.value = ''
+
+            }).catch((error) => {
+                console.error('Error:', error);
+                this.updateChatText(chatbox)
+                textField.value = ''
+            });
+        }
     }
 
     updateChatText(chatbox) {

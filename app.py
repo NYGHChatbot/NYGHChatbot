@@ -11,8 +11,8 @@ def hello_world():
 def predict():
     start = startTimer()
     text = request.get_json().get("message")
-    response = chatbot_response(text)
-    message = {"answer": response}
+    response, add_message = chatbot_response(text)
+    message = {"answer": response, "add_message": add_message}
     end = endTimer()
     calculateAverageTime(start, end)
     return jsonify(message)
