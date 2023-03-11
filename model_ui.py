@@ -84,7 +84,7 @@ def chatbot_response(msg):
                 "what are the travel guidelines", "what are the different approved vaccines",
                 "prophylaxis", "what if my pet becomes sick while i am isolating", "vaccination", "walk-in clinics",
                 "walk in clinics", "vaccine", "pet becomes sick while i am isolating", "north york cough, cold and covid test clinic",
-                "can i bring a support person or family member to my appointment"]
+                "can i bring a support person or family member to my appointment", "what's your name?", "what is your name?", "what is your name", "what's your name"]
     
     helper = set()
     lowered_case = msg.lower()
