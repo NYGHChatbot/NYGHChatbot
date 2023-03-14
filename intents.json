@@ -8,9 +8,8 @@
                                 "what be monkeypox",
                                 "Explain monkeypox",
                                 "Tell me about monkeypox",
-                                "tell me about monkeypox",
-                                "monkeypox?"
-                        ],
+                                "tell me about monkeypox"
+			],
                         "responses": [
                                 "Monkeypox is usually a self-limited viral infection with a rash that may be painful. Most people recover on their own after a few weeks. In some circumstances, people can become very sick and could die."
                         ],
@@ -437,7 +436,8 @@
                                 "Tell me about covid",
                                 "tell me about corona virus",
                                 "explain covid",
-                                "explain coronavirus"
+                                "explain coronavirus",
+				"what is covid19"
                         ],
                         "responses": [
                                 "Coronaviruses or COVID-19 is a large family of viruses which may cause illness in animals or humans.  In humans, several coronaviruses are known to cause respiratory infections ranging from the common cold to more severe diseases such as Middle East Respiratory Syndrome (MERS) and Severe Acute Respiratory Syndrome (SARS). The most recently discovered coronavirus causes coronavirus disease COVID-19."
@@ -736,7 +736,6 @@
 				"some of the antiviral treatments for covid-19",
 				"list of antiviral treatments for covid-19",
 				"What are the antiviral treatments for covid-19?",
-
                                 "Available antiviral cure",
                                 "Available covid cure",
                                 "Available covid-19 cure",
