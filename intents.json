@@ -1560,11 +1560,28 @@
                                 "Which COVID-19 vaccine is being offered by pharmacies?",
                                 "offered covid-19 vaccine",
                                 "offered covid vaccine",
-                                "what are covid-19 vaccines",
-                                ""
+                                "what are covid-19 vaccines"
                         ],
                         "responses": [
                                 "For the primary COVID-19 vaccine series, pharmacies are administering COVID-19 mRNA vaccines, namely, the Pfizer COVID-19 vaccine (12+ formulation for ages 12+, and pediatric formulation for ages 5 – 11) as well as the Moderna COVID-19 vaccine (for ages 6 months and over)."
+                        ],
+                        "context": [
+                                ""
+                        ]
+                },
+		{
+                        "tag": "cancelcovvaccine",
+                        "patterns": [
+                                "how do i cancel my vaccine appointment?",
+                                "how can i cancel my covid-19 vaccine appointment",
+                                "how do i cancel my covid19 vaccine appointment",
+                                "how do i cancel my covid vaccine appointment",
+                                "cancel my covid vaccine",
+				"cancel my covid19 vaccine",
+				"cancel my covid-19 vaccine"
+                        ],
+                        "responses": [
+                                "If you want to change or cancel your appointment, please refer to <a href='https://www.ontario.ca/page/help-using-provincial-covid-19-vaccine-online-system#section-1' target='blank'>Changing, cancelling and missed appointments</a>."
                         ],
                         "context": [
                                 ""
