@@ -73,14 +73,10 @@ class Chatbox {
 
             if (index_yes != -1) {
                 this.another_question = true;
-                text_response = "Great! Is there anything else I can help you with? You can answer with yes or no.";
+                text_response = "Great! Is there anything else I can help you with?";
             } 
             else if (index_no != -1) {
                 text_response = "Ok. You can either ask your question again to me or contact NYGH's Pharmacy at (416)-756-6666 or NYGHPharmacy@nygh.on.ca";
-            }
-            else {
-                this.yes_or_no_state = true;
-                text_response = "Please enter either yes or no.";
             }
              
             let msg = {name: "Amae", message: text_response};
@@ -91,15 +87,8 @@ class Chatbox {
         else if (this.another_question == true) {
             this.another_question = false
             
-            if (index_yes != -1) {
-                text_response = "Please type in your next question.";
-            } 
-            else if (index_no != -1) {
+            if (index_no != -1) {
                 text_response = "Ok. See you later!";
-            }
-            else {
-                this.another_question = true;
-                text_response = "Please enter either yes or no.";
             }
              
             let msg = {name: "Amae", message: text_response};
