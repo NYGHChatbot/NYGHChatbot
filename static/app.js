@@ -95,8 +95,32 @@ class Chatbox {
                 textField.value = ''
             }
             else {
-                this.yes_or_no_state = false;
                 this.another_question = false;
+                fetch($SCRIPT_ROOT + '/predict', {
+                method: 'POST',
+                body: JSON.stringify({ message: text1 }),
+                mode: 'cors',
+                headers: {
+                'Content-Type': 'application/json'
+                },
+                })
+                .then(r => r.json())
+                .then(r => {
+                    let msg2 = { name: "Amae", message: r.answer };
+                    this.messages.push(msg2);
+                    if (r.add_message == true) {
+                        let add_message = { name: "Amae", message:"Did I answer your question correctly?" };
+                        this.messages.push(add_message);
+                        this.yes_or_no_state = true;
+                    }
+                    this.updateChatText(chatbox)
+                    textField.value = ''
+
+                }).catch((error) => {
+                    console.error('Error:', error);
+                    this.updateChatText(chatbox)
+                    textField.value = ''
+                });
             }
              
         }
