@@ -85,10 +85,14 @@ class Chatbox {
             textField.value = ''
         } 
         else if (this.another_question == true) {
-            this.another_question = false
+            this.another_question = false;
             
             if (index_no != -1) {
                 text_response = "Ok. See you later!";
+            }
+            else {
+                this.yes_or_no_state = false;
+                this.another_question = false;
             }
              
             let msg = {name: "Amae", message: text_response};
