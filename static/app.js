@@ -89,16 +89,16 @@ class Chatbox {
             
             if (index_no != -1) {
                 text_response = "Ok. See you later!";
+                let msg = {name: "Amae", message: text_response};
+                this.messages.push(msg);
+                this.updateChatText(chatbox);
+                textField.value = ''
             }
             else {
                 this.yes_or_no_state = false;
                 this.another_question = false;
             }
              
-            let msg = {name: "Amae", message: text_response};
-            this.messages.push(msg);
-            this.updateChatText(chatbox);
-            textField.value = ''
         }
         else {
             //'http://127.0.0.1:5000/predict'
