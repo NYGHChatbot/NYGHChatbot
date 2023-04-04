@@ -109,7 +109,7 @@ class Chatbox {
                     let msg2 = { name: "Amae", message: r.answer };
                     this.messages.push(msg2);
                     if (r.add_message == true) {
-                        let add_message = { name: "Amae", message:"Did I answer your question correctly?" };
+                        let add_message = { name: "Amae", message:"Did I answer your question correctly? Please answer with yes or no." };
                         this.messages.push(add_message);
                         this.yes_or_no_state = true;
                     }
@@ -139,7 +139,7 @@ class Chatbox {
                 let msg2 = { name: "Amae", message: r.answer };
                 this.messages.push(msg2);
                 if (r.add_message == true) {
-                    let add_message = { name: "Amae", message:"Did I answer your question correctly?" };
+                    let add_message = { name: "Amae", message:"Did I answer your question correctly? Please answer with yes or no." };
                     this.messages.push(add_message);
                     this.yes_or_no_state = true;
                 }
