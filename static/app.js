@@ -53,13 +53,14 @@ class Chatbox {
 
     onSendButton(chatbox) {
         var textField = chatbox.querySelector('input');
-        let text1 = textField.value
+        let text1 = textField.value;
         if (text1 === "") {
             return;
         }
 
         let msg1 = { name: "User", message: text1 }
         this.messages.push(msg1);
+        text1 = text1.toLowerCase();
         
         const yes_string = "yes";
         const no_string = "no";
